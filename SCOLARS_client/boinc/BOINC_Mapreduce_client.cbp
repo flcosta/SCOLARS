@@ -1,0 +1,2692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BOINC_Mapreduce_Client" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BOINC_Mapreduce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BOINC_Mapreduce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="bin/test/BOINC_Mapreduce" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/test/" />
+				<Option object_output="obj/test/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean$target" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="api/bmplib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/bmplib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/boinc_api.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/boinc_api.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/boinc_api_fortran.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/boinc_gl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/boinc_glut.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics2.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics2.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics2_unix.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics2_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics2_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_api.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_api.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_data.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_data.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_impl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_impl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_impl_lib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_lib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/graphics_lib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/gutil.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/gutil.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/gutil_text.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/mac_icon.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/make_app_icon_h.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/reduce.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/reduce_lib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/reduce_main.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/static_graphics.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/texfont.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/texfont.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/texture.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/texture.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/tgalib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/tgalib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/txf_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/txf_util.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/windows_opengl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/x_opengl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="api/x_opengl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="apps/1sec.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="apps/concat.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="apps/error.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="apps/upper_case.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/acct_mgr.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/acct_mgr.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/acct_setup.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/acct_setup.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app_control.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app_graphics.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app_start.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/app_stats_mac.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/auto_update.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/auto_update.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/boinc_cmd.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/boinc_log.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/check_security.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/check_state.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_msgs.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_msgs.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_state.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_state.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_types.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/client_types.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/coproc_detect.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cpp.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cpu_benchmark.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cpu_sched.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_account.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_apps.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_benchmark.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_cmdline.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_files.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_notice.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_notice.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_platforms.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_prefs.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_proxy.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_proxy.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_scheduler.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_statefile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/cs_trickle.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/dhrystone.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/dhrystone.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/dhrystone2.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/distributed_validation.cpp" />
+		<Unit filename="client/file_names.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/file_names.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/file_xfer.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/file_xfer.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/gui_http.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/gui_http.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/gui_rpc_server.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/gui_rpc_server.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/gui_rpc_server_ops.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/hostinfo_network.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/hostinfo_network.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/hostinfo_unix.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/hostinfo_unix_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/hostinfo_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/http_curl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/http_curl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/http_curl_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/log_flags.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/log_flags.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/main.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/main.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/mr_tasktracker.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/mr_tasktracker.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/net_stats.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/net_stats.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/pers_file_xfer.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/pers_file_xfer.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/rr_sim.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/rr_sim.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/rrsim_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sandbox.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sandbox.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/scheduler_op.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/scheduler_op.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/setprojectgrp.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sim.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sim.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sim_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/stream.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/switcher.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sysmon_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/sysmon_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/time_stats.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/time_stats.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/whetstone.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_cli.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_cli.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_cmd.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_cmd.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_log.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/win/boinc_log.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/work_fetch.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="client/work_fetch.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientctrl/boincsvcctrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientctrl/boincsvcctrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientctrl/boincsvcctrl.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountInfoPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountInfoPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerInfoPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerInfoPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerProcessingPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerProcessingPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerPropertiesPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AccountManagerPropertiesPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AdvancedFrame.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AdvancedFrame.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AlreadyExistsPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AlreadyExistsPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AsyncRPC.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/AsyncRPC.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseFrame.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseFrame.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseView.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseView.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseWizard.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCBaseWizard.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCClientManager.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCClientManager.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCDialupManager.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCDialupManager.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCGUIApp.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCGUIApp.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCGUIApp.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCListCtrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCListCtrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCTaskBar.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCTaskBar.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCTaskCtrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCTaskCtrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/BOINCWizards.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/CompletionErrorPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/CompletionErrorPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/CompletionPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/CompletionPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAbout.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAbout.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAdvPreferences.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAdvPreferences.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAdvPreferencesBase.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgAdvPreferencesBase.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgEventLog.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgEventLog.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgEventLogListCtrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgEventLogListCtrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgExitMessage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgExitMessage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgGenericMessage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgGenericMessage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgItemProperties.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgItemProperties.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgOptions.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgOptions.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgSelectComputer.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/DlgSelectComputer.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/Events.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/Localization.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/Localization.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/LogBOINC.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/LogBOINC.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/MainDocument.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/MainDocument.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NoInternetConnectionPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NoInternetConnectionPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NotDetectedPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NotDetectedPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NotFoundPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/NotFoundPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectInfoPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectInfoPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectListCtrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectListCtrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectProcessingPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectProcessingPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectPropertiesPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProjectPropertiesPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProxyInfoPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProxyInfoPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProxyPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ProxyPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/SkinManager.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/SkinManager.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/TermsOfUsePage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/TermsOfUsePage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/UnavailablePage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/UnavailablePage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateAccountKey.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateAccountKey.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateEmailAddress.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateEmailAddress.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateURL.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ValidateURL.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewMessages.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewMessages.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewNotices.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewNotices.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewProjects.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewProjects.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewResources.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewResources.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewStatistics.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewStatistics.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewTransfers.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewTransfers.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewWork.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/ViewWork.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/WelcomePage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/WelcomePage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/WizardAttachProject.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/WizardAttachProject.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/_wx_intellisense.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/browser.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/browser.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxFNBDropTarget.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxFlatNotebook.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxFlatNotebook.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxFlatNotebookImages.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxPieCtrl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/common/wxPieCtrl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/gtk/taskbarex.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/gtk/taskbarex.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/MacAccessiblity.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/MacAccessiblity.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/MacSysMenu.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/MacSysMenu.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/Mac_GUI.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/SecurityUtility.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/SetVersion.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/SetupSecurity.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/SetupSecurity.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/mac/config.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/msw/taskbarex.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/msw/taskbarex.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/resource.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_BoincSimpleGUI.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_BoincSimpleGUI.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ClientStateIndicator.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ClientStateIndicator.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_CustomControls.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_CustomControls.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_DlgMessages.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_DlgMessages.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_DlgPreferences.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_DlgPreferences.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ImageButton.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ImageButton.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ImageLoader.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ImageLoader.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ProgressBar.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ProgressBar.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ProjectsComponent.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ProjectsComponent.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_SGUIListControl.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_SGUIListControl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_StatImageLoader.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_StatImageLoader.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ViewTabPage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/sg_ViewTabPage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/stdwx.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/stdwx.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/wizardex.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientgui/wizardex.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/Mac_Saver_Module.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/Mac_Saver_ModuleView.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/boinc_ss.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/boinc_ss.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/boinc_ss_opengl.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/boinc_ss_opengl.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/gfx_switcher.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/mac_saver_module.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/screensaver.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/screensaver.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/screensaver_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/screensaver_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clientscr/ss_app.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clienttray/boinc_tray.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clienttray/boinc_tray.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clienttray/tray_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="clienttray/tray_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="config.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="coprocs/CUDA/include/nvapi.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/app_ipc.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/app_ipc.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/average.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/base64.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/base64.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/boinc_fcgi.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/boinc_fcgi.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/boinc_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/boinc_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/cal.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/cert_sig.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/cert_sig.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/common_defs.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/coproc.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/coproc.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/crypt.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/crypt.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/crypt_prog.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/daemonmgt.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/daemonmgt_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/diagnostics.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/diagnostics.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/diagnostics_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/diagnostics_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/error_numbers.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/filesys.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/filesys.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/gui_rpc_client.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/gui_rpc_client.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/gui_rpc_client_ops.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/gui_rpc_client_print.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/hostinfo.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/hostinfo.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/idlemon.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/idlemon_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QBacktrace.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QBacktrace.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QCrashReport.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QCrashReport.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImage.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImageList.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImageList.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QSymbols.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QSymbols.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QTaskMemory.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/QTaskMemory.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/dyld_gdb.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/mac_backtrace.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac/mac_backtrace.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac_address.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mac_address.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/md5.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/md5.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/md5_file.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/md5_file.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/md5_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mem_usage.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mem_usage.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mfile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/mfile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/miofile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/miofile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/msg_log.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/msg_log.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/msg_queue.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/msg_queue.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/msg_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/network.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/network.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/notice.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/notice.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/parse.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/parse.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/prefs.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/prefs.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/proc_control.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/proc_control.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/procinfo.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/procinfo_mac.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/procinfo_unix.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/procinfo_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/proxy_info.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/proxy_info.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/shmem.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/shmem.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/shmem_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/stackwalker_imports.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/stackwalker_win.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/stackwalker_win.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/std_fixes.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/str_replace.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/str_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/str_util.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/susp.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/synch.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/synch.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/synch_test.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/unix_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/unix_util.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/url.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/url.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/util.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/win_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/win_util.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="lib/x_util.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/AddRemoveUser.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/CustomInstall.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/Installer.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/LoginItemAPI.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/LoginItemAPI.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/PostInstall.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/WaitPermissions.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="mac_installer/uninstall.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/example_app/Mac/app_icon.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/example_app/uc2.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/example_app/uc2.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/example_app/uc2_graphics.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glut.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glut_roman.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glut_stroke.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glut_swidth.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glutbitmap.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glutint.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glutstroke.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/glutwin32.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/stroke.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/win32_glx.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/win32_glx.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/win32_util.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/win32_x11.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/glut/win32_x11.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/image_libs/bmplib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/image_libs/bmplib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/image_libs/tgalib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/image_libs/tgalib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/cderror.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/cdjpeg.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcapimin.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcapistd.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jccoefct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jccolor.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcdctmgr.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jchuff.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jchuff.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcinit.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmainct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmarker.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmaster.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcomapi.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jconfig.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcparam.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcphuff.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcprepct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcsample.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jctrans.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdapimin.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdapistd.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdatadst.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdatasrc.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdcoefct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdcolor.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdct.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jddctmgr.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdhuff.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdhuff.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdinput.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmainct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmarker.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmaster.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmerge.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdphuff.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdpostct.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdsample.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdtrans.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jerror.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jerror.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jfdctflt.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jfdctfst.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jfdctint.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctflt.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctfst.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctint.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctred.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jinclude.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmemmgr.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmemnobs.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmemsys.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmorecfg.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jpegint.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jpeglib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jquant1.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jquant2.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jutils.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jversion.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdbmp.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdcolmap.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdgif.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdppm.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdrle.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdswitch.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdtarga.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/multi_thread/multi_thread.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/sleeper/sleeper.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/worker/worker.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="samples/wrapper/wrapper.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="svn_version.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/backend_lib.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/backend_lib.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/create_work.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/dir_hier_move.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/dir_hier_path.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/hr_db_convert.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/kill_wu.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/poll_wu.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/process_result_template.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/sign_executable.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="tools/updater.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="version.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/config.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACCConfigMd5sum.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACCConfigMd5sum.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACleanupOldBinaries.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACleanupOldBinaries.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCAccounts.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCAccounts.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCGroups.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCGroups.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateClientAuthFile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateClientAuthFile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateProjectInitFile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateProjectInitFile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetAdministratorsGroupName.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetAdministratorsGroupName.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetUsersGroupName.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetUsersGroupName.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCAdminsRights.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCAdminsRights.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCMasterRights.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCMasterRights.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectRights.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectRights.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectsRights.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectsRights.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCUsersRights.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCUsersRights.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCMasterProfile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCMasterProfile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCProjectProfile.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCProjectProfile.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCData.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCData.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataCleanup.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataCleanup.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataVersion.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataVersion.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigratex86x64.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigratex86x64.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreExecutionState.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreExecutionState.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreSetupState.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreSetupState.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveExecutionState.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveExecutionState.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveSetupState.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveSetupState.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINC.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINC.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCData.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCData.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataProjects.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataProjects.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataSlots.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataSlots.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINC.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINC.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCManager.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCManager.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCScreensaver.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCScreensaver.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownUD.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownUD.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateInstall.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateInstall.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateRebootRequest.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateRebootRequest.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateSetupType.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateSetupType.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAVerifyInstallDirectories.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAVerifyInstallDirectories.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.rc">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/dirops.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/dirops.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lkuprid.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lkuprid.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lsaprivs.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lsaprivs.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/main.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/main.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/password.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/password.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/resource.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/stdafx.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/stdafx.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/terminate.cpp">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/terminate.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Unit filename="win_build/win-config.h">
+			<Option target="Debug" />
+			<Option target="test" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,52 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/html
+http://boinc.berkeley.edu/svn
+
+
+
+2010-03-06T20:25:58.657142Z
+20808
+davea
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+ops
+dir
+
+queue
+dir
+
+bt
+dir
+
+languages
+dir
+
+project.sample
+dir
+
+drupal
+dir
+
+inc
+dir
+
+user
+dir
+

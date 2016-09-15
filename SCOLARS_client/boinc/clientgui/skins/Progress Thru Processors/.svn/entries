@@ -1,0 +1,43 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/clientgui/skins/Progress%20Thru%20Processors
+http://boinc.berkeley.edu/svn
+
+
+
+2009-08-03T23:13:34.766089Z
+18808
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+skin.xml
+file
+
+
+
+
+2010-02-19T12:31:45.000000Z
+8d8702eca269bdb6d71dd763715d52b9
+2009-08-03T23:13:34.766089Z
+18808
+romw
+
+graphic
+dir
+

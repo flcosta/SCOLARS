@@ -1,0 +1,54 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/samples/worker
+http://boinc.berkeley.edu/svn
+
+
+
+2009-12-16T19:55:09.774196Z
+19923
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+worker.cpp
+file
+
+
+
+
+2010-02-19T12:33:07.000000Z
+287c1012b1a3296e4dd1a4cb8c977189
+2009-12-16T19:55:09.774196Z
+19923
+romw
+has-props
+
+Makefile
+file
+
+
+
+
+2010-02-19T12:33:07.000000Z
+dec6a409bc72f947fe04a6c35bd1e248
+2008-10-21T21:13:52.136907Z
+16245
+davea
+has-props
+

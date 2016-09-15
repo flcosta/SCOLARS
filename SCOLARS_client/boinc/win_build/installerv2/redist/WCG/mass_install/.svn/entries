@@ -1,0 +1,52 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/win_build/installerv2/redist/WCG/mass_install
+http://boinc.berkeley.edu/svn
+
+
+
+2008-10-09T17:15:03.522367Z
+16171
+knreed
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+account_www.worldcommunitygrid.org.xml
+file
+
+
+
+
+2010-02-19T12:32:51.000000Z
+4d8423bc8272f917ba5a869b3f7edcbe
+2008-10-09T17:15:03.522367Z
+16171
+knreed
+
+cc_config.xml
+file
+
+
+
+
+2010-02-19T12:32:51.000000Z
+ca6da751c9463e56e1422db957ad91f9
+2008-10-09T17:15:03.522367Z
+16171
+knreed
+

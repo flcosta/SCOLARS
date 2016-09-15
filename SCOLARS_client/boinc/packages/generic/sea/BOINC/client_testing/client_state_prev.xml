@@ -1,0 +1,1839 @@
+<client_state>
+<host_info>
+    <timezone>3600</timezone>
+    <domain_name>flcosta-laptop</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>a9f3ffb850753b92c316f824d19d6d71</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm</p_features>
+    <p_fpops>94691116.042695</p_fpops>
+    <p_iops>86815587.913359</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1337290608.695967</p_calculated>
+    <m_nbytes>2125193216.000000</m_nbytes>
+    <m_cache>4194304.000000</m_cache>
+    <m_swap>4005670912.000000</m_swap>
+    <d_total>17724047360.000000</d_total>
+    <d_free>2106503168.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>2.6.24-31-generic</os_version>
+</host_info>
+<time_stats>
+    <on_frac>1.000000</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <active_frac>0.999965</active_frac>
+    <last_update>1337301521.430851</last_update>
+</time_stats>
+<net_stats>
+    <bwup>78050.387938</bwup>
+    <avg_up>1444394171.012228</avg_up>
+    <avg_time_up>1337301521.495005</avg_time_up>
+    <bwdown>937861.278132</bwdown>
+    <avg_down>259750509.259449</avg_down>
+    <avg_time_down>1337301333.343931</avg_time_down>
+</net_stats>
+<project>
+    <master_url>http://debian.localdomain/test/</master_url>
+    <project_name>test</project_name>
+    <symstore></symstore>
+    <user_name>testing</user_name>
+    <team_name></team_name>
+    <host_venue></host_venue>
+    <email_hash>9ed94b19d58705577d8b6bf83653a97b</email_hash>
+    <cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+    <cpid_time>1267186549.000000</cpid_time>
+    <user_total_credit>23.680004</user_total_credit>
+    <user_expavg_credit>0.015313</user_expavg_credit>
+    <user_create_time>1267186549.000000</user_create_time>
+    <rpc_seqno>65</rpc_seqno>
+    <hostid>3</hostid>
+    <host_total_credit>23.034004</host_total_credit>
+    <host_expavg_credit>0.005804</host_expavg_credit>
+    <host_create_time>1267659801.000000</host_create_time>
+    <nrpc_failures>0</nrpc_failures>
+    <master_fetch_failures>0</master_fetch_failures>
+    <min_rpc_time>1337301535.431439</min_rpc_time>
+    <next_rpc_time>1337301824.431439</next_rpc_time>
+    <short_term_debt>0.000000</short_term_debt>
+    <long_term_debt>0.000000</long_term_debt>
+    <cpu_backoff_interval>15360.000000</cpu_backoff_interval>
+    <cpu_backoff_time>1337309146.301251</cpu_backoff_time>
+    <cuda_short_term_debt>0.000000</cuda_short_term_debt>
+    <cuda_debt>0.000000</cuda_debt>
+    <cuda_backoff_interval>0.000000</cuda_backoff_interval>
+    <cuda_backoff_time>0.000000</cuda_backoff_time>
+    <ati_short_term_debt>0.000000</ati_short_term_debt>
+    <ati_debt>0.000000</ati_debt>
+    <ati_backoff_interval>0.000000</ati_backoff_interval>
+    <ati_backoff_time>0.000000</ati_backoff_time>
+    <resource_share>100.000000</resource_share>
+    <duration_correction_factor>0.785698</duration_correction_factor>
+    <sched_rpc_pending>0</sched_rpc_pending>
+    <send_time_stats_log>0</send_time_stats_log>
+    <send_job_log>0</send_job_log>
+    <scheduler_url>http://debian.localdomain/test_cgi/cgi</scheduler_url>
+    <code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+</project>
+<app>
+    <name>mr_map_ngram</name>
+    <user_friendly_name>N-Gram Map Application</user_friendly_name>
+</app>
+<app>
+    <name>mr_red_ngram</name>
+    <user_friendly_name>N-Gram Reduce Application</user_friendly_name>
+</app>
+<file_info>
+    <name>mr_map_ngram_6.09_i686-pc-linux-gnu</name>
+    <nbytes>2174550.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+57b1664d128fd8285c387bbff3ccae54dbac573f6a87c756c2cb33f7d35d78c6
+6945514a732288b08b2ec075875cdf77d6b206ffd0a3aa7958e0f1160d6d3dba
+bb6ab06b30c2b6184cab2d365533150f9df078efc3274c9a8d91d9417bfe644a
+135b1748f8ce23e8e1603d05e6428d6e64f312b3290413541c7e04db4dc7fb25
+.
+</file_signature>
+    <url>http://debian.localdomain/test/download/mr_map_ngram_6.09_i686-pc-linux-gnu</url>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_0_0_0</name>
+    <nbytes>194.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>3e8aabf7a09db7770e91c31045c1f0f8</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9370.441545</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_0_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+c88f2d2f8b6901f6fe0c14811710a4acd6d857d8291c34708af16cab45171602
+a79e7a9f42086c08c816e59178bb045a5f5417bb323d7652bb5633432680910d
+939a08fbcad9c400c646dab499ab6b293c0eee10866e008cd26598fc20aae14e
+60a76882c5a37899f9f279ff42d25570d19c9852ae852f2f6d6d8c2f96ce2801
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_0_0_1</name>
+    <nbytes>335.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>111dc77e8c1de5c026fc21fde0dda14f</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9370.441545</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_0_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+05262cb3519df60ed75a8474e2e45c01c7902a4723a35b59efdaf6da64f6d23e
+5f2a8771bdbd0f813de0784189466258c06cd3bf5c05a828448e6a17f58f350b
+48049fbc9ef1103e3c33037a113ab9550dc340487142daa4f4fd8347eb4c3acb
+a06d1234ae019bed985f482c2d38205781985ecc05fbe0076f2654e111b58291
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_7_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9348.933550</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_7</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_7_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+cc04bfbbfc01d31d2b9dd9fd9f0c771720e9489ac8e689305e754c801a3270f1
+8437ed23ace45cf1d4a0b2fef013c9ecf7c0ca47fda12aa33874a293421d9ac7
+ad840d403fe1be5ef699a7de76fdb617e28f9f39c7c3b434f38e147af47c5699
+68ba98ac9cc92bd86cc55ac3e46ba3617cccda033db724e1c1144dd3903691d3
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_7_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9348.933550</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_7</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_7_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+6ee4783513be3e3dc502a95149da04fa1066942a6c5d5572ffb866b44205601c
+c50a1c4d4ae6c63c9cc5273fbae80f8449d5b37e08844cabe6cbb1aae51ed4a0
+44be32d30a011b98d2d4b4077d58acd00feb9cc4648b3efa3282acdd5d05bfb0
+b2b19e0387d8678ed5711a5a8a65a0f0108a28677b3d8df91125c4cc06764054
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_4_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9328.514344</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_4_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+0319ff61a09102af84679c5e9a57da660f80a2f5c94d80827e8c120ec21f261e
+d494b94f4694a9da06daf04dc6c45cbd0b0d657feeb825e698a3109fc17b5a5d
+564f5a074b72632cf095139f5a586a1b44670121101c09f12af70bf150b74ef2
+c4d638ca84d3b262317751a301596ab3285adc467a4e427c600de622d34b7b9c
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_4_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9328.514344</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_4_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+1a34f14a65942cb269c99602a2388f6b064a3e3cb65e8ad875f51ac2e9075b1b
+655cf98412e8691f0c24b8a8cdcd303d71254e7fce6dfbee8087ac4b1339b01c
+8b240b72edba718749fe74007f33e2a59bfef0d033487869abb92edf0e1f7b78
+5416730e5a66a364b2d4b163bfcd6ad0108f2b714b7f258fe09e351686b0a8b3
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_0_1_0</name>
+    <nbytes>194.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>3e8aabf7a09db7770e91c31045c1f0f8</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9310.014974</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_0_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+a6ecb4c95eb8cade945726b3fb89dbe454f9a6acc75f4718127dd5299ce01bec
+8a76f41a44a7c768043d0ab2bf57b83251a54d03fa1d3234abb35be5c9d81e93
+4bd3882c287d408b9be2153d7c7ec43fea30e0e9e45b4ff06636816bde41e029
+59877a6aa796ca6e4ae5a4db44428b01dffffaa93a54cbf371676f8f162a07ca
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_0_1_1</name>
+    <nbytes>335.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>111dc77e8c1de5c026fc21fde0dda14f</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9310.014974</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_0_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+5f8210454974e151a149ff08d2947150476d78d04408203616b6ad3b9f119fb6
+b0793ab83fb8d7426740d7fefa65e38b46a7768713e97dffe3810e95ff77d92f
+a664c4915317f855e9fa3435b9c52f96da6613760d93b9dd10c5e1f0275e9abb
+807b1d6efcf70f01b28646d9a37ef61b8ae34fdcef1ce3645a241f97a4bdd591
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_1_0_0</name>
+    <nbytes>194.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>3e8aabf7a09db7770e91c31045c1f0f8</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9291.453541</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_1_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+29ff45036fbdec0a88a287ebf02b886e83e40aa7419d9e713fcf3c7742815f5e
+0c3a94b98996cd018480271baac11f3d60deb244458c3dc10290d6e7736121c8
+b93a018234744492fe706c8c3971870a6e7763a024810f1228014db04a90a2c5
+c8d60880799e1fcea5f855fadfdfe2d501db7c7c227f5d89b2b13ea8ba18ca03
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_1_0_1</name>
+    <nbytes>335.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>111dc77e8c1de5c026fc21fde0dda14f</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9291.453541</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_1_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+2eeed01353f8bd80aec46f0eab7b0193940368020224b63b2ccdc4822606aa4f
+ffc3756bb18a060a69702db430f261949969d6bc0fbf4ce60475848e5497ab39
+aa82fac2dbd2aa998a5d69b9511f9d95f97f4d0dbeaa4e3887f9d1920d0a55cc
+a5b705ad81ee907db0468b1b9141a801b534a1a531d4f9dd6c529959cbc73b39
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_1_1_0</name>
+    <nbytes>194.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>3e8aabf7a09db7770e91c31045c1f0f8</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9274.653493</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_1_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+434316cce79cefef2f9443bf17972d4f7a7f167e8b86049352c66abee98ddd43
+5b398585a8c1765dad486bab087736cfb6ec4cdf4ad62cc643e870aa93c2c831
+265446177d9b26dd9195edfe2c65150e209f4c97f0adb61a88cb1ea33d6b2702
+1ff23fb064c81d8be42c1490ade7d6dca8b3c6d1d99a45cf4852e50f1fea9eb1
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_1_1_1</name>
+    <nbytes>335.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>111dc77e8c1de5c026fc21fde0dda14f</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9274.653493</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_1_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+3b6d468efc37a4994af1146de68bcd1108c38de2263cdae2504fb917bb602681
+057292af7000eeaf3ce7ac459631c88f86ab468b80f5c43f57a5e65f22adec99
+e2b324c72f687dde31f42a0b89be7aa595624d82c7f6c5d08b82ef1eca4a7002
+7495983fb623ecfe096240414bd1fbadad4e65317994ec2c376a007159408ee7
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_2_0_0</name>
+    <nbytes>153.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>f206f13e5863ceb8c10102b9b1512062</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9251.079941</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_2_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+897f0761ecd301cb10125b0ae09c607b9e014712fe96666c48448182d8586ea0
+3ccf0ad93c1c64d95840c06b389bfad8d01731a6528c8153b673bc96ff3463ad
+d10c164e7a2483260e67ab9f6dbb65bce6e807d1c208d415db6b68bacd793f68
+ceee0d60e5f1674212d9a329ca0ec946f9b2b39ce6eac957618dfce185c62749
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_2_0_1</name>
+    <nbytes>388.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>b9f121f1b1ab12bdd5226a347a722be5</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9251.079941</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_2_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+062cf161adf8a37307d62a8cbb96822f1adf7061ce19cd3614e9796a5ee10581
+e674146be7691479a6c910753022bf59cfeee3c893c8155505f0b0d6cdbf46f5
+317372fddb6abca8f809e5c37f2ded13374be773889f45e98a9a10250b79b99f
+fc1d9730ca811802413e2b549f1c253834995a45971a5f99b5e93417bd5026e1
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_2_1_0</name>
+    <nbytes>153.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>f206f13e5863ceb8c10102b9b1512062</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9241.014508</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_2_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+4ae7f5e0dc5f3c85eb36c7424312514dfecbff64347ee290f2b5b1023d452017
+9182daaca641aa59c05d2536b570ffae4e542a6cfc38063cdffea4ed72c939a5
+e86715d580ad6c3239b69dc2e7188f94d468157993618444ff3f184080376dd0
+393fd621e03bad360335c10f84e6df820d64626aa81eb580b6666747a32d00fe
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_2_1_1</name>
+    <nbytes>388.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>b9f121f1b1ab12bdd5226a347a722be5</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9241.014508</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_2_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+da52ac123352eef9daa4ae5a4c3afd6f0cd3ca80026534ac5fd3ad7a6499ecae
+432480029c810cda181bf630c725d0d1d6583a498e1a992a28575b1435700761
+ef252927cd90663001eb26668f79e48611d774ba7a1a5e7e87df44453acc96a0
+279db21fda9b7dbda87bc0564db0c735aeab64f9739fd975b50777104c89a540
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_3_0_0</name>
+    <nbytes>236.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>29c71a829d0dcb211f619cae35060f5a</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9218.267569</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_3_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+9db2a406a02b29a0143efec49e9b90db04a984cf39821b4e3bd1f95301b6d402
+6a14a3ffbca0b75b680fda47268a991bbbeb67cc6a3b65b7b4951f0276363472
+f03df3d263e1d32787493ea4865d972a0454e6fa367b11527d3866917fedd14d
+13bddb005ddcb8b9d9e38317c8e4f2c15db8852c24f06be2f54e4b50c8a19089
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_3_0_1</name>
+    <nbytes>287.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>4578646b1210cb0f5b902de65439758c</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9218.267569</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_3_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+83d9e50c2f0ca7a6a0c3782c6b5b9de1525d2d11de472e5634040d39a6ef66b7
+9a307927282d1bd3ceaa8b6afe5ccd7f9ce04fd096f6fc7d3fe427eb816ed0d8
+aad2df662398a41c95dcb14f6c2fb80d6861df44fb446769289b3074947fa6db
+d58acd6baa5247500aff2750f3c77c9ca060fa871b828df1fb2c6ad500451a9d
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_3_1_0</name>
+    <nbytes>236.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>29c71a829d0dcb211f619cae35060f5a</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9201.667895</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_3_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+bca31e8fcf1d54a35d361fec35a61e2f9b314a656f696c66813016bc2eadef49
+adf4aa1b7b3f940443cd40072ab4088382a8db8d4bcad3bc9e077f5d00bfc91c
+25a0656c680aac66ea1d0c67fc3e56146e49da9ed12ffa6439c096ebdc39c1d3
+c9d2a0a457341ea7138646c2d7404f88291da082dae3cb38a34bd21b1732ec26
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_3_1_1</name>
+    <nbytes>287.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>4578646b1210cb0f5b902de65439758c</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9201.667895</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_3_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+67a9adff1270d73d3fc8fa9f62e9a9beb311455c245914758f3381e4afa471d1
+3212f74e66a391e7da9ad80a7991d83f23cf3999323f99cce7d7c26c45c00868
+b077d5d9ffe519b2b36ab5a152f89500a95bdd8154d3611205c996783982c706
+cea565bf3612cc3fc710a2114bb421cc32a2e3f5b97e7a88b062b7e127fcc2c3
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_4_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9181.509750</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_4_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+04850a15650b7ad21825eacc6434848b088ae85b37422e3422338b7fedb182f3
+34dcac22900cdc6e88f3ae686c8c931474bafccac14a60f125d835d8590b878d
+ca82c2b971435da04adb75c0924824a535549b90000b2efc68808e7b8041602f
+af03ef21178c1f20e7d3cbc7c6235b2f18688c507a2e186f32bbfd012bd787f4
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_4_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9181.509750</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_4_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+48b1edc8d69c0bd2b5766e10602cfe875fd714690f451f047577bc6e33a286a7
+0905ec4a3aeb6689ef0bfa3172d837f5de3be92f346b7ace2a498b899fd6a479
+c72bd1d440ff1c065cfe191247344b3840eff9c2549a641ccaed4eb71e96ca64
+7705b2fbe145182f42dcbcc4a27bd4ceee7526169170887e9ffe0196fdfbf166
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_5_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9168.586648</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_5_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+89f9c8e4c1a53378c8c5ab35f68a1e6c955a87bb710b0c8c1536fc37be50d0f7
+a8e83b74a2cb2462432b9efd0babfebb8ba433ed7399de0872e4380354698a99
+050705996f8db3292f599901793b3085ba1e7fe89961196fd21e76273fd08de8
+bc509599a8e0e329c990d1e0466d339baeb86e4e844c926a6f3c1fe146e25545
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_5_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9168.586648</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_5_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+6d61d0fabe219f97f1266cdbef5047cdb5812a5d16c100a2bf970052360c8e9e
+081e290f0ee0a290996b75d74bb18a7ec92f1577b934ed3cc3c069606459d561
+eb414f56d5cc17a8fcca876e5a2b6ae34692f20c361891a31438e6f4de557372
+2d7634c918e5438d58f962c8797d3dd1fdb3d629b9b1df68ee7cc76bf9166dfb
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_6_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9149.475707</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_6</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_6_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+66b9c9c3c1b7a0746779936abe32760d13bb953207d2e22d8cf0065f9b83c025
+9954b3d4843806558fbf0377fe8b8c42c9c2f276a343c0ca3df1e4ad1f61c374
+8a959190471a38175c06867e5538f5bd6ff25a4de54d40d2672bcc1d3156ae27
+2259d5ba8d57da773cbb80327c3d603f9a11ed3eacedfaf76ca47fbeae1c26af
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_6_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9149.475707</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_6</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_6_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+38ba75979cfd0b723a50811789ad04bb92f7b58ee1e012ac9fe799db0b47db69
+5ecbb7fe79739a15604acf794163705218b9e5c164011121d439174e036ac055
+4c81182c1bb230d50c6914c62721474397bdc6e110053634d1b216764def31b2
+3d99e59ffbc6a372ff29ca9b7cee5f5d3bbe7433ab73a1d8b5f61a80490e77a2
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_5_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9132.594519</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_5_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+a1fdc4a57a920165bcdf96d45cfff7344637f4365cd874a9de353831947fde62
+b3451e7ce0392a6c2a562996cd874fcfd54a7b84531ce59e5737e2f7c7c6cdbd
+6d5a89653257e500e9e3a4649954e12789bf24ef1c6320eedb60a4e9cbf8a7bb
+b1a9d30a42697cab0add2ad82cab4b10ded288a3ed5260c2b3fe0c5b7231757a
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_5_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9132.594519</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_5_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+3c63d3bf862b39777f67a92acf848317d1c5bc121fbeddedd296bfe147727e2e
+42214c608312604a60c931421990b82de6c53d2788edd511f2319dcf3f958436
+120c06d2336120b51b110cf9cd0e8f1ed93b58ff322f5fa5ff7453942a9aa851
+df4dbfeaf62c22b4ef8c922a65704a5cc0eb55190f3aced6985f0aabba643670
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_6_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9115.626406</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_6</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_6_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+74fbf8e3c2489cb87a778cefacf0138c9832cdaf3fef0f571b199c1604eea73f
+225de8c4fc32aa422aab43059ad91a73d45553c01386557933ca57f170d672cc
+3ef77e3136833c4553743881725d4418e0271869a4719364e6fe7de1f46ad56d
+3a4d2dd401c099bb60d034baf701bfc34a95509d5c5f93dd5539794957b2a569
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_6_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9115.626406</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_6</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_6_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+af3d050ed5f633490014b85c0efa38c3964d1a580aec475c23c7cdc2b7ec443a
+4a89cf82b57c5cd449119a9a0c62a22edccba962628d8c215267acd113603c92
+25881cb4c30ec65eea5ce4d85104348c494a21c407302ae16f76bfa8fb68fd7b
+c68b39912d61a453a0a624e9903c4f9373e95155e5f333d21216f54a93416f65
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_7_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9095.606522</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_7</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_7_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+a52341229dc23b06b64290e27f434f16cbf0d671cd1fe29914abc3f2c01a64f2
+7a7ed300f085cf676f3adf483d9358df79b929ae3be0e335ac002e375765a807
+307a90e6ac5416be91fb0ed896d7c6efda12963eec8495503d4ff29935b6985c
+879909a8040693c065cfd60df27730f700cc8ef0f03d62de79508e28d962da5d
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_7_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9095.606522</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_7</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_7_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+09c98cc320fb4eb069e590ba7977b4d018dff88e20c328d0d7a6f901193196f3
+4cf28d6b55355cd090d5f3c2dfced920f0b90e70d813456e31fa11fd5e51c9dc
+79ffd06eba098372b4945e7937ba5283bac9484584ab0e9d1369aa83b13badee
+db099bef7a6f71b212bc096730875a129706007d8b9f224b2438aa0bae637565
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_8_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9076.522528</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_8</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_8_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+431464e77c7f5474aad6d41cb8d41362b04d720af54b0e93d15a6f1d81cdfdcd
+84e4131ab3391f3ff74846a4695938f5746f4053f1e71c42940bf907ad72b34e
+6f568fdce5ef13f4cb570933c7354e8616dd300336ddc9a7cbd2ff9d9832e63e
+42927eced894b5ab747b66844da5326351d61df1720d5d2272abf539f184aadd
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_8_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9076.522528</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_8</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_8_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+2d604cd1bc3640210cd8affb66f3fc4829c802f34c9194ff9b94196a4ff3e453
+27ca03401fda6d9dcc7bf846cc12c6403587205d8c3ec48aacdef06ab2a77b8b
+f93411a03cc5bd7726e81bf8963872fd81f86c00951e04e53d21afbaa0ab9a81
+c257347275def5fbad9e3b0f7f2fc56575c6be8316d9c2553a4b115946a0fe15
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_9_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9055.347018</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_9</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_9_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+aa0c0b133ecdc1164a0de141e503a11f79947670a12c7b4542b4309dd17285b4
+809e7ffeebb058cc8ff0ad64a3da498bd16d482f6a4581a9a219c0e028fe83dd
+43f800952679dd4f32a167521c8e1cbc80afa41a8080408001d234098619e2dc
+a35a89e2fecf6ca5a3dc0c25ba4bf0871979e8a2db7c035e83978cbd79e51a7b
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_9_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9055.347018</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_9</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_9_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+7d045a09ab048b190d667ded202f139622e6fbd044fd9d2ee8c5d89e1fa75ca6
+3d9b29802bbe80c2a639968e98b796fac6ad9f78e1e8bcdafa339963de57f7b2
+19b8caa8a21f55c586bd679e10bfbdfa61766af032e1740fcbc8ee3cb7e5bc68
+140d9743063888c4fedfe62be179b0536342483b44f532fe14bd77469701ec58
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_8_1_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9034.167009</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_8</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_8_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+1c8c05d82d2c2a503d39e51a9aefa8c846e552eaf47838a3149068b51785e645
+2f1e29bf9ee2ea572759e66aa8701725a134cca3bf06a582b51e680a9fdb6df7
+ef4368d73beea548c6ee34e68437f2f9ca0b19dac581ba8e61efa0637daca764
+e4a3b53ad74c062eaca00a77d332b0d4af315dd089265eae7c9cb915cb72847f
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_8_1_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9034.167009</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_8</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_8_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+b589520722f38a84544d85ec88bfc62f9e85e0373542d979556ef32bb00848b1
+0a13301e336e11d66185ae30ba9dfc1af811311bfdf795aa38a77042abe1def3
+81cb224a9115f4b8efe3d89ddade70da0cac70f69f4a5938797e1f5bddd830ea
+39bbe00b1dc76632967172f6a700de5a1523eeb054abbba147f874a85265ffc4
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_9_0_0</name>
+    <nbytes>232.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2ab723be9f80f00108a7e734a1d20699</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9015.606284</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_9</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_9_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+c9d8936f99947f25df726a4dc02a368269a672e9865a730c31aad26aca11b986
+274ff6a3170903af242e777de863cedb07453330c424903b05738d8c9f3ab951
+bb49e7b6b41b1e6acf8975e4229fc45555e1ad6eacb4f8fe65fb640e7f8150d3
+34750073248197e3ae89bdd7978a848ac45443be5337c342e1829a3a40495245
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_map_ngram_wu_9_0_1</name>
+    <nbytes>263.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>e4d3ff21e3e44fdb159329cb524478c4</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>9015.606284</serving_time>
+        <mr_wu_name>mr_map_ngram_wu_9</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_map_ngram_wu_9_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id>6</job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+e0743052ff54001749b7b9fcb0b502cb3074b756a6c474aafe12f188dd7d4bc9
+c28e0cccbd4f937e6691b836a4bf865ac9c7bfac2a53bed19d088932931747b2
+a4ee86d19b30d99eb239e2ab80488e1cd9cb5416b77390e9d0b79470a2c4f5bb
+498c5f586fec8035b86ee19b11f0d357e64eeb502f6cf925cc700dd97ca0f4e9
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_red_ngram_6.09_i686-pc-linux-gnu</name>
+    <nbytes>1473356.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+4edb29836f03103ecf8e4a55d5e999fafb519e69524c5d752ad1971a70cf96ac
+8a1cfa23dba0e9b165c4325a6cb0b7051174811afb53857b741c71d441a8a2fb
+0d8de81ac25328e9aa31031ded962ecd8e6e6a3e76a4848d867c866a354f255b
+d75265f566c2b247a1760f72a1eb555ec33b6239ed91c800038a3916bb3c153f
+.
+</file_signature>
+    <url>http://debian.localdomain/test/download/mr_red_ngram_6.09_i686-pc-linux-gnu</url>
+</file_info>
+<file_info>
+    <name>mr_red_ngram_0_0_0_0</name>
+    <nbytes>181.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>dce14edd891aa7a76f611528af72bf04</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mr_red_ngram_0_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_red_ngram_0_0_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <report_immediately/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 6 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+436dc45d6a723c8c6a28643acd513ece7470d95687dff0f7244e354229160f9c
+91391e3a38a82397551cd4ee31816685c49e95c120992e364b6126d35a40ea7d
+b2a7876a361dfe202cf28d4bdb2fccc45d13fceb4bb02b63fb6fb00c80882010
+170341eee6a93e4a4062b639bcc25ea9c4822183366c1cf9b52e1cb2fa4f3ac6
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_red_ngram_0_0_1_0</name>
+    <nbytes>181.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>dce14edd891aa7a76f611528af72bf04</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mr_red_ngram_0_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_red_ngram_0_0_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <report_immediately/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 6 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+83966bde662994710f2fe7affa0a972d1e0e29fe67fc1ad5ea3f43d121efb079
+500a69b1bd62f4d7036f00b844e795d7adf1feac9c0f12c5592ad07d009c23cb
+9ecb97e86ca3339fcb369fe5f097dc79a2bb0779a2d9dcf3adc1bfe08d27067b
+42ac0bccf93ccc77a7ba7796804d557683bc61ddefa59cc508fe5e8d3822e1e6
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_red_ngram_0_1_0_0</name>
+    <nbytes>292.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>22433d9f14b93770864f3413227111e9</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mr_red_ngram_0_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_red_ngram_0_1_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <report_immediately/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 6 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+c5d0f8bd2215b0031526681e3ec2871b6cd811ec9654a4969bb935a76fc67de3
+b0f3f827fb6047d30afe834ba1f9014f0969af1173de4a5b5c3f578112dd2518
+56ee7e1e53179e22adb3afb3dc23c2ff79b6c1411984a54c03eb16380dca7883
+29d13c257944c2d7e847db062101d8a3840f4f5bbff1d8ad091a24c9057e7ccf
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mr_red_ngram_0_1_1_0</name>
+    <nbytes>292.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>22433d9f14b93770864f3413227111e9</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>6</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mr_red_ngram_0_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mr_red_ngram_0_1_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <report_immediately/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 6 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+6d6325b05fdbd402d41be2c0d8814c2fe74e55744f59e6f28f8fe5c76fd51e88
+ece7a220f857c4402f0765f9d74123da2e0f553052704de1b22bc7a7f849a376
+54e49bd889107c6b191143642759ef3d47771e05f90bebf6b572d09ef158be09
+e646575a7f86508da8a19a5310548ab44078ac9bb2e71ec2f60e0ccbc51a83cf
+.
+    </xml_signature>
+</file_info>
+<app_version>
+    <app_name>mr_map_ngram</app_name>
+    <version_num>609</version_num>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>94691116.042695</flops>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+        <file_name>mr_map_ngram_6.09_i686-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<app_version>
+    <app_name>mr_red_ngram</app_name>
+    <version_num>609</version_num>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>94691116.042695</flops>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+        <file_name>mr_red_ngram_6.09_i686-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<active_task_set>
+</active_task_set>
+<platform_name>i686-pc-linux-gnu</platform_name>
+<core_client_major_version>6</core_client_major_version>
+<core_client_minor_version>11</core_client_minor_version>
+<core_client_release>1</core_client_release>
+<user_run_request>2</user_run_request>
+<user_gpu_request>2</user_gpu_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>0.000000</new_version_check_time>
+<all_projects_list_check_time>1336167499.158409</all_projects_list_check_time>
+</client_state>

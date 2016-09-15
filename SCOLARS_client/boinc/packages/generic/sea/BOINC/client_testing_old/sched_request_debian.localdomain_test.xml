@@ -1,0 +1,108 @@
+<scheduler_request>
+    <authenticator>7612cda51b3a7edaa4d9d98102dfb081</authenticator>
+    <hostid>3</hostid>
+    <rpc_seqno>9</rpc_seqno>
+    <core_client_major_version>6</core_client_major_version>
+    <core_client_minor_version>11</core_client_minor_version>
+    <core_client_release>1</core_client_release>
+    <resource_share_fraction>1.000000</resource_share_fraction>
+    <rrs_fraction>1.000000</rrs_fraction>
+    <prrs_fraction>1.000000</prrs_fraction>
+    <duration_correction_factor>0.868766</duration_correction_factor>
+    <sandbox>0</sandbox>
+    <work_req_seconds>60480.000000</work_req_seconds>
+    <cpu_req_secs>60480.000000</cpu_req_secs>
+    <cpu_req_instances>2.000000</cpu_req_instances>
+    <estimated_delay>0.000000</estimated_delay>
+    <client_cap_plan_class>1</client_cap_plan_class>
+    <platform_name>i686-pc-linux-gnu</platform_name>
+    <code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+<working_global_preferences>
+<global_preferences>
+   <source_project></source_project>
+   <mod_time>0.000000</mod_time>
+   <run_on_batteries>1</run_on_batteries>
+   <run_if_user_active>1</run_if_user_active>
+   <run_gpu_if_user_active>0</run_gpu_if_user_active>
+   <suspend_if_no_recent_input>0.000000</suspend_if_no_recent_input>
+   <suspend_cpu_usage>0.000000</suspend_cpu_usage>
+   <start_hour>0.000000</start_hour>
+   <end_hour>0.000000</end_hour>
+   <net_start_hour>0.000000</net_start_hour>
+   <net_end_hour>0.000000</net_end_hour>
+   <leave_apps_in_memory>0</leave_apps_in_memory>
+   <confirm_before_connecting>1</confirm_before_connecting>
+   <hangup_if_dialed>0</hangup_if_dialed>
+   <dont_verify_images>0</dont_verify_images>
+   <work_buf_min_days>0.100000</work_buf_min_days>
+   <work_buf_additional_days>0.250000</work_buf_additional_days>
+   <max_ncpus_pct>0.000000</max_ncpus_pct>
+   <cpu_scheduling_period_minutes>60.000000</cpu_scheduling_period_minutes>
+   <disk_interval>60.000000</disk_interval>
+   <disk_max_used_gb>10.000000</disk_max_used_gb>
+   <disk_max_used_pct>50.000000</disk_max_used_pct>
+   <disk_min_free_gb>0.100000</disk_min_free_gb>
+   <vm_max_used_pct>75.000000</vm_max_used_pct>
+   <ram_max_used_busy_pct>50.000000</ram_max_used_busy_pct>
+   <ram_max_used_idle_pct>90.000000</ram_max_used_idle_pct>
+   <idle_time_to_run>3.000000</idle_time_to_run>
+   <max_bytes_sec_up>0.000000</max_bytes_sec_up>
+   <max_bytes_sec_down>0.000000</max_bytes_sec_down>
+   <cpu_usage_limit>100.000000</cpu_usage_limit>
+</global_preferences>
+</working_global_preferences>
+<cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+<time_stats>
+    <on_frac>1.000000</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <active_frac>0.999965</active_frac>
+</time_stats>
+<net_stats>
+    <bwup>91202.402488</bwup>
+    <avg_up>8908230504.424706</avg_up>
+    <avg_time_up>1311182497.708159</avg_time_up>
+    <bwdown>1029014.741368</bwdown>
+    <avg_down>1382390499.910637</avg_down>
+    <avg_time_down>1311182076.809877</avg_time_down>
+</net_stats>
+<host_info>
+    <timezone>3600</timezone>
+    <domain_name>flcosta-laptop</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>a9f3ffb850753b92c316f824d19d6d71</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm</p_features>
+    <p_fpops>126795918.813061</p_fpops>
+    <p_iops>100098538.426674</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1311181856.329740</p_calculated>
+    <m_nbytes>2125201408.000000</m_nbytes>
+    <m_cache>4194304.000000</m_cache>
+    <m_swap>4005670912.000000</m_swap>
+    <d_total>17724047360.000000</d_total>
+    <d_free>664928256.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>2.6.24-29-generic</os_version>
+</host_info>
+    <disk_usage>
+        <d_boinc_used_total>2417252.000000</d_boinc_used_total>
+        <d_boinc_used_project>2027226.000000</d_boinc_used_project>
+    </disk_usage>
+<other_results>
+</other_results>
+<in_progress_results>
+</in_progress_results>
+</scheduler_request>

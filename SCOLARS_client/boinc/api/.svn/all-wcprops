@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/20802/trunk/boinc/api
+END
+graphics_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15762/trunk/boinc/api/graphics_api.h
+END
+txf_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/17777/trunk/boinc/api/txf_util.h
+END
+bmplib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/16069/trunk/boinc/api/bmplib.cpp
+END
+texture.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6680/trunk/boinc/api/texture.h
+END
+graphics_impl_lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/16069/trunk/boinc/api/graphics_impl_lib.cpp
+END
+tgalib.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17388/trunk/boinc/api/tgalib.h
+END
+reduce_main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17388/trunk/boinc/api/reduce_main.cpp
+END
+boinc_api_fortran.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/16069/trunk/boinc/api/boinc_api_fortran.cpp
+END
+x_opengl.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/15762/trunk/boinc/api/x_opengl.h
+END
+boinc_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/20802/trunk/boinc/api/boinc_api.cpp
+END
+gutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/17954/trunk/boinc/api/gutil.cpp
+END
+graphics_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15762/trunk/boinc/api/graphics_impl.h
+END
+graphics2.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/17735/trunk/boinc/api/graphics2.h
+END
+texfont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/20648/trunk/boinc/api/texfont.cpp
+END
+gutil_text.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/18437/trunk/boinc/api/gutil_text.cpp
+END
+graphics_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/16069/trunk/boinc/api/graphics_api.cpp
+END
+graphics_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15762/trunk/boinc/api/graphics_lib.h
+END
+reduce_lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/16069/trunk/boinc/api/reduce_lib.cpp
+END
+windows_opengl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16069/trunk/boinc/api/windows_opengl.cpp
+END
+txf_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/20350/trunk/boinc/api/txf_util.cpp
+END
+graphics_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15762/trunk/boinc/api/graphics_data.h
+END
+graphics2_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/17687/trunk/boinc/api/graphics2_win.cpp
+END
+texture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/17391/trunk/boinc/api/texture.cpp
+END
+tgalib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/16069/trunk/boinc/api/tgalib.cpp
+END
+static_graphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/16069/trunk/boinc/api/static_graphics.cpp
+END
+mac_icon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16069/trunk/boinc/api/mac_icon.cpp
+END
+bmplib.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4800/trunk/boinc/api/bmplib.h
+END
+x_opengl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17388/trunk/boinc/api/x_opengl.cpp
+END
+Makefile.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/19583/trunk/boinc/api/Makefile.mingw
+END
+reduce.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/15762/trunk/boinc/api/reduce.h
+END
+macglutfix.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/13804/trunk/boinc/api/macglutfix.m
+END
+graphics2_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17735/trunk/boinc/api/graphics2_util.cpp
+END
+graphics_impl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/16726/trunk/boinc/api/graphics_impl.cpp
+END
+boinc_gl.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/18996/trunk/boinc/api/boinc_gl.h
+END
+graphics2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18902/trunk/boinc/api/graphics2.cpp
+END
+graphics2_unix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17687/trunk/boinc/api/graphics2_unix.cpp
+END
+graphics_lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/20054/trunk/boinc/api/graphics_lib.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/18003/trunk/boinc/api/Makefile.am
+END
+boinc_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/20054/trunk/boinc/api/boinc_api.h
+END
+gutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/17388/trunk/boinc/api/gutil.h
+END
+graphics_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/16069/trunk/boinc/api/graphics_data.cpp
+END
+boinc_glut.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/15762/trunk/boinc/api/boinc_glut.h
+END
+make_app_icon_h.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/17388/trunk/boinc/api/make_app_icon_h.cpp
+END
+texfont.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/9956/trunk/boinc/api/texfont.h
+END

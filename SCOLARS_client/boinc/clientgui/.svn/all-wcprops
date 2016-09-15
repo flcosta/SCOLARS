@@ -1,0 +1,887 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20807/trunk/boinc/clientgui
+END
+sg_StatImageLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19985/trunk/boinc/clientgui/sg_StatImageLoader.cpp
+END
+DlgAbout.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19982/trunk/boinc/clientgui/DlgAbout.cpp
+END
+CompletionPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19654/trunk/boinc/clientgui/CompletionPage.cpp
+END
+DlgItemProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20777/trunk/boinc/clientgui/DlgItemProperties.h
+END
+Events.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/20794/trunk/boinc/clientgui/Events.h
+END
+DlgEventLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20799/trunk/boinc/clientgui/DlgEventLog.cpp
+END
+ProjectPropertiesPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19588/trunk/boinc/clientgui/ProjectPropertiesPage.cpp
+END
+BOINCListCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20799/trunk/boinc/clientgui/BOINCListCtrl.h
+END
+BOINCBaseView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20799/trunk/boinc/clientgui/BOINCBaseView.cpp
+END
+AdvancedFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20796/trunk/boinc/clientgui/AdvancedFrame.cpp
+END
+AlreadyExistsPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/AlreadyExistsPage.h
+END
+ProjectInfoPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18483/trunk/boinc/clientgui/ProjectInfoPage.h
+END
+ProjectListCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19738/trunk/boinc/clientgui/ProjectListCtrl.cpp
+END
+Localization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15762/trunk/boinc/clientgui/Localization.cpp
+END
+BOINCClientManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18317/trunk/boinc/clientgui/BOINCClientManager.h
+END
+TermsOfUsePage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/18464/trunk/boinc/clientgui/TermsOfUsePage.h
+END
+DlgEventLogListCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/20799/trunk/boinc/clientgui/DlgEventLogListCtrl.h
+END
+AccountManagerPropertiesPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19588/trunk/boinc/clientgui/AccountManagerPropertiesPage.cpp
+END
+sg_ImageLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ImageLoader.cpp
+END
+BOINCTaskBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20767/trunk/boinc/clientgui/BOINCTaskBar.cpp
+END
+BOINCTaskCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19706/trunk/boinc/clientgui/BOINCTaskCtrl.cpp
+END
+ViewMessages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20027/trunk/boinc/clientgui/ViewMessages.cpp
+END
+sg_StatImageLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_StatImageLoader.h
+END
+NotDetectedPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15762/trunk/boinc/clientgui/NotDetectedPage.h
+END
+SkinManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/17080/trunk/boinc/clientgui/SkinManager.h
+END
+ViewNotices.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/20152/trunk/boinc/clientgui/ViewNotices.h
+END
+AccountManagerInfoPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/18483/trunk/boinc/clientgui/AccountManagerInfoPage.h
+END
+ProjectProcessingPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ProjectProcessingPage.h
+END
+DlgGenericMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/16413/trunk/boinc/clientgui/DlgGenericMessage.cpp
+END
+AccountInfoPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19982/trunk/boinc/clientgui/AccountInfoPage.h
+END
+sg_ClientStateIndicator.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ClientStateIndicator.h
+END
+BOINCListCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20799/trunk/boinc/clientgui/BOINCListCtrl.cpp
+END
+CompletionPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15762/trunk/boinc/clientgui/CompletionPage.h
+END
+ProxyPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19588/trunk/boinc/clientgui/ProxyPage.cpp
+END
+ProjectInfoPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19982/trunk/boinc/clientgui/ProjectInfoPage.cpp
+END
+DlgEventLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/20807/trunk/boinc/clientgui/DlgEventLog.h
+END
+WizardAttachProject.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/18400/trunk/boinc/clientgui/WizardAttachProject.h
+END
+ValidateURL.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ValidateURL.h
+END
+AsyncRPC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/20534/trunk/boinc/clientgui/AsyncRPC.cpp
+END
+ValidateAccountKey.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ValidateAccountKey.h
+END
+BOINCDialupManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15901/trunk/boinc/clientgui/BOINCDialupManager.cpp
+END
+WelcomePage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20342/trunk/boinc/clientgui/WelcomePage.cpp
+END
+DlgAdvPreferences.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/DlgAdvPreferences.h
+END
+DlgEventLogListCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/20789/trunk/boinc/clientgui/DlgEventLogListCtrl.cpp
+END
+LogBOINC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/15762/trunk/boinc/clientgui/LogBOINC.cpp
+END
+sg_ViewTabPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ViewTabPage.h
+END
+ViewNotices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20152/trunk/boinc/clientgui/ViewNotices.cpp
+END
+SkinManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/17844/trunk/boinc/clientgui/SkinManager.cpp
+END
+NotDetectedPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19588/trunk/boinc/clientgui/NotDetectedPage.cpp
+END
+ViewTransfers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewTransfers.cpp
+END
+wizardex.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19588/trunk/boinc/clientgui/wizardex.h
+END
+BOINCBaseFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20112/trunk/boinc/clientgui/BOINCBaseFrame.h
+END
+sg_ProjectsComponent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/20027/trunk/boinc/clientgui/sg_ProjectsComponent.cpp
+END
+ViewMessages.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17150/trunk/boinc/clientgui/ViewMessages.h
+END
+BOINCTaskBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/20535/trunk/boinc/clientgui/BOINCTaskBar.h
+END
+BOINCTaskCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/15762/trunk/boinc/clientgui/BOINCTaskCtrl.h
+END
+sg_ImageLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ImageLoader.h
+END
+DlgAdvPreferences.fbp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12292/trunk/boinc/clientgui/DlgAdvPreferences.fbp
+END
+ViewResources.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewResources.h
+END
+ValidateAccountKey.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15901/trunk/boinc/clientgui/ValidateAccountKey.cpp
+END
+sg_DlgPreferences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/20601/trunk/boinc/clientgui/sg_DlgPreferences.cpp
+END
+ViewWork.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewWork.h
+END
+ProxyPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ProxyPage.h
+END
+DlgAdvPreferences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/20738/trunk/boinc/clientgui/DlgAdvPreferences.cpp
+END
+sg_ViewTabPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19961/trunk/boinc/clientgui/sg_ViewTabPage.cpp
+END
+AsyncRPC.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/20110/trunk/boinc/clientgui/AsyncRPC.h
+END
+MainDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/20116/trunk/boinc/clientgui/MainDocument.h
+END
+NotFoundPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19588/trunk/boinc/clientgui/NotFoundPage.cpp
+END
+DlgSelectComputer.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/DlgSelectComputer.h
+END
+ProxyInfoPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20342/trunk/boinc/clientgui/ProxyInfoPage.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9183/trunk/boinc/clientgui/resource.h
+END
+DlgExitMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16582/trunk/boinc/clientgui/DlgExitMessage.cpp
+END
+BOINCGUIApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/20441/trunk/boinc/clientgui/BOINCGUIApp.h
+END
+DlgAbout.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19982/trunk/boinc/clientgui/DlgAbout.h
+END
+BOINCBaseWizard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19588/trunk/boinc/clientgui/BOINCBaseWizard.cpp
+END
+ViewTransfers.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewTransfers.h
+END
+MainDocument.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20768/trunk/boinc/clientgui/MainDocument.cpp
+END
+BOINCClientManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19576/trunk/boinc/clientgui/BOINCClientManager.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/20500/trunk/boinc/clientgui/Makefile.am
+END
+sg_SGUIListControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16183/trunk/boinc/clientgui/sg_SGUIListControl.cpp
+END
+ProxyInfoPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ProxyInfoPage.h
+END
+AccountManagerInfoPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19982/trunk/boinc/clientgui/AccountManagerInfoPage.cpp
+END
+ProjectProcessingPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19588/trunk/boinc/clientgui/ProjectProcessingPage.cpp
+END
+NoInternetConnectionPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19588/trunk/boinc/clientgui/NoInternetConnectionPage.cpp
+END
+AccountManagerPropertiesPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18762/trunk/boinc/clientgui/AccountManagerPropertiesPage.h
+END
+stdwx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15762/trunk/boinc/clientgui/stdwx.cpp
+END
+BOINCBaseWizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19588/trunk/boinc/clientgui/BOINCBaseWizard.h
+END
+ValidateURL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19481/trunk/boinc/clientgui/ValidateURL.cpp
+END
+WizardAttachProject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19982/trunk/boinc/clientgui/WizardAttachProject.cpp
+END
+AccountManagerProcessingPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19588/trunk/boinc/clientgui/AccountManagerProcessingPage.cpp
+END
+CompletionErrorPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/15762/trunk/boinc/clientgui/CompletionErrorPage.h
+END
+UnavailablePage.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15762/trunk/boinc/clientgui/UnavailablePage.h
+END
+ViewStatistics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewStatistics.cpp
+END
+browser.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/18399/trunk/boinc/clientgui/browser.h
+END
+ViewProjects.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewProjects.h
+END
+sg_DlgMessages.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16597/trunk/boinc/clientgui/sg_DlgMessages.h
+END
+BOINCBaseFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/20767/trunk/boinc/clientgui/BOINCBaseFrame.cpp
+END
+sg_BoincSimpleGUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/20110/trunk/boinc/clientgui/sg_BoincSimpleGUI.cpp
+END
+NoInternetConnectionPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/15762/trunk/boinc/clientgui/NoInternetConnectionPage.h
+END
+sg_ProjectsComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19300/trunk/boinc/clientgui/sg_ProjectsComponent.h
+END
+DlgAdvPreferencesBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/20727/trunk/boinc/clientgui/DlgAdvPreferencesBase.cpp
+END
+_wx_intellisense.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3246/trunk/boinc/clientgui/_wx_intellisense.h
+END
+DlgOptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17519/trunk/boinc/clientgui/DlgOptions.cpp
+END
+browser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18450/trunk/boinc/clientgui/browser.cpp
+END
+AdvancedFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20147/trunk/boinc/clientgui/AdvancedFrame.h
+END
+BOINCBaseView.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20799/trunk/boinc/clientgui/BOINCBaseView.h
+END
+ProjectPropertiesPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18762/trunk/boinc/clientgui/ProjectPropertiesPage.h
+END
+sg_DlgPreferences.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_DlgPreferences.h
+END
+sg_DlgMessages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/20601/trunk/boinc/clientgui/sg_DlgMessages.cpp
+END
+TermsOfUsePage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19588/trunk/boinc/clientgui/TermsOfUsePage.cpp
+END
+sg_CustomControls.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_CustomControls.h
+END
+Localization.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15762/trunk/boinc/clientgui/Localization.h
+END
+NotFoundPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15762/trunk/boinc/clientgui/NotFoundPage.h
+END
+BOINCGUIApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20442/trunk/boinc/clientgui/BOINCGUIApp.cpp
+END
+AccountInfoPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20007/trunk/boinc/clientgui/AccountInfoPage.cpp
+END
+sg_ClientStateIndicator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/16094/trunk/boinc/clientgui/sg_ClientStateIndicator.cpp
+END
+sg_BoincSimpleGUI.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20023/trunk/boinc/clientgui/sg_BoincSimpleGUI.h
+END
+DlgExitMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16405/trunk/boinc/clientgui/DlgExitMessage.h
+END
+sg_ImageButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16280/trunk/boinc/clientgui/sg_ImageButton.h
+END
+ValidateEmailAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15762/trunk/boinc/clientgui/ValidateEmailAddress.h
+END
+DlgGenericMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15762/trunk/boinc/clientgui/DlgGenericMessage.h
+END
+sg_ProgressBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ProgressBar.cpp
+END
+DlgAdvPreferencesBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/20727/trunk/boinc/clientgui/DlgAdvPreferencesBase.h
+END
+sg_CustomControls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_CustomControls.cpp
+END
+DlgOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16462/trunk/boinc/clientgui/DlgOptions.h
+END
+BOINCDialupManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15762/trunk/boinc/clientgui/BOINCDialupManager.h
+END
+wizardex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19603/trunk/boinc/clientgui/wizardex.cpp
+END
+WelcomePage.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/18456/trunk/boinc/clientgui/WelcomePage.h
+END
+LogBOINC.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/15762/trunk/boinc/clientgui/LogBOINC.h
+END
+DlgItemProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/20777/trunk/boinc/clientgui/DlgItemProperties.cpp
+END
+sg_SGUIListControl.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/16183/trunk/boinc/clientgui/sg_SGUIListControl.h
+END
+BOINCWizards.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19982/trunk/boinc/clientgui/BOINCWizards.h
+END
+ViewResources.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewResources.cpp
+END
+ValidateEmailAddress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/15901/trunk/boinc/clientgui/ValidateEmailAddress.cpp
+END
+sg_ImageButton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16280/trunk/boinc/clientgui/sg_ImageButton.cpp
+END
+ViewWork.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewWork.cpp
+END
+AlreadyExistsPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19588/trunk/boinc/clientgui/AlreadyExistsPage.cpp
+END
+stdwx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/19982/trunk/boinc/clientgui/stdwx.h
+END
+UnavailablePage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19588/trunk/boinc/clientgui/UnavailablePage.cpp
+END
+CompletionErrorPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19588/trunk/boinc/clientgui/CompletionErrorPage.cpp
+END
+BOINCGUIApp.rc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19945/trunk/boinc/clientgui/BOINCGUIApp.rc
+END
+ViewProjects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewProjects.cpp
+END
+DlgSelectComputer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/15762/trunk/boinc/clientgui/DlgSelectComputer.cpp
+END
+AccountManagerProcessingPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/15762/trunk/boinc/clientgui/AccountManagerProcessingPage.h
+END
+sg_ProgressBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15762/trunk/boinc/clientgui/sg_ProgressBar.h
+END
+ViewStatistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20005/trunk/boinc/clientgui/ViewStatistics.h
+END
+ProjectListCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19733/trunk/boinc/clientgui/ProjectListCtrl.h
+END

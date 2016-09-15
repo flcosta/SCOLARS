@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20658/trunk/boinc/locale/ca
+END
+BOINC-Manager.po
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20641/trunk/boinc/locale/ca/BOINC-Manager.po
+END
+BOINC-Web.po
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/20641/trunk/boinc/locale/ca/BOINC-Web.po
+END
+wxstd.mo
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/16757/trunk/boinc/locale/ca/wxstd.mo
+END
+BOINC-Project-Generic.po
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/20658/trunk/boinc/locale/ca/BOINC-Project-Generic.po
+END
+BOINC-Manager.mo
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20642/trunk/boinc/locale/ca/BOINC-Manager.mo
+END
+pootle-boinctrunk-ca.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19556/trunk/boinc/locale/ca/pootle-boinctrunk-ca.prefs
+END

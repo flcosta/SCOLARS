@@ -1,0 +1,61 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/html/queue
+http://boinc.berkeley.edu/svn
+
+
+
+2008-01-15T08:36:59.616119Z
+14554
+m.somers
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+ops
+dir
+
+create_queue.sql
+file
+
+
+
+
+2010-02-19T12:32:22.000000Z
+606fb984d65c4b117d4864a63a46becc
+2007-11-16T16:49:19.390928Z
+14229
+davea
+
+inc
+dir
+
+README
+file
+
+
+
+
+2010-02-19T12:32:22.000000Z
+5f5eb5a1bd480cbc353c6fafefc96f55
+2008-01-15T08:36:59.616119Z
+14554
+m.somers
+
+user
+dir
+

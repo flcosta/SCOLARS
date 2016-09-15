@@ -1,0 +1,34 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/html/languages
+http://boinc.berkeley.edu/svn
+
+
+
+2010-02-26T16:41:30.412462Z
+20743
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+translations
+dir
+
+project_specific_translations
+dir
+

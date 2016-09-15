@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="api/bmplib.cpp" open="0" top="0" tabpos="68">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="api/bmplib.h" open="0" top="0" tabpos="0">
+		<Cursor position="23" topLine="0" />
+	</File>
+	<File name="api/boinc_api.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="37235" topLine="1280" />
+	</File>
+	<File name="api/boinc_api.h" open="0" top="0" tabpos="12">
+		<Cursor position="1273" topLine="24" />
+	</File>
+	<File name="api/boinc_api_fortran.cpp" open="0" top="0" tabpos="39">
+		<Cursor position="2053" topLine="62" />
+	</File>
+	<File name="api/graphics2.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2781" topLine="80" />
+	</File>
+	<File name="api/graphics2_unix.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="5769" topLine="175" />
+	</File>
+	<File name="api/graphics2_util.cpp" open="0" top="0" tabpos="40">
+		<Cursor position="1283" topLine="26" />
+	</File>
+	<File name="api/graphics2_win.cpp" open="0" top="0" tabpos="35">
+		<Cursor position="15431" topLine="440" />
+	</File>
+	<File name="api/graphics_impl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3298" topLine="110" />
+	</File>
+	<File name="api/graphics_lib.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="1319" topLine="29" />
+	</File>
+	<File name="api/gutil.cpp" open="0" top="0" tabpos="57">
+		<Cursor position="15536" topLine="635" />
+	</File>
+	<File name="api/mac_icon.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3472" topLine="64" />
+	</File>
+	<File name="api/reduce.h" open="0" top="0" tabpos="32">
+		<Cursor position="3105" topLine="61" />
+	</File>
+	<File name="api/txf_util.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3446" topLine="81" />
+	</File>
+	<File name="api/x_opengl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2674" topLine="74" />
+	</File>
+	<File name="apps/concat.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2725" topLine="89" />
+	</File>
+	<File name="apps/upper_case.cpp" open="0" top="0" tabpos="30">
+		<Cursor position="4735" topLine="156" />
+	</File>
+	<File name="client/acct_mgr.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="6343" topLine="190" />
+	</File>
+	<File name="client/acct_mgr.h" open="0" top="0" tabpos="6">
+		<Cursor position="1272" topLine="23" />
+	</File>
+	<File name="client/acct_setup.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2054" topLine="61" />
+	</File>
+	<File name="client/app.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="4574" topLine="167" />
+	</File>
+	<File name="client/app.h" open="0" top="0" tabpos="9">
+		<Cursor position="1791" topLine="44" />
+	</File>
+	<File name="client/app_control.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="27966" topLine="923" />
+	</File>
+	<File name="client/app_start.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="27571" topLine="892" />
+	</File>
+	<File name="client/app_stats_mac.cpp" open="0" top="0" tabpos="25">
+		<Cursor position="6415" topLine="174" />
+	</File>
+	<File name="client/auto_update.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2255" topLine="56" />
+	</File>
+	<File name="client/auto_update.h" open="0" top="0" tabpos="3">
+		<Cursor position="1025" topLine="14" />
+	</File>
+	<File name="client/boinc_cmd.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="10410" topLine="291" />
+	</File>
+	<File name="client/check_security.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4227" topLine="111" />
+	</File>
+	<File name="client/check_state.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="2204" topLine="63" />
+	</File>
+	<File name="client/client_msgs.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1191" topLine="28" />
+	</File>
+	<File name="client/client_msgs.h" open="0" top="0" tabpos="5">
+		<Cursor position="1832" topLine="40" />
+	</File>
+	<File name="client/client_state.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="30064" topLine="964" />
+	</File>
+	<File name="client/client_state.h" open="0" top="0" tabpos="10">
+		<Cursor position="12075" topLine="350" />
+	</File>
+	<File name="client/client_types.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="68863" topLine="2051" />
+	</File>
+	<File name="client/client_types.h" open="1" top="0" tabpos="10">
+		<Cursor position="27846" topLine="791" />
+	</File>
+	<File name="client/coproc_detect.cpp" open="0" top="0" tabpos="30">
+		<Cursor position="9631" topLine="253" />
+	</File>
+	<File name="client/cpu_sched.cpp" open="0" top="0" tabpos="32">
+		<Cursor position="21662" topLine="686" />
+	</File>
+	<File name="client/cs_account.cpp" open="0" top="0" tabpos="42">
+		<Cursor position="8457" topLine="255" />
+	</File>
+	<File name="client/cs_apps.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="3661" topLine="103" />
+	</File>
+	<File name="client/cs_cmdline.cpp" open="0" top="0" tabpos="48">
+		<Cursor position="7036" topLine="144" />
+	</File>
+	<File name="client/cs_files.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="9928" topLine="283" />
+	</File>
+	<File name="client/cs_notice.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="1978" topLine="52" />
+	</File>
+	<File name="client/cs_prefs.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="10420" topLine="310" />
+	</File>
+	<File name="client/cs_scheduler.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="46530" topLine="1348" />
+	</File>
+	<File name="client/cs_statefile.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="7110" topLine="209" />
+	</File>
+	<File name="client/distributed_validation.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="34" topLine="0" />
+	</File>
+	<File name="client/file_names.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="2493" topLine="78" />
+	</File>
+	<File name="client/file_names.h" open="0" top="0" tabpos="50">
+		<Cursor position="3744" topLine="55" />
+	</File>
+	<File name="client/file_xfer.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="13266" topLine="342" />
+	</File>
+	<File name="client/file_xfer.h" open="0" top="0" tabpos="19">
+		<Cursor position="1033" topLine="13" />
+	</File>
+	<File name="client/gui_http.cpp" open="0" top="0" tabpos="67">
+		<Cursor position="2154" topLine="53" />
+	</File>
+	<File name="client/gui_rpc_server.cpp" open="0" top="0" tabpos="26">
+		<Cursor position="6975" topLine="245" />
+	</File>
+	<File name="client/gui_rpc_server_ops.cpp" open="0" top="0" tabpos="39">
+		<Cursor position="2171" topLine="70" />
+	</File>
+	<File name="client/http_curl.cpp" open="0" top="0" tabpos="32">
+		<Cursor position="22882" topLine="682" />
+	</File>
+	<File name="client/http_curl.h" open="0" top="0" tabpos="10">
+		<Cursor position="3345" topLine="94" />
+	</File>
+	<File name="client/log_flags.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="7123" topLine="174" />
+	</File>
+	<File name="client/log_flags.h" open="0" top="0" tabpos="19">
+		<Cursor position="1184" topLine="24" />
+	</File>
+	<File name="client/main.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1953" topLine="64" />
+	</File>
+	<File name="client/mr_tasktracker.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="43813" topLine="1123" />
+	</File>
+	<File name="client/mr_tasktracker.h" open="0" top="0" tabpos="2">
+		<Cursor position="7647" topLine="202" />
+	</File>
+	<File name="client/net_stats.cpp" open="0" top="0" tabpos="49">
+		<Cursor position="756" topLine="3" />
+	</File>
+	<File name="client/net_stats.h" open="0" top="0" tabpos="63">
+		<Cursor position="3068" topLine="85" />
+	</File>
+	<File name="client/pers_file_xfer.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="4412" topLine="145" />
+	</File>
+	<File name="client/pers_file_xfer.h" open="0" top="0" tabpos="8">
+		<Cursor position="4572" topLine="112" />
+	</File>
+	<File name="client/rr_sim.cpp" open="0" top="0" tabpos="33">
+		<Cursor position="8099" topLine="232" />
+	</File>
+	<File name="client/rrsim_test.cpp" open="0" top="0" tabpos="34">
+		<Cursor position="897" topLine="6" />
+	</File>
+	<File name="client/scheduler_op.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="32256" topLine="894" />
+	</File>
+	<File name="client/scheduler_op.h" open="0" top="0" tabpos="23">
+		<Cursor position="4322" topLine="102" />
+	</File>
+	<File name="client/sim.cpp" open="0" top="0" tabpos="38">
+		<Cursor position="7528" topLine="214" />
+	</File>
+	<File name="client/sim.h" open="0" top="0" tabpos="56">
+		<Cursor position="3858" topLine="137" />
+	</File>
+	<File name="client/sim_util.cpp" open="0" top="0" tabpos="44">
+		<Cursor position="2020" topLine="58" />
+	</File>
+	<File name="client/sysmon_win.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1789" topLine="49" />
+	</File>
+	<File name="client/time_stats.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8080" topLine="265" />
+	</File>
+	<File name="client/work_fetch.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="33500" topLine="984" />
+	</File>
+	<File name="client/work_fetch.h" open="0" top="0" tabpos="37">
+		<Cursor position="6802" topLine="215" />
+	</File>
+	<File name="clientgui/AsyncRPC.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="47938" topLine="1274" />
+	</File>
+	<File name="clientgui/SkinManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7709" topLine="223" />
+	</File>
+	<File name="clientgui/ViewTransfers.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="21200" topLine="706" />
+	</File>
+	<File name="clientscr/mac_saver_module.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="25567" topLine="794" />
+	</File>
+	<File name="coprocs/CUDA/include/nvapi.h" open="0" top="0" tabpos="20">
+		<Cursor position="10008" topLine="154" />
+	</File>
+	<File name="lib/app_ipc.cpp" open="0" top="0" tabpos="57">
+		<Cursor position="1936" topLine="63" />
+	</File>
+	<File name="lib/app_ipc.h" open="0" top="0" tabpos="55">
+		<Cursor position="5700" topLine="166" />
+	</File>
+	<File name="lib/cert_sig.cpp" open="0" top="0" tabpos="58">
+		<Cursor position="5635" topLine="178" />
+	</File>
+	<File name="lib/common_defs.h" open="0" top="0" tabpos="30">
+		<Cursor position="5500" topLine="134" />
+	</File>
+	<File name="lib/crypt.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="4839" topLine="191" />
+	</File>
+	<File name="lib/diagnostics.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="16384" topLine="594" />
+	</File>
+	<File name="lib/diagnostics.h" open="0" top="0" tabpos="0">
+		<Cursor position="2365" topLine="58" />
+	</File>
+	<File name="lib/diagnostics_win.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="45884" topLine="1240" />
+	</File>
+	<File name="lib/error_numbers.h" open="0" top="0" tabpos="21">
+		<Cursor position="1672" topLine="27" />
+	</File>
+	<File name="lib/filesys.cpp" open="0" top="0" tabpos="31">
+		<Cursor position="7158" topLine="281" />
+	</File>
+	<File name="lib/gui_rpc_client.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7257" topLine="255" />
+	</File>
+	<File name="lib/gui_rpc_client.h" open="0" top="0" tabpos="0">
+		<Cursor position="8296" topLine="344" />
+	</File>
+	<File name="lib/gui_rpc_client_ops.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="11748" topLine="362" />
+	</File>
+	<File name="lib/hostinfo.h" open="0" top="0" tabpos="0">
+		<Cursor position="508" topLine="11" />
+	</File>
+	<File name="lib/mac/QTaskMemory.c" open="0" top="0" tabpos="0">
+		<Cursor position="7667" topLine="168" />
+	</File>
+	<File name="lib/md5.c" open="0" top="0" tabpos="9">
+		<Cursor position="7657" topLine="272" />
+	</File>
+	<File name="lib/md5_file.cpp" open="0" top="0" tabpos="29">
+		<Cursor position="1157" topLine="18" />
+	</File>
+	<File name="lib/md5_file.h" open="0" top="0" tabpos="11">
+		<Cursor position="893" topLine="0" />
+	</File>
+	<File name="lib/miofile.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="3445" topLine="120" />
+	</File>
+	<File name="lib/miofile.h" open="0" top="0" tabpos="0">
+		<Cursor position="1476" topLine="32" />
+	</File>
+	<File name="lib/notice.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1121" topLine="24" />
+	</File>
+	<File name="lib/parse.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3037" topLine="96" />
+	</File>
+	<File name="lib/parse.h" open="0" top="0" tabpos="52">
+		<Cursor position="1427" topLine="26" />
+	</File>
+	<File name="lib/prefs.cpp" open="0" top="0" tabpos="62">
+		<Cursor position="6958" topLine="226" />
+	</File>
+	<File name="lib/prefs.h" open="0" top="0" tabpos="63">
+		<Cursor position="4673" topLine="161" />
+	</File>
+	<File name="lib/proc_control.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6031" topLine="162" />
+	</File>
+	<File name="lib/proc_control.h" open="0" top="0" tabpos="0">
+		<Cursor position="954" topLine="0" />
+	</File>
+	<File name="lib/str_util.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="19653" topLine="434" />
+	</File>
+	<File name="lib/susp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8400" topLine="292" />
+	</File>
+	<File name="lib/url.cpp" open="0" top="0" tabpos="43">
+		<Cursor position="6111" topLine="228" />
+	</File>
+	<File name="lib/util.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="9405" topLine="344" />
+	</File>
+	<File name="mac_installer/AddRemoveUser.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5303" topLine="143" />
+	</File>
+	<File name="tools/backend_lib.cpp" open="0" top="0" tabpos="28">
+		<Cursor position="7007" topLine="222" />
+	</File>
+	<File name="tools/backend_lib.h" open="0" top="0" tabpos="26">
+		<Cursor position="890" topLine="10" />
+	</File>
+	<File name="tools/process_result_template.cpp" open="0" top="0" tabpos="27">
+		<Cursor position="3016" topLine="95" />
+	</File>
+</CodeBlocks_layout_file>

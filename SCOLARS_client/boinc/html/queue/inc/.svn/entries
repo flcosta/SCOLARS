@@ -1,0 +1,52 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/html/queue/inc
+http://boinc.berkeley.edu/svn
+
+
+
+2007-11-16T16:49:19.390928Z
+14229
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+user.inc
+file
+
+
+
+
+2010-02-19T12:32:22.000000Z
+5f80aea5fb7edf96bb914290655530d8
+2007-11-16T16:49:19.390928Z
+14229
+davea
+
+queue.inc
+file
+
+
+
+
+2010-02-19T12:32:22.000000Z
+b8a79bb2517271deb155a7e9e3103467
+2007-11-16T16:49:19.390928Z
+14229
+davea
+

@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/13324/trunk/boinc/clientgui/res/templates/skins
+END
+btnHelp.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnHelp.png
+END
+copy_all_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/copy_all_button.png
+END
+btnCancelClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnCancelClick.png
+END
+gauge_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/gauge_bg.png
+END
+arwLeft.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/arwLeft.png
+END
+btnAdvancedView.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnAdvancedView.png
+END
+copy_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/copy_button.png
+END
+btnPreferences.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnPreferences.png
+END
+dlgBackground.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/dlgBackground.png
+END
+btnSaveClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnSaveClick.png
+END
+gauge_progress_indicator.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/gauge_progress_indicator.png
+END
+project_image.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/project_image.png
+END
+btnClose.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnClose.png
+END
+copy_all_clicked_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/copy_all_clicked_button.png
+END
+spacer.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/spacer.png
+END
+btnCloseClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnCloseClick.png
+END
+btnSynchronize.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/13324/trunk/boinc/clientgui/res/templates/skins/btnSynchronize.png
+END
+state_ind_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/state_ind_bg.png
+END
+proj_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/proj_bg.png
+END
+btnAddProject.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnAddProject.png
+END
+copy_clicked_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/copy_clicked_button.png
+END
+btnSynchronizeClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/13324/trunk/boinc/clientgui/res/templates/skins/btnSynchronizeClick.png
+END
+default_stat_icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/default_stat_icon.png
+END
+arwRight.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/arwRight.png
+END
+btnChange.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11304/trunk/boinc/clientgui/res/templates/skins/btnChange.png
+END
+btnAddProjectClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnAddProjectClick.png
+END
+arwRightClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/arwRightClick.png
+END
+btnChangeClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11304/trunk/boinc/clientgui/res/templates/skins/btnChangeClick.png
+END
+btnClearClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnClearClick.png
+END
+btnHelpClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnHelpClick.png
+END
+btnSave.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnSave.png
+END
+wu_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/wu_bg.png
+END
+btnResume.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnResume.png
+END
+btnMessagesRed.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnMessagesRed.png
+END
+simplegui_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11269/trunk/boinc/clientgui/res/templates/skins/simplegui_bg.png
+END
+tabArea_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/tabArea_bg.png
+END
+arwLeftClick.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/arwLeftClick.png
+END
+btnMessages.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnMessages.png
+END
+btnPause.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnPause.png
+END
+boinc_black_background.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/boinc_black_background.png
+END
+conn_ind.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/conn_ind.png
+END
+ico_workWU.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/ico_workWU.png
+END
+btnCancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11996/trunk/boinc/clientgui/res/templates/skins/btnCancel.png
+END
+btnClear.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/btnClear.png
+END
+error_image.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11259/trunk/boinc/clientgui/res/templates/skins/error_image.png
+END

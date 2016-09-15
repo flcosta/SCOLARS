@@ -1,0 +1,2741 @@
+17-Jun-2010 17:36:33 [---] Starting BOINC client version 6.11.1 for i686-pc-linux-gnu
+17-Jun-2010 17:36:33 [---] This a development version of BOINC and may not function properly
+17-Jun-2010 17:36:33 [---] log flags: file_xfer, sched_ops, task
+17-Jun-2010 17:36:33 [---] Libraries: libcurl/7.18.0 OpenSSL/0.9.8g zlib/1.2.3.3 libidn/1.1
+17-Jun-2010 17:36:33 [---] Data directory: /home/flcosta/dei/doutoramento/boinc_mapreduce/boinc_svn/boinc/packages/generic/sea/BOINC/client_testing
+17-Jun-2010 17:36:33 [---] Processor: 2 GenuineIntel Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]
+17-Jun-2010 17:36:33 [---] Processor: 4.00 MB cache
+17-Jun-2010 17:36:33 [---] Processor features: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm
+17-Jun-2010 17:36:33 [---] OS: Linux: 2.6.24-28-generic
+17-Jun-2010 17:36:33 [---] Memory: 1.98 GB physical, 3.73 GB virtual
+17-Jun-2010 17:36:33 [---] Disk: 16.51 GB total, 2.46 GB free
+17-Jun-2010 17:36:33 [---] Local time is UTC -5 hours
+17-Jun-2010 17:36:33 [---] No usable GPUs found
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:36:33 [http://debian.localdomain/test/] URL http://debian.localdomain/test/; Computer ID not assigned yet; resource share 100
+17-Jun-2010 17:36:33 [---] No general preferences found - using BOINC defaults
+17-Jun-2010 17:36:33 [---] Preferences:
+17-Jun-2010 17:36:33 [---]    max memory usage when active: 1013.38MB
+17-Jun-2010 17:36:33 [---]    max memory usage when idle: 1824.08MB
+17-Jun-2010 17:36:33 [---]    max disk usage: 2.36GB
+17-Jun-2010 17:36:33 [---]    don't use GPU while active
+17-Jun-2010 17:36:33 [---]    (to change, visit the web site of an attached project,
+17-Jun-2010 17:36:33 [---]    or click on Preferences)
+17-Jun-2010 17:36:33 [---] Not using a proxy
+Initialization completed
+17-Jun-2010 17:36:33 [---] Running CPU benchmarks
+17-Jun-2010 17:36:33 [---] Suspending computation - running CPU benchmarks
+17-Jun-2010 17:36:33 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:36:33 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:34 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:34 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:35 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:35 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:36 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:37 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:38 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:39 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:40 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:41 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:42 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:43 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:44 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:45 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:46 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:47 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:48 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:49 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:50 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:51 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:52 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:53 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:54 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:55 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:56 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:57 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:58 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:59 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:36:33 [---] Running CPU benchmarks
+17-Jun-2010 17:36:33 [---] Running CPU benchmarks
+17-Jun-2010 17:37:00 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:01 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:02 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:03 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:04 [---] Benchmark results:
+17-Jun-2010 17:37:04 [---]    Number of CPUs: 2
+17-Jun-2010 17:37:04 [---]    2095 floating point MIPS (Whetstone) per CPU
+17-Jun-2010 17:37:04 [---]    4705 integer MIPS (Dhrystone) per CPU
+17-Jun-2010 17:37:04 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+17-Jun-2010 17:37:05 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:06 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:07 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+17-Jun-2010 17:37:10 [http://debian.localdomain/test/] Master file download succeeded
+17-Jun-2010 17:37:10 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:10 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:12 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:14 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:37:15 [http://debian.localdomain/test/] Sending scheduler request: Project initialization.
+17-Jun-2010 17:37:15 [http://debian.localdomain/test/] Requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:37:15 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:15 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:16 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:17 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:17 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+17-Jun-2010 17:37:20 [test] Scheduler request completed: got 1 new tasks
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:37:20 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:20 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:21 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:21 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:22 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:23 [test] Started download of mapred_map_3-min_6.09_i686-pc-linux-gnu
+17-Jun-2010 17:37:23 [test] Started download of in1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:23 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:23 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:25 [test] Finished download of mapred_map_3-min_6.09_i686-pc-linux-gnu
+17-Jun-2010 17:37:25 [test] Finished download of in1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:25 [test] Starting mapred_map_3-min_wu_1_0
+17-Jun-2010 17:37:25 [test] Starting task mapred_map_3-min_wu_1_0 using mapred_map_3-min version 609
+17-Jun-2010 17:37:25 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:26 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:28 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:29 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:37:30 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:37:30 [test] Requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:37:30 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:30 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:32 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:33 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:34 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <map_output/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+17-Jun-2010 17:37:35 [test] Scheduler request completed: got 5 new tasks
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:37:35 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:35 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:36 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:36 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:37 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:38 [test] Started download of in2
+17-Jun-2010 17:37:38 [test] Started download of in3
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:38 [test] Starting mapred_map_3-min_wu_1_1
+17-Jun-2010 17:37:38 [test] Starting task mapred_map_3-min_wu_1_1 using mapred_map_3-min version 609
+17-Jun-2010 17:37:38 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:39 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:40 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:41 [test] Finished download of in2
+17-Jun-2010 17:37:41 [test] Finished download of in3
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:41 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:41 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:42 [test] Computation for task mapred_map_3-min_wu_1_0 finished
+17-Jun-2010 17:37:42 [test] Starting mapred_map_3-min_wu_3_1
+17-Jun-2010 17:37:42 [test] Starting task mapred_map_3-min_wu_3_1 using mapred_map_3-min version 609
+17-Jun-2010 17:37:42 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_1_0_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_1_0_0
+[MR_Tasktracker] First file added to upload list. Calling mr_start_listening()
+MR_Tasktracker - Parent here. Child up and running.
+[MR_Tasktracker] Parent called fork, created child process with pid 2626
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:43 [---] Entered write_state_file_if_needed()
+[MR_Tasktracker] Child process running now, called by parent process. 
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+MR_FILE_SERVER::mr_start_listening
+MR_FILE_SERVER::mr_start_listening() - Server's info
+ IPv6:: :: | port: 8000
+[BOINC-MR DEBUG] mr_tasktracker start_listening() | server: waiting for connections...
+Inside MR_FILE_SERVER::accept_connections, entering while loop
+Inside MR_FILE_SERVER::accept_connections, entered while loop; just before calling accept(). mr_is_listening=1
+17-Jun-2010 17:37:43 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:44 [test] Started upload of mapred_map_3-min_wu_1_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:44 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:44 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 1.004008 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:37:45 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:37:45 [test] Requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:37:45 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:45 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:46 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:47 [test] Finished upload of mapred_map_3-min_wu_1_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 2.028096 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:47 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 4.027994 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:49 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 5.051991 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+17-Jun-2010 17:37:51 [test] Scheduler request completed: got 0 new tasks
+17-Jun-2010 17:37:51 [test] Message from server: (Project has no jobs available)
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:37:51 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:51 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 7.051991 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 8.055991 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 9.055992 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:54 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:55 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 10.055996 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:56 [test] Computation for task mapred_map_3-min_wu_1_1 finished
+17-Jun-2010 17:37:56 [test] Starting mapred_map_3-min_wu_3_0
+17-Jun-2010 17:37:56 [test] Starting task mapred_map_3-min_wu_3_0 using mapred_map_3-min version 609
+17-Jun-2010 17:37:56 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:56 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 10.055996 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_1_1_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_1_1_0
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:57 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:57 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:37:58 [test] Started upload of mapred_map_3-min_wu_1_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 11.067985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:58 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:37:58 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 12.067991 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 1.000006 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:37:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 13.083986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 2.016001 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:00 [---] Entered write_state_file_if_needed()
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:38:01 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:38:01 [test] Reporting 1 completed tasks, requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:38:01 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:01 [test] Finished upload of mapred_map_3-min_wu_1_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 14.084095 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 3.016110 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:01 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 15.084755 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 4.016770 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:02 [test] Computation for task mapred_map_3-min_wu_3_1 finished
+17-Jun-2010 17:38:02 [test] Starting mapred_map_3-min_wu_2_1
+17-Jun-2010 17:38:02 [test] Starting task mapred_map_3-min_wu_2_1 using mapred_map_3-min version 609
+17-Jun-2010 17:38:02 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 16.091994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 5.024009 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_3_1_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_3_1_0
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:03 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:03 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:04 [test] Started upload of mapred_map_3-min_wu_3_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 17.112038 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 6.044053 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:04 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:04 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:05 [test] Finished upload of mapred_map_3-min_wu_3_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 18.112067 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 7.044082 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 1.000029 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:05 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 19.131990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 8.064005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 2.019952 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+17-Jun-2010 17:38:06 [test] Scheduler request completed: got 0 new tasks
+17-Jun-2010 17:38:06 [test] Message from server: (Project has no jobs available)
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:38:06 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:06 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 20.147982 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 9.079997 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 3.035944 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:07 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 21.167982 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 10.099997 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 4.055944 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:09 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:10 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 21.167982 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 10.099997 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 4.055944 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:11 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:12 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 23.167964 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 12.099979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 6.055926 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:13 [test] Computation for task mapred_map_3-min_wu_3_0 finished
+17-Jun-2010 17:38:13 [test] Starting mapred_map_3-min_wu_2_0
+17-Jun-2010 17:38:13 [test] Starting task mapred_map_3-min_wu_2_0 using mapred_map_3-min version 609
+17-Jun-2010 17:38:13 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 25.167959 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 14.099974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_3_0_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_3_0_0
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 8.055921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:14 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:14 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:15 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:16 [test] Started upload of mapred_map_3-min_wu_3_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 26.191981 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 15.123996 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 9.079943 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:38:16 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:38:16 [test] Reporting 2 completed tasks, requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:38:16 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:16 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 28.191955 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 17.123970 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 1.999974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 11.079917 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:17 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:18 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:19 [test] Finished upload of mapred_map_3-min_wu_3_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 29.219966 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 18.151981 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 3.027985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 12.107928 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:19 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 29.219966 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 18.151981 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 3.027985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 12.107928 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:20 [test] Computation for task mapred_map_3-min_wu_2_1 finished
+17-Jun-2010 17:38:20 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 30.234972 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 19.166987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_2_1_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_2_1_0
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 4.042991 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 13.122934 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+17-Jun-2010 17:38:21 [test] Scheduler request completed: got 0 new tasks
+17-Jun-2010 17:38:21 [test] Message from server: (Project has no jobs available)
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:38:21 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:21 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:22 [test] Started upload of mapred_map_3-min_wu_2_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 31.246969 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 20.178984 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 5.054988 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 14.134931 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:22 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 32.258971 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 21.190986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 1.012002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 6.066990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 15.146933 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:23 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:25 [test] Finished upload of mapred_map_3-min_wu_2_1_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 33.263085 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 22.195100 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 2.016116 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 7.071104 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 16.151047 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:25 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 35.262965 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 24.194980 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 4.015996 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 9.070984 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 18.150927 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:26 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 36.278966 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 25.210981 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 5.031997 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 10.086985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 19.166928 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 37.282968 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 26.214983 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 6.035999 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 11.090987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 20.170930 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:28 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 38.282973 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 27.214988 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 7.036004 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 12.090992 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 21.170935 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:29 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:30 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 39.283630 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 28.215645 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 8.036661 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 13.091649 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 22.171592 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:31 [test] Computation for task mapred_map_3-min_wu_2_0 finished
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:38:31 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:38:31 [test] Reporting 2 completed tasks, requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:38:31 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 41.282995 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 30.215010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Adding file: mapred_map_3-min_wu_2_0_0 to upload list, since its status is not uploading or done
+[MR_FILE_SERVER::mr_add_file()] Added file mapred_map_3-min_wu_2_0_0
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 10.036026 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 15.091014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 24.170957 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:32 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:32 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:33 [test] Started upload of mapred_map_3-min_wu_2_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 42.299145 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 31.231160 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 0.000000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 11.052176 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 16.107164 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 25.187107 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:33 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:33 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 43.300002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 32.232017 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 1.000857 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 12.053033 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 17.108021 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 26.187964 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:34 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:35 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:36 [test] Finished upload of mapred_map_3-min_wu_2_0_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 44.324163 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 33.256178 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 2.025018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 13.077194 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 18.132182 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 27.212125 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+17-Jun-2010 17:38:36 [test] Scheduler request completed: got 0 new tasks
+17-Jun-2010 17:38:36 [test] Message from server: (Project has no jobs available)
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:38:36 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:38:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 46.322983 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 35.254998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 4.023838 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 15.076014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 20.131002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 29.210945 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:37 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 47.343629 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 36.275644 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 5.044484 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 16.096660 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 21.151648 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 30.231591 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:39 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:40 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 49.342995 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 38.275010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 7.043850 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 18.096026 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 23.151014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 32.230957 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:41 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 49.342995 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 38.275010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 7.043850 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 18.096026 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 23.151014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 32.230957 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 51.342987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 40.275002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 9.043842 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 20.096018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 25.151006 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 34.230949 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:44 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 52.342988 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 41.275003 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 10.043843 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 21.096019 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 26.151007 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 35.230950 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 53.342990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 42.275005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 11.043845 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 22.096021 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 27.151009 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 36.230952 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:46 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 54.346985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 43.279000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 12.047840 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 23.100016 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 28.155004 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 37.234947 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:47 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 55.353464 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 44.285479 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 13.054319 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 24.106495 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 29.161483 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 38.241426 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 56.354986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 45.287001 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 14.055841 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 25.108017 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 30.163005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 39.242948 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:49 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 57.358986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 46.291001 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 15.059841 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 26.112017 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 31.167005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 40.246948 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:51 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 59.354986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 48.287001 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 17.055841 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 28.108017 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 33.163005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 42.242948 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:52 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 60.354987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 49.287002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 18.055842 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 29.108018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 34.163006 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 43.242949 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:54 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 62.354984 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 51.286999 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 20.055839 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 31.108015 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 36.163003 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 45.242946 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:55 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:38:56 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 63.358984 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 52.290999 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 21.059839 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 32.112015 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 37.167003 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 46.246946 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 65.354990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 54.287005 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 23.055845 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 34.108021 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 39.163009 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 48.242952 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:58 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 66.362979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 55.294994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 24.063834 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 35.116010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 40.170998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 49.250941 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:38:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 67.362982 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 56.294997 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 25.063837 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 36.116013 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 41.171001 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 50.250944 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:00 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 68.366989 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 57.299004 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 26.067844 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 37.120020 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 42.175008 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 51.254951 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 70.362987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 59.295002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 28.063842 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 39.116018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 44.171006 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 53.250949 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 71.365361 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 60.297376 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 29.066216 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 40.118392 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 45.173380 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 54.253323 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:04 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 72.367010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 61.299025 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 30.067865 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 41.120041 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 46.175029 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 55.254972 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:06 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 74.362985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 63.295000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 32.063840 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 43.116016 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 48.171004 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 57.250947 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:07 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 75.366993 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 64.299008 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 33.067848 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 44.120024 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 49.175012 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 58.254955 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:08 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 76.370987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 65.303002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 34.071842 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 45.124018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 50.179006 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 59.258949 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:10 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 76.370987 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 65.303002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 34.071842 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 45.124018 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 50.179006 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 59.258949 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:12 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 78.369197 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 67.301212 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 36.070052 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 47.122228 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 52.177216 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 61.257159 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:14 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 80.368035 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 69.300050 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 38.068890 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 49.121066 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 54.176054 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 63.255997 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:16 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 82.367992 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 71.300007 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 40.068847 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 51.121023 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 56.176011 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 65.255954 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 83.367993 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 72.300008 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 41.068848 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 52.121024 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 57.176012 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 66.255955 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 84.371430 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 73.303445 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 42.072285 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 53.124461 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 58.179449 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 67.259392 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:19 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 85.371995 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 74.304010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 43.072850 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 54.125026 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 59.180014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 68.259957 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:21 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 87.370994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 76.303009 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 45.071849 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 56.124025 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 61.179013 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 70.258956 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 88.371983 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 77.303998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 46.072838 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 57.125014 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 62.180002 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 71.259945 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:23 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 89.371985 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 78.304000 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 47.072840 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 58.125016 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 63.180004 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 72.259947 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:24 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 90.371998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 79.304013 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 48.072853 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 59.125029 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 64.180017 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 73.259960 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:26 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 92.371988 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 81.304003 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 50.072843 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 61.125019 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 66.180007 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 75.259950 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:28 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 92.371988 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 81.304003 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 50.072843 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 61.125019 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 66.180007 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 75.259950 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:29 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:30 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 93.375992 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 82.308007 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 51.076847 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 62.129023 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 67.184011 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 76.263954 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:31 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:32 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 95.375960 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 84.307975 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 53.076815 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 64.128991 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 69.183979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 78.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:33 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 95.375960 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 84.307975 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 53.076815 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 64.128991 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 69.183979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 78.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:34 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:35 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 96.375960 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 85.307975 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 54.076815 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 65.128991 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 70.183979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 79.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 98.375959 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 87.307974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 56.076814 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 67.128990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 72.183978 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 81.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:37 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 99.375959 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 88.307974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 57.076814 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 68.128990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 73.183978 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 82.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 100.375959 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 89.307974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 58.076814 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 69.128990 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 74.183978 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 83.263921 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:39 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:40 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 101.379662 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 90.311677 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 59.080517 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 70.132693 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 75.187680 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 84.267623 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:41 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 103.378963 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 92.310977 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 61.079818 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 72.131994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 77.186981 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 86.266924 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:42 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 104.379955 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 93.311970 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 62.080810 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 73.132986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 78.187973 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 87.267916 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:44 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 104.379955 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 93.311970 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 62.080810 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 73.132986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 78.187973 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 87.267916 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:46 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:47 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 106.379951 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 95.311966 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 64.080806 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 75.132982 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 80.187970 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 89.267913 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 108.379925 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 97.311940 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 66.080780 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 77.132956 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 82.187944 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 91.267887 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Inside CLIENT_STATE::mr_get_output_port
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+Entered SCHEDULER_OP::start_rpc
+17-Jun-2010 17:39:49 [test] Sending scheduler request: To fetch work.
+17-Jun-2010 17:39:49 [test] Reporting 1 completed tasks, requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+17-Jun-2010 17:39:49 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:49 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 109.383955 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 98.315970 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 67.084810 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 78.136986 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 83.191974 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 92.271917 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 110.384299 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 99.316314 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 68.085154 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 79.137330 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 84.192318 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 93.272261 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:51 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 111.386979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 100.318994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 69.087834 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 80.140010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 85.194998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 94.274940 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 111.386979 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 100.318994 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 69.087834 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 80.140010 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 85.194998 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 94.274940 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+17-Jun-2010 17:39:54 [test] Scheduler request completed: got 0 new tasks
+17-Jun-2010 17:39:54 [test] Message from server: (Project has no jobs available)
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+17-Jun-2010 17:39:54 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+17-Jun-2010 17:39:54 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 112.387303 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 101.319318 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 70.088158 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 81.140334 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 86.195322 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 95.275265 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:55 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 113.403298 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 102.335313 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 71.104153 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 82.156329 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 87.211317 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 96.291260 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:56 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:39:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 114.403342 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 103.335357 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 72.104197 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 83.156373 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 88.211361 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 97.291304 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:58 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 116.402295 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 105.334310 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 74.103150 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 85.155326 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 90.210314 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 99.290257 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:39:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 117.406296 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 106.338311 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 75.107151 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 86.159327 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 91.214315 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 100.294258 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:00 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 118.410295 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 107.342310 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 76.111150 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 87.163326 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 92.218314 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 101.298257 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:02 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 120.406298 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 109.338313 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 78.107153 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 89.159329 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 94.214317 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 103.294260 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:04 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 120.406298 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 109.338313 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 78.107153 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 89.159329 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 94.214317 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 103.294260 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:06 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 122.406285 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 111.338300 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 80.107140 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 91.159316 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 96.214304 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 105.294247 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:07 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 123.407300 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 112.339315 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 81.108155 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 92.160331 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 97.215319 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 106.295262 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 123.407300 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 112.339315 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 81.108155 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 92.160331 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 97.215319 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 106.295262 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:10 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 124.411293 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 113.343308 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 82.112148 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 93.164324 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 98.219312 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 107.299255 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:12 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_0_0
+U/L time so far: 126.411275 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_1_1_0
+U/L time so far: 115.343290 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_0_0
+U/L time so far: 84.112130 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_2_1_0
+U/L time so far: 95.164306 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_0_0
+U/L time so far: 100.219294 | Max: 86400
+[MR_FILE_SERVER::mr_handle_file_uploads] Updating upload times. File: mapred_map_3-min_wu_3_1_0
+U/L time so far: 109.299237 | Max: 86400
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+17-Jun-2010 17:40:14 [---] Entered write_state_file_if_needed()
+17-Jun-2010 17:40:15 [---] Entered write_state_file_if_needed()
+main.cpp - Inside signal_handler.
+main.cpp - Inside signal_handler. Signal: 2
+Called MR_FILE_SERVER::mr_suspend() - stop listening to connections.
+main.cpp - Inside signal_handler.
+main.cpp - Inside signal_handler. Signal: 2
+Called MR_FILE_SERVER::mr_suspend() - stop listening to connections.
+17-Jun-2010 17:40:16 [---] Received signal 2
+Inside MR_FILE_SERVER::accept_connections. Just accepted incoming connection!!!
+17-Jun-2010 17:40:16 [---] Received signal 2
+17-Jun-2010 17:40:16 [---] Exit requested by user
+Inside CLIENT_STATE::quit_activities. Going to call mr_suspend.
+[MR_TASKTRACKER] - Entered MR_CLIENT_CONNECTION_SET::request_connections_exit()
+[MR_TASKTRACKER] - Inside MR_CLIENT_CONNECTION_SET::mr_terminate_connections(). Connections exited.
+Called MR_FILE_SERVER::mr_suspend() - stop listening to connections.
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Inside APP::write - mapreduce==true | Writing MR info
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()

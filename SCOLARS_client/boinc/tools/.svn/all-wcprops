@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/20737/trunk/boinc/tools
+END
+create_work_example
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10129/trunk/boinc/tools/create_work_example
+END
+dbcheck_files_exist
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2375/trunk/boinc/tools/dbcheck_files_exist
+END
+sign_executable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/16069/trunk/boinc/tools/sign_executable.cpp
+END
+appmgr
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/18938/trunk/boinc/tools/appmgr
+END
+dir_hier_move.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/17388/trunk/boinc/tools/dir_hier_move.cpp
+END
+backend_lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/20074/trunk/boinc/tools/backend_lib.cpp
+END
+parse_config
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/18376/trunk/boinc/tools/parse_config
+END
+hr_db_convert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/16069/trunk/boinc/tools/hr_db_convert.cpp
+END
+uc_result
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12450/trunk/boinc/tools/uc_result
+END
+db_query
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3708/trunk/boinc/tools/db_query
+END
+cleanlogs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9082/trunk/boinc/tools/cleanlogs.sh
+END
+xadd
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/18374/trunk/boinc/tools/xadd
+END
+grep_logs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4120/trunk/boinc/tools/grep_logs
+END
+uc_wu
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12450/trunk/boinc/tools/uc_wu
+END
+dir_hier_path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/18042/trunk/boinc/tools/dir_hier_path.cpp
+END
+vote_monitor
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/13949/trunk/boinc/tools/vote_monitor
+END
+updater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17388/trunk/boinc/tools/updater.cpp
+END
+update_versions_v6
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/13653/trunk/boinc/tools/update_versions_v6
+END
+create_work.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/19054/trunk/boinc/tools/create_work.cpp
+END
+upgrade
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/20052/trunk/boinc/tools/upgrade
+END
+kill_wu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18042/trunk/boinc/tools/kill_wu.cpp
+END
+process_result_template.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/16069/trunk/boinc/tools/process_result_template.cpp
+END
+makelog.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/15751/trunk/boinc/tools/makelog.sh
+END
+calculate_credit_multiplier
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/15947/trunk/boinc/tools/calculate_credit_multiplier
+END
+poll_wu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18042/trunk/boinc/tools/poll_wu.cpp
+END
+make_project
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/20737/trunk/boinc/tools/make_project
+END
+backend_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15762/trunk/boinc/tools/backend_lib.h
+END
+project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/15906/trunk/boinc/tools/project.xml
+END
+build_po.pl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/15746/trunk/boinc/tools/build_po.pl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18378/trunk/boinc/tools/Makefile.am
+END
+update_versions
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18903/trunk/boinc/tools/update_versions
+END
+run_in_ops
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12488/trunk/boinc/tools/run_in_ops
+END
+watch_tcp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/13819/trunk/boinc/tools/watch_tcp
+END
+boinc_submit
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/17703/trunk/boinc/tools/boinc_submit
+END

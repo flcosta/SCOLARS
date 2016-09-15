@@ -1,0 +1,1747 @@
+
+David  3 Jan 2010
+    - client: ATI available RAM wasn't being detected correctly
+
+    client/
+        coproc_detect.cpp
+
+David  4 Jan 2010
+    - web: don't show news items if they're hidden
+
+    html/inc/
+        news.inc
+
+David  4 Jan 2010
+    - client: RSS feed stuff
+
+    client/
+        cs_notice.cpp,h
+    lib/
+        notice.cpp
+
+Rom    4 Jan 2010
+    - lib: fixup notice RPCs to make them manager compatible.
+    - lib: remove memset from notice constructor, bad things can happen
+        when you null out a std::string structure.
+        
+    lib/
+        gui_rpc_client.h
+        gui_rpc_client_ops.cpp
+        notice.cpp, .h
+
+Rom    4 Jan 2010
+    - MGR: Implement Notice RPC infrastructure.
+    
+    clientgui/
+        AsyncRPC.cpp, .h
+        MainDocument.cpp, .h
+
+Rom    4 Jan 2010
+    - MGR: Implement UI plumbing for notices
+
+    clientgui/
+        ViewNotifications.cpp, .h
+
+Rom    4 Jan 2010
+    - MGR: Display each notice in the notices tab.
+
+    clientgui/
+        MainDocument.cpp
+        ViewNotifications.cpp, .h
+
+David  4 Jan 2010
+    - GUI RPC: return notices in order of increasing seqno, not decreasing
+    client/
+        cs_notice.cpp
+
+Rom    4 Jan 2010
+    - MGR: Present the newest notices first.
+
+    clientgui/
+        MainDocument.cpp
+    lib/
+        gui_rpc_client_ops.cpp
+
+Bernd  5 Jan 2010
+    a couple of locality scheduling fixes:
+    - remove obsolete and buggy code from transitioner (create_result() in backend_lib)
+    - account for 'mixed' scheduling in explain_to_user() in sched_send.cpp
+    - finish transition to configurable patterns for distinguishing files reported by the client
+      in the Einstein@home-specific part of send_work_locality in sched_locality
+      (removed previous hardcoded strcmps)
+
+    tools/
+        backend_lib.cpp
+    sched/
+        sched_send.cpp
+        sched_locality.cpp
+
+David  4 Jan 2010
+    - code shuffle
+
+    client/
+        work_fetch.cpp
+
+David  4 Jan 2010
+    - client: fix format strings for ninstances (can be fraction now)
+
+    client/
+        scheduler_op.cpp
+        work_fetch.cpp
+
+David  5 Jan 2010
+    - client: scheduling problem:
+        - a project overestimates job FLOP counts
+        - the client starts jobs in EDF mode
+        - as job progresses and fraction done increases,
+            its completion time estimate decreases until
+            it's no longer a deadline miss.
+        - job gets preempted by other job from that project;
+            you end up with lots of partly completed jobs.
+        Solution (I hope): if an app version has running jobs,
+            compute a "temp DCF" for the app version,
+            which is the min of dynamic/static estimates for its jobs.
+            Apply this scaling factor to completion time estimates
+            for unstarted jobs in RR simulation
+    - client: the estimation of remaining time of running jobs was wrong
+        (how did this bug survive so long?)
+
+    client/
+        app.h
+        client_types.h
+        rr_sim.cpp
+        work_fetch.cpp
+
+Charlie  6 Jan 2010
+    - client: Eliminate x86_64 Mac client; i386 client determines if 
+        system supports x86_64 applications and sets HOSTTYPE and 
+        platform accordingly.  This allows us to link with the 32-bit 
+        CUDA libraries.  The one other effect is that the benchmarks 
+        are run in 32-bit mode even on a 64-bit capable Mac.
+    - client: Async get_state RPC was not updating state.have_ati field.
+    - MGR: Rebuild Advanced Menu and Taskbar Menu after connecting to 
+        client, so GPU Activity and Snooze GPU items are displayed if 
+        needed.
+        
+    client/
+        cs_cmdline.cpp
+        cs_platforms.cpp
+    clientgui/
+        AdvancedFrame.cpp
+        AsyncRPC.cpp
+        sg_BoincSimpleGUI.cpp
+        mac/
+            config.h
+     mac_build/
+        boinc.xcodeproj/
+            project.pbxproj
+
+David  6 Jan 2010
+    - client: bug in ACTIVE_TASK::est_dur()
+
+    client/
+        work_fetch.cpp
+
+David  6 Jan 2010
+    - client: notice fixes
+
+    client/
+        client_state.cpp
+        cs_notice.cpp,h
+
+David  6 Jan 2010
+    - admin web: allow setting per-app HR class
+
+    html/ops/
+        manage_apps.php
+
+Charlie  6 Jan 2010
+    - client: Fix compiler warning.
+    - client: Fix crash bug.
+        NOTE: do not call memset(this, 0, sizeof(*this)) when the data 
+        contains a std::string.
+
+    client/
+        cs_notice.cpp
+
+David  6 Jan 2010
+    - boinccmd: add --get_notices option
+
+    client/
+        boinc_cmd.cpp
+
+Charlie  7 Jan 2010
+    - Mac: Fix bug in backtrace code which showed up only under OS 10.6.
+
+    lib/
+        mac/
+            mac_backtrace.C
+
+Charlie  7 Jan 2010
+    - Mac: Fix bug in backtrace code which showed up only under OS 10.6.
+    - Mac installer: Add CUDA information to Mac ReadMe files.
+
+    lib/
+        mac/
+            mac_backtrace.C
+    mac_installer/
+        GR-ReadMe.rtf
+        PTP-ReadMe.rtf
+        ReadMe.rtf
+
+David  7 Jan 2010
+    - manager: tweak notice appearance
+
+    client/
+        cs_notice.cpp
+    clientgui/
+        ViewNotifications.cpp
+
+David  7 Jan 2010
+    - client: work fetch fix: avoid sending null request in certain cases.
+    - client: fix crash in notices code
+    client/
+        cs_notice.cpp
+        work_fetch.cpp
+
+Rom    7 Jan 2010
+    - MGR: Prevent timer events from causing recursive ui issues.
+    
+    clientgui/
+        ViewNotifications.cpp
+
+Charlie  8 Jan 2010
+    - client: Fix another crash bug due to calling memset(this, 0, sizeof(*this))
+        when the data contains a std::string.
+
+    client/
+        cs_notice.cpp
+
+Charlie  8 Jan 2010
+    - MGR: Separate refresh of Event Log from refresh of tabs.
+    - MGR: Update Notices tab only when data has changed.
+    - MGR: Clean up some async RPC logic.
+    
+    clientgui/
+        AdvancedFrame.cpp
+        AsyncRPC.cpp, .h
+        DlgEventLog.cpp, .h
+        MainDocument.cpp, .h
+        sg_BoincSimpleGUI.cpp
+        ViewNotifications.cpp, .h
+
+Charlie  8 Jan 2010
+    - MGR: When Event Log is open, do get_messages RPC once per second but 
+        do view-specific periodic RPCs at their normal View refresh rate.
+
+    clientgui/
+        AdvancedFrame.cpp
+        BOINCBaseFrame.cpp, .h
+        MainDocument.cpp, .h
+
+David  9 Jan 2010
+    - client (Mac): append /usr/local/cuda/lib to LD_LIBRARY_PATH
+        and DYLD_LIBRARY_PATH
+    - client simulator: compile fixes
+
+    client/
+        app.cpp
+        app_start.cpp
+        client_state.h
+        cs_apps.cpp
+        rr_sim.cpp
+        sim.cpp,h
+        time_stats.cpp
+        work_fetch.cpp
+
+David  9 Jan 2010
+    - user web: make user search translatable
+    html/user/
+        donations.php
+        user_search.php
+
+David  10 Jan 2010
+    - client: fix notification display logic
+
+    clientgui/
+        ViewNotifications.cpp
+
+David  10 Jan 2010
+    - fix python deprecation warning (from Jeremy Cowles)
+
+    py/Boinc/
+        tools.py
+
+David  11 Jan 2010
+    - API: if app can't acquire lock file, tell the client not
+        to restart app for 10 minutes.
+        Hopefully what will happen is:
+        - another instance of app is running in slot dir
+            (shouldn't happen, but sometimes does)
+        - that app will eventually finish, and will write
+            a checkpoint file saying so.
+            It will call boinc_finish(0), but the client won't notice
+            that it has exited.
+        - the next time the client starts the app,
+            it will acquire lock, see that it's done,
+            and call boinc_finish(0).
+            This time the client will notice,
+            and the job will be reported as correct.
+        The downside to all this is that the client won't know
+        that the CPU is in use, and will schedule NCPUS jobs.
+
+    api/
+        boinc_api.cpp
+
+Charlie  12 Jan 2010
+    - client sandbox: set LD_LIBRARY_PATH and DYLD_LIBRARY_PATH in switcher.
+        For unknown reasons, the these 2 environment variables are not 
+        passed in to switcher, though all other environment variables do get 
+        propagated.  
+
+    client/
+        switcher.cpp
+     mac_build/
+        boinc.xcodeproj/
+            project.pbxproj
+
+Bernd  12 Jan 2010
+    - file_deleter:
+      - Limit the number of files to be deleted in one 'antique
+        deletion' pass to 50000 (can be changed with -delete_antiques_limit).
+    Previously large number of antiques led to not deleting any at all.
+      - Allow to change the interval between passes with -delete_antiques_interval.
+      - Allow to specify the name of an application instead of the appid.
+
+    sched/
+        file_deleter.cpp
+
+David  12 Jan 2010
+    - client: add <stderr_head> config option;
+        sends the first rather than last 64KB of stderr to server.
+        This doesn't belong here; this choice should come from the server.
+        I may take this out later.
+    - user web: when add a private message, always add a notification
+
+    client/
+        app_control.cpp
+        log_flags.cpp,h
+    html/
+        inc/
+            news.inc
+            pm.inc
+        project.sample/
+            project.inc
+        user/
+            edit_form_preferences_form.php
+            rss_main.php
+    lib/
+        util.cpp
+
+David  12 Jan 2010
+    - manager: "Notifications" => "Notices".  Consistent terminology.
+
+    clientgui/
+        Events.h
+        AdvancedFrame.cpp
+        Makefile.am
+        ViewNotifications* -> ViewNotices*
+
+David  12 Jan 2010
+    - client: small tweak to work fetch:
+        if project has crazy DCF, don't automatically request 1 sec;
+        only request work if there's a shortfall.
+    - intermediate checkin for notices stuff
+
+    client/
+        Makefile.am
+        work_fetch.cpp
+    html/
+        inc/
+            forum_rss.inc
+            notify.inc
+            pm.inc
+        user/
+            notices.php (new)
+    sched
+        handle_request.cpp
+        sched_types.cpp,h
+
+David  12 Jan 2010
+    - Notices: put message bodies inside CDATA
+    - XML_PARSER: handle CDATA
+
+    client/
+        cs_notice.cpp,h
+    lib/
+        notice.cpp
+        parse.cpp,h
+
+Charlie  13 Jan 2010
+    - MGR: The fix of 14 Oct 2009 for "initial first connection problem on 
+        startup" caused the Tools menu to be incorrect when switching from 
+        Simple to Advanced View if using an account manager: solve this by 
+        calling pDoc->IsConnected() in CAdvancedFrame::CreateMenu() instead 
+        of using bool argument bRPCsSafe.  Remove unused bRPCsSafe arg from 
+        CAdvancedFrame::CreateNotebook(), CAdvancedFrame::CreateStatusbar(). 
+    - Mac: Update XCode project for ViewNotifications* -> ViewNotices*.
+        
+    clientgui/
+        AdvancedFrame.cpp, .h
+     mac_build/
+        boinc.xcodeproj/
+            project.pbxproj
+
+David  13 Jan 2010
+    - server: client version numbers are represented as
+        10000*major + 100*minor + release,
+        rather than 100*major + minor.
+        Sometimes you need release-level resolution.
+        This affects:
+        - app_version.min_core_version
+        - config: min_core_client_version_announced
+        - config: min_core_client_version
+        Projects using these must multiply them by 100.
+
+    html/inc/
+        notify.inc
+        forum_rss.inc
+    sched/
+        sched_types.cpp,h
+        sched_send.cpp
+        handle_request.cpp
+
+David  13 Jan 2010
+    - scheduler: close DB connection on SIGTERM (from Bernd M.)
+
+    sched/
+        sched_main.cpp
+
+David  13 Jan 2010
+    - manager: in Notices tab, direct links to default web browser
+
+    clientgui/
+        ViewNotices.cpp,h
+
+Rom    14 Jan 2010
+    - MGR: Use an event handler, the function overload is deprecated.
+    
+    clientgui/
+        ViewNotices.cpp,h
+    
+David  15 Jan 2010
+    - web DB code: fix PHP warning when enumeration returns nothing.
+        From Nicolas. fixes #974
+    - client: tiny code shuffle
+
+    client/
+        work_fetch.cpp
+        cpu_sched.cpp
+    html/inc/
+        db_conn.inc
+
+David  15 Jan 2010
+    - user web: make a bunch of strings translatable (from Nicolas)
+
+    html/
+        inc/
+            pm.inc
+            user.inc
+            util.inc
+        user/
+            language_select.php
+            edit_passwd_form.php
+            edit_email_form.php
+    locale/templates/
+        BOINC-Project-Generic.pot
+
+Charlie  16 Jan 2010
+    - Mac Installer: fix bug launching client when configured as a service.
+    
+    mac_installer/
+        PostInstall.cpp
+
+David  17 Jan 2010
+    - scheduler/feeder: if any client version number field
+        (min_core_version etc.) is < 10000,
+        multiply it by 100 and print a warning.
+
+    sched/
+        sched_config.cpp
+        sched_send.cpp
+        sched_shmem.cpp
+        handle_request.cpp
+
+Rytis  18 Jan 2010
+    - user web: do SQL escaping before storing prefs in the database as some
+        projects store user-editable strings in the preferences.
+
+    html/inc/
+        prefs.inc
+
+David  18 Jan 2010
+    - scheduler: use COPROC_REQ instead of COPROC when parsing
+        anonymous-platform app versions.
+        Otherwise fractional GPU requirements get truncated to zero.
+        Thanks to Crunch3r for identifying the problem.
+
+    sched/
+        sched_types.cpp
+    
+David  18 Jan 2010
+    - API: fix crashing bug.  Don't memset(0) APP_INIT_DATA;
+        it contains HOST_INFO, which now contains COPROCS,
+        which has a vector.
+        Define a clear() for APP_INIT_DATA.
+
+    lib/
+        app_ipc.cpp,h
+
+David  18 Jan 2010
+    - client: initial checkin for "don't compute if CPU usage above X"
+
+    client/
+        app.cpp,h
+        coproc_detect.cpp
+        cs_prefs.cpp
+    lib/
+        common_defs.h
+        procinfo_win.cpp
+    win_build/
+        libboinc.vcproj
+
+David  18 Jan 2010
+    - client and user web: finish the above.
+        Should add the Adv Prefs dialog as well.
+
+    client/
+        cs_prefs.cpp
+    html/inc/
+        prefs.inc
+    lib/
+        prefs.cpp,h
+
+Rom    19 Jan 2010
+    - lib: Don't allow the diagnostics threads to be suspended.
+        If a crash happens within the remaining threads
+        the process will deadlock.
+
+    lib/
+        diagnostics.h
+        diagnostics_win.cpp
+        win_util.cpp
+
+David  19 Jan 2010
+    - API: fix crashing bug.  There was a leftover memset(aid, 0)
+        in boinc_parse_init_data_file()
+    - client sim: make it work again
+
+    api/
+        boinc_api.cpp
+    client/
+        sim.cpp
+        sim_util.cpp
+
+David  19 Jan 2010
+    - web: translation fix from Nicolas:
+        "There is a bug in tra() that causes problems if one of the arguments
+        contains a replacement marker itself. For example, if the first
+        argument contains an encoded URL, which contains '%2', the second
+        argument may appear in the middle of the URL."
+    - client simulator: further fiddling around.  Not done.
+
+    html/inc/
+        translation.inc
+    client/
+        sim.cpp
+        work_fetch.cpp
+        cpu_sched.cpp
+
+David  19 Jan 2010
+    - client simulator: done for now
+
+    client/
+        sim.cpp
+        rr_sim.cpp
+
+David  19 Jan 2010
+    - client: brute-force attempt at eliminating domino-effect preemption:
+        if job A is unstarted and EDF,
+        and there's a job B that is later in the list,
+        is started, has the same app version,
+        and has the same arrival time,
+        move A after B.
+    - client: remove the "temp_dcf" mechanism,
+        which had the same goal but didn't work.
+    - client: in computing overall debt for a project,
+        subtract a term that reflects pending work.
+        This should reduce repeated fetches from the same project.
+    - client simulator: tweaks
+
+    client/
+        client_types.h
+        cpu_sched.cpp
+        rr_sim.cpp
+        sim.cpp,h
+        sim_util.cpp
+        work_fetch.cpp,h
+    html/user/
+        language_select.php
+
+Charlie  21 Jan 2010
+    - MGR: Implement Mac accessibility for Event Log.
+
+    clientgui/
+        BOINCListCtrl.h
+        DlgEventLogListCtrl.cpp, .h
+        mac/
+            MacAccessiblity.cpp, .h
+
+Bernd 21 Jan 2010
+    - lib: Updated Makefile.mingw to include coproc.cpp/h
+
+    lib/
+        Makefile.mingw
+
+Charlie  22 Jan 2010
+    - Mac Sandbox: To keep authenticators private, make all .xml files readable 
+        only by user and group boinc_master; except ss_config.xml is world-
+        readable so screensaver coordinator can access it.  All other files 
+        except gui_rpc_auth.cfg are world-readable to allow access by 
+        screensavers. 
+
+    clientgui/
+        mac/
+            SetupSecurity.cpp
+    mac_build/
+        Mac_SA_Secure.sh
+
+Bernd 22 Jan 2010
+    lib: add cal.h to install headers
+
+    lib/
+        Makefile.am
+
+David  22 Jan 2010
+    - user web: clean up LANG_NAME_* mess
+
+    html/
+        ops/
+            build_po_boinc.php
+        user/
+            language_select.php
+
+David  22 Jan 2010
+    - DB purge: allow fractional min_age_days (from Travis Desell)
+
+    sched/
+        db_purge.cpp
+        transitioner.cpp
+
+David  22 Jan 2010
+    - user web: don't show "database error" if result refers
+        to deleted app version
+
+    client/
+        app_start.cpp
+    html/inc/
+        result.inc
+    sched/
+        transitioner.cpp
+
+David  25 Jan 2010
+    - transitioner: fix bug where WUs with error_mask <> 0 keep
+        transitioning every 10 days, hence never become eligible for purging.
+        The problem: the transitioner has a "safety net" where,
+        if the WU doesn't have a canonical result,
+        it arranges for another transition in 10 days.
+        Skip this if error_mask<>0.
+
+    sched/
+        transitioner.cpp
+
+David  25 Jan 2010
+    - client: when launching app, delete init_data.xml using switcher
+        prior to trying to write it,
+        in case it's owned by another user (e.g., boinc_project)
+
+    client/
+        app_start.cpp
+
+David  26 Jan 2010
+    - client/manager: eliminate duplicate notices.
+        When appending a new notice, we check whether one with
+        the same title and description is present already.
+        If so we remove one or the other, depending on the situation.
+
+        This introduces the possibility of "holes" in the seqno space.
+        In order that the manager learns of these deletions,
+        we use the following mechanism:
+        whenever a notice is removed (because it's a dup or too old)
+        a flag is set in each GUI_RPC_CONN.
+        On the next get_notice() RPC, the client returns the entire
+        list of notices, preceded by a dummy notice with seqno=-1;
+        this tells the RPC stub function to replace the current list
+        rather than appending to it.
+
+    client/
+        client_msgs.cpp
+        cs_notice.cpp,h
+        gui_rpc_server.h
+        gui_rpc_server_ops.cpp
+    samples/multi_thread/
+        multi_thread.cpp
+
+David  26 Jan 2010
+    - web: assume all translation files are UTF-8
+
+    html/
+        inc/
+            util.inc
+        ops/
+            build_po_boinc.php
+        user/
+            sample_index.php
+
+Charlie  26 Jan 2010
+    - Mac Sandbox: The init_data.xml file in each slot directory also contains 
+        an authenticator; to keep these private, change ownership of the "slots" 
+        directory to boinc_master:boinc_project and eliminate read and execute 
+        permissions of this directory for "other".  For consistency, make the 
+        same changes to the "projects" directory.  The individual slot and 
+        project directories are still world-executable and they and their 
+        contents are still world-readable, so the Client can still read files 
+        created by project apps with ownership boinc_project:boinc_project.
+      - NOTE: I believe this should not cause any problems for either BOINC or 
+        project applications, but it needs to be tested thoroughly.
+
+    client/
+        check_security.cpp
+        file_names.cpp
+    clientgui/
+        mac/
+            SetupSecurity.cpp
+    doc/
+        sandbox.php
+    mac_build/
+        Mac_SA_Insecure.sh
+        Mac_SA_Secure.sh
+
+Charlie  27 Jan 2010
+    - MGR: Fix minor bugs in Mac accessibility reporting kAXWindowAttribute and 
+        kAXTopLevelUIElementAttribute.
+
+    clientgui/
+        mac/
+            MacAccessiblity.cpp
+
+David  27 Jan 2010
+    - client: fix small bug that could interfere with work fetch
+        on hosts with both NVIDIA and ATI GPU
+
+    client/
+        work_fetch.cpp
+
+David  27 Jan 2010
+    - client: fix work fetch bug that prevented getting work
+        from an overworked project,
+        even if idle instance or major shortfall.
+    - GUI RPC: finish the notice-duplication thing
+
+    client/
+        work_fetch.cpp,h
+    lib/
+        gui_rpc_client_ops.cpp
+
+David  27 Jan 2010
+    - client: remove debug msgs
+
+    client/
+        app.cpp
+
+David  28 Jan 2010
+    - client: if a project has zero resource share,
+        treat it as a "backup project":
+        fetch work from it only if there is an idle instance
+        and no other projects have work.
+
+    client/
+        acct_mgr.cpp
+        client_types.cpp,h
+        rr_sim.cpp
+        work_fetch.cpp
+
+Charlie  28 Jan 2010
+    - Mac Sandbox: SetupAuthorizationExecuteWithPrivileges() forks to run chmod and chown, 
+        leaving zombie processes which can exceed the system-imposed limit of processes 
+        MAXUPRC for a user.  Call waitpid() to clear these zombies.
+    - Mac Sandbox: fix comment in Mac_SA_Secure.sh script.
+
+    clientgui/
+        mac/
+            SetupSecurity.cpp
+    mac_build/
+        Mac_SA_Secure.sh
+
+David  28 Jan 2010
+    - client: fix my last checkin
+
+    client/
+        client_types.cpp
+        cs_statefile.cpp
+
+David  29 Jan 2010
+    - user web: allow zero resource share
+    - client: allow zero resource share
+
+    apps/
+        upper_case.cpp
+    html/inc/
+        prefs.inc
+    client/
+        work_fetch.cpp
+        makefile_sim
+
+David  29 Jan 2010
+    - user web: if Akismet rejects thread reply, show warning
+
+    html/user/
+        forum_reply.php
+
+David  30 Jan 2010
+    - manager: move Preferences and Options to Task menu.
+        Give them more descriptive names.
+        Clean up mnemonics
+
+    clientgui/
+        AdvancedFrame.cpp
+
+David  1 Feb 2010
+    - graphics API: if font missing, find one that isn't (from Kevin)
+
+    api/
+        txf_util.cpp
+
+Charlie  2 Feb 2010
+    - ss_app: Allow branding for GridRepublic by compiling with -D_GRIDREPUBLIC on 
+        non_apple systems and by testing Branding file on Macs. 
+    - ss_app: Add a high-resolution background GridRepublic logo.
+    - Mac Installer: update script for new gridrepublic_ss_logo.jpg file, etc.
+    - Mac Installer: add .txt extension to copyright files in GUI installer extras.
+    
+    clientscr/
+        ss_app.cpp
+        res/
+            gridrepublic_ss_logo.jpg
+    mac_installer/
+        make_GridRepublic.sh
+        make_ProgThruProc.sh
+        release_boinc.sh
+
+David  2 Feb 2010
+    - scheduler: don't send CUDA jobs to Macs with client < 6.10.28;
+        they'll crash.
+
+    sched/
+        sched_customize.cpp
+
+Rom    2 Feb 2010
+    - client: newer ATI drivers crash if struct_size isn't filled out
+        before the structure is used.
+        
+    client/
+        coproc_detect.cpp
+
+Charlie  2 Feb 2010
+    - Mac SS: look for Branding file in BOINC Data folder before the one in Manager
+        to avoid confusion if newer copies of BOINC Manager exist elsewhere on system.
+        (This is primarily for convenience in debugging on build system)
+        
+    clientscr/
+        mac_saver_module.cpp
+
+David  3 Feb 2010
+    - client: if GPU get available RAM fails, don't use the GPU
+    - web: put $languages_in_use into $GLOBALS.
+        Apparently it can't be referenced as a global in Drupal otherwise
+
+    client/
+        client_types.cpp
+    html/inc/
+        tranlsation.inc
+
+David  4 Feb 2010
+    - web: code shuffle for Drupal
+
+    html/
+        inc/
+            host.inc
+            stats_sites.inc
+        user/
+            hosts_user.php
+
+David  4 Feb 2010
+    - web: Drupal stuff
+
+    html/
+        drupal/
+            home
+            view_profile
+            hosts_user
+        inc/
+            user.inc
+        user/
+            home.php
+
+David  4 Feb 2010
+    - scheduler: add example code for SETI@home's situation
+        where app has both GPU and CPU versions,
+        but for certain jobs (VLAR WUs in this case)
+        the GPU version performs poorly and shouldn't be used.
+
+        The fix is a kludge - it will result in these jobs
+        not being sent to the host at all,
+        rather than being sent with the CPU app.
+        The current architecture makes it difficult to do otherwise.
+        One possible fix would be to create a separate app
+        for VLAR jobs, with only CPU app versions.
+
+    sched/
+        sched_customize.cpp
+
+Charlie  4 Feb 2010
+    - Mac Installer: when adding non-admin users to group boinc_master, also add 
+        them to group boinc_project; this fixes permissions error -1200 for non-
+        admin users; show "Please wait" alert if WaitPermissions takes > 15 seconds.
+
+    client/
+        check_security.cpp
+    mac_installer/
+        AddRemoveUser.cpp
+        PostInstall.cpp
+        WaitPermissions.cpp
+
+David  4 Feb 2010
+    - web: fix bug that caused news RSS to show wrong items
+
+    html/inc/
+        forum_rss.inc
+
+Rom    5 Feb 2010
+    - WINSCR: cleanup configuration dialog text.
+    
+    clientscr/
+        boinc_ss.rc
+
+Rom    5 Feb 2010
+    - MGR: Enable task bar icon on Linux.
+    
+    clientgui/
+        AsyncRPC.cpp
+        BOINCBaseFrame.cpp
+        BOINCGUIApp.cpp
+
+Rom    5 Feb 2010
+    - MGR: Move cross-platform event handlers for creating context menus and updating
+        tooltips out of the Windows only scope.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+Rom    5 Feb 2010
+    - MGR: Fix build break by adjusting the SetIcon function prototype so that it conforms
+        to the wxWidget standard.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+    clientgui/msw/
+        taskbarex.cpp, .h
+
+Rom    5 Feb 2010
+    - MGR: Change the 'Open BOINC Manager' menu item ID for the task bar icon.  wxID_OPEN
+        causes a folder icon to be prepended to the menu item on Linux.
+    - MGR: Enable the Test Notification menu item on Linux
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+ 
+Rom    6 Feb 2010
+     - MGR: Introduce balloons to Linux version of BOINC Manager.
+         (Note: Not debugged yet)
+         
+    clientgui/
+        BOINCTaskBar.cpp, .h
+        Makefile.am
+    clientgui/gtk/
+        taskbarex.cpp, .h
+    clientgui/msw/
+        taskbarex.cpp, .h
+
+David  6 Feb 2010
+    - parsing of platforms from WCG's get_project_config.php was wrong
+
+    doc/
+        get_platforms.inc
+
+David  7 Feb 2010
+    - web: make a bunch of strings translatable (from Christian Beer)
+        fixes #977
+
+    html/
+        inc/
+            result.inc
+        user/
+            workunit.php
+            result.php
+
+David  7 Feb 2010
+    - more tra()s from Christian.  fixes #976
+
+    html/user/
+        user_search.php
+
+Rom    8 Feb 2010
+    - client: detect CPU information via the cpuid instruction instead of
+        the registry.  This change is only for Windows but I haven't tested
+        this with GCC.
+        
+    client/
+        hostinfo_win.cpp
+
+Charlie  8 Feb 2010
+    - MGR: Fix build breaks and potential crashes from recent task bar changes.
+    - Mac SS: change configuration dialog text to match new Windows wording.  
+    
+    clientgui/
+        BOINCBaseFrame.cpp
+        BOINCTaskBar.cpp, .h
+    clientscr/
+        res/
+            BOINCSaver.nib
+
+David  9 Feb 2010
+    - client: undo [17160].  <ncpus>0</ncpus> in cc_config.xml
+        no longer means simulate zero CPUs.
+        There are several places that divide by ncpus.
+        Zero CPUs doesn't make any sense anyway.
+
+    client/
+        cpu_sched.cpp
+        work_fetch.cpp
+
+Rom    9 Feb 2010
+    - client: some more CPU detection cleanup.
+    
+    client/
+        hostinfo_win.cpp
+
+Charlie  10 Feb 2010
+    - Mac installer: If installing an acct_mgr_url.xml file, don't install it 
+        directly into the BOINC Data directory.  Instead, put it into the 
+        installer's resources and have the postinstall or postupgrade script 
+        copy it to the BOINC Data directory.  This fixes a problem which would 
+        happen if the user later ran the standard BOINC installer without an 
+        acct_mgr_url.xml file: the Apple installer would then delete the file, 
+        causing BOINC to detach from the account manager.
+    
+    mac_installer/
+        make_GridRepublic.sh
+        make_ProgThruProc.sh
+        postinstall
+        postupgrade
+
+Charlie  10 Feb 2010
+    - Mac Installer: Fix receipt name for GridRepublic installer so we can remove it.
+    
+    mac_installer/
+        PostInstall.cpp
+
+Rom    10 Feb 2010
+    - build: Attempt to hook up the gtk flags and libs to BOINC Manager
+    
+    /
+        configure.ac
+    clientgui/
+        Makefile.am
+
+Rom    10 Feb 2010
+    - MGR: Move GTK structures out of the class scope.
+    
+    clientgui/gtk
+        taskbarex.cpp, .h
+
+Rom    10 Feb 2010
+    - build: replace gtk flags and libs with libnotify
+    
+    /
+        configure.ac
+    clientgui/
+        Makefile.am
+
+Rom    10 Feb 2010
+    - MGR: Add some debugging to the notification code
+    
+    clientgui/gtk
+        taskbarex.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Re-enable the test notification mechanism so
+        that it is compatible with Linux.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Re-enable the context menu support mechanism so
+        that it is compatible with Linux.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Fill in missing pieces to get the notification
+        handler to signal us when a notification has closed.
+        
+    clientgui/gtk
+        taskbarex.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Over half of the information on the Internet about
+        libnotify is now out of date.  The 'closed-reason'
+        property has been removed and that is why I was having
+        so many problems.  Hook up the events I can determine
+        from the remaining information.
+        
+    clientgui/gtk
+        taskbarex.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Re-enable the balloon context click event handler
+        for Linux.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: The Linux notification area doesn't report when mouse
+        activity happens over the notification icon, so merge the
+        OnMouseMove event handler with the OnRefresh event handler
+        so we have the correct tooltips.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+Rom    10 Feb 2010
+    - MGR: Another place that interacts with the taskbar but was
+        included only if compiled for Windows or the Mac.
+        
+    clientgui/
+        AsyncRPC.cpp
+        MainDocument.cpp
+
+Rom    10 Feb 2010
+    - MGR: Only notify the OS of a change in the notification area
+        if something has changed, otherwise don't update.
+        
+    clientgui/
+        BOINCTaskBar.cpp, .h
+
+David  11 Feb 2009
+    - client: if a project is anonymous platform and it has no
+        app versions that use a resource,
+        don't request work from it for that resource.
+
+    client/
+        work_fetch.cpp,h
+        client_state.cpp
+    html/inc/
+        prefs.inc
+
+Charlie  11 Feb 2010
+    - Mac: Update build script for OS 10.6 and XCode 3.2 (thanks to Jack 
+        Shultz for pointing out this was needed.)
+
+    mac_build/
+        BuildMacBOINC.sh
+
+Charlie  11 Feb 2010
+    - MGR: Mac Taskbar does not support tooltips, so exclude tooltip code on Macs.
+
+    clientgui/
+        BOINCTaskBar.cpp
+
+David  13 Feb 2010
+    - web: make strings translatable. fixes #980
+
+    html/user
+        edit_user_info_form/action.php
+
+David  14 Feb 2010
+    - client: include CPU usage of client in BOINC total.
+        Also include manager if its name includes "boinc"
+        (can't figure out another way)
+
+    lib/
+        procinfo*.cpp
+
+David  14 Feb 2010
+    - web: more translations, from Christian.  fixes #981
+
+    html/
+        inc/
+            prefs.inc
+        user/
+            prefs_remove.php
+            prefs.php
+            prefs_edit.php
+            add_venue.php
+
+Charlie  15 Feb 2010
+    Mac wrapper: add build script and make file to buuild wrapper on Mac.
+    
+    samples/
+        wrapper/
+            BuildMacWrapper.sh
+            Makefile_mac
+
+David  15 Feb 2010
+    - web: more translations, from Christian.  fixes #982
+
+    html/various
+
+Charlie  16 Feb 2010
+    - Samples: Update MakeMacExample.sh and Mac make files in example_app for 
+        OS 10.6 and XCode 3.2.
+        
+    samples/
+        example_app/
+            Makefile_mac
+            Makefile_mac2
+            MakeMacExample.sh
+
+David  16 Feb 2010
+    - manager: first whack at "suspend if CPU load exceeds x" in dialog
+    clientgui/
+        DlgAdvPreferences*
+    html/ops/
+        cancel_wu_action.php
+
+David  16 Feb 2010
+	- screensaver: fix bug where sometimes no tasks are shown;
+		change font sizes for max of 2 sizes at a time
+
+	clientscr/
+		ss_app.cpp
+
+Rom    16 Feb 2010
+    - MGR: Fix icons for dialogs that display them.
+    
+    clientgui/
+        DlgEventLog.cpp
+        sg_DlgMessages.cpp
+        sg_DlgPreferences.cpp
+
+David  17 Feb 2010
+    - db_dump: don't error out if try to rename output dir
+        and it doesn't exist.
+        Seems to me that this would cause db_dump to always fail
+        for new projects.
+
+    sched/
+        db_dump.cpp
+
+David  17 Feb 2010
+    - web: fix typo
+
+    html/inc/
+        prefs.inc
+
+David  18 Feb 2010
+    - assimilator: fix --one_pass bug (from Bernd)
+
+    sched/
+        assimilator.cpp
+
+David  18 Feb 2010
+    - client: don't accumulate LTD for projects w/ suspended jobs
+
+    client/
+        work_fetch.cpp
+
+David  18 Feb 2010
+    - wrapper: print more detailed msgs if process creation fails
+
+    samples/wrapper/
+        wrapper.cpp
+
+Rom    18 Feb 2010
+    - locale: automatically update each language based on whatever the
+        new template has.
+        
+    locale/
+        updatetrans.sh
+
+David  18 Feb 2010
+    - various components: fix inconsistencies in how user names
+        and team names are represented.
+        In particular, edit_user_info_action.php was using
+        htmlentities() on names; this led to double-encoding.
+
+        The new rules:
+        1) no HTML tags allowed in either one.
+            This is enforced silently, using strip_tags()
+        2) names are stored in the DB exactly as entered.
+            They may contain chars like & and >.
+            They may contain non-ASCII characters
+            (use UTF-8 if you want them displayed correctly).
+            None of these are not escaped.
+        3) When the names are put in XML
+            (e.g. in scheduler reply or db_dump output)
+            they are XML-escaped.
+            This escapes <, &, and non-ASCII chars
+        4) The client leaves them in this form,
+            and writes them that way in GUI RPCs
+            and init_data.xml files.
+        5) The parsing of GUI RPC replies and init_data.xml files
+            XML-unescapes them.
+
+    html/
+        inc/
+            user.inc
+        user/
+            edit_user_info_action.php
+    lib/
+        app_ipc.cpp
+        gui_rpc_client_ops.cpp
+
+David  18 Feb 2010
+	- API: in txfRenderString, replace non-ASCII chars with ?.
+		Otherwise it calls abort()!
+
+	api/
+		texfont.cpp
+
+David  18 Feb 2010
+	- client: fix bug in "suspend if CPU load too high" feature.
+		Forgot to convert between fraction and percentage
+
+	client/
+		app.cpp
+		cs_prefs.cpp
+		log_flags.cpp
+
+David  19 Feb 2010
+    - web: translation stuff
+    html/
+        inc/
+            result.inc
+        user/
+            prefs.php
+
+David  20 Feb 2010
+    - admin web: a project must provide an .htaccess file
+        or an auth_ops() function (not necessarily both).
+        New projects are given an .htaccess file with no .htpasswd,
+        so they must either create a .htpasswd file
+        or define auth_ops() in order to use admin web pages.
+
+    tools/
+        make_projects
+    html/
+        project/
+            sample_project.inc
+        inc/
+            util_ops.inc
+
+Rom    23 Feb 2010
+    - client: Add a function to the client software to be able to detect
+        the number of bytes sent and received across all non-loopback
+        interfaces.
+        
+    client/
+        hostinfo_win.cpp
+
+David  23 Feb 2010
+    - web: translation typo
+    html/user/
+        team_forum.php
+
+Charlie  25 Feb 2010
+    - MGR: Fix a long-standing bug that made sizers fail on Mac for Advanced 
+        Preferences dialog: I added bSizer1->Fit(this) to end of constructor. 
+        To work around this bug, the dialog had been made resizeable and the 
+        height and width were saved in the Manager settings.  But this meant 
+        that when we add an item to the dialog, it is too small until the 
+        user expands it.  And Modal dialogs like this should not be resizeable.
+        I also made the dialog no longer resizeable by the user.
+        
+    clientgui/
+        DlgAdvPreferences.cpp
+        DlgAdvPreferencesBase.cpp, .h
+
+Rom    25 Feb 2010
+    - WIN: Add some missing CPU features to the feature list
+    - WIN: Make sure the Brand string for a CPU is printable. Older Intel
+        processors have some control characters.
+        
+    client/
+        hostinfo_win.cpp
+
+Charlie  26 Feb 2010
+    - MGR: Save and restore height and width of Properties dialog; fix comments.
+    
+    clientgui/
+        DlgAdvPreferences.cpp
+        DlgItemProperties.cpp, .h
+
+Charlie  26 Feb 2010
+    - MGR: Implement lost features from old messages display in Event Log: 
+        filtering by project (show only this project), dimming Event Log 
+        display when disconnected; alternating gray and white background 
+        stripes for readability.
+        
+    clientgui/
+        DlgEventLog.cpp, .h
+        MainDocument.cpp
+
+Rom    26 Feb 2010
+    - client: Add SEH handlers around the Nvidia and ATI detection
+        routines.  Take care of situations where something within
+        the vendors functions cause a crash.
+        
+    client/
+        coproc_detect.cpp
+
+David  26 Feb 2010
+    - admin web: reorganize main page;
+        add "transition all" command
+
+    db/
+        boinc_db.h
+    html/ops/
+        index.php
+        manage_apps.php
+        job_times.php
+        manage_app_versions.php
+        clear_host.php
+        transition_all.php
+
+David  26 Feb 2010
+    - scheduler: add plan class "cuda_fermi":
+        requires CUDA 2.3 and compute capability 2.0+
+
+    sched/
+        sched_customize.cpp
+
+David  26 Feb 2010
+	- client: if suspend a file xfer, set upload_offset to -1;
+		that way it will query server for file length when it resumes,
+		rather than uploading from the beginning
+	- client: back out SEH handling for GPU detection
+	client/
+		coproc_detect.cpp
+		file_xfer.cpp
+		pers_file_xfer.cpp
+
+David  27 Feb 2010
+    - client: if have coproc jobs but coproc is missing,
+        skip those jobs in RR sim.
+        Otherwise we add stuff to uninitialized data structures,
+        and a crash can result.
+    - client: initialize the above data structures anyway
+
+    client/
+        work_fetch.cpp
+        rr_sim.cpp
+
+David  27 Feb 2010
+    - client: fix bug that interfered with work fetch
+        for particular resources in anonymous platform case.
+
+    client/
+        work_fetch.cpp
+
+David  1 Mar 2010
+    - server: if MySQL version is 5.0.19 <= v < 5.1,
+        set the reconnect option before real_connect() instead of after.
+        From Oliver Bock.
+
+    db/
+        db_base.cpp
+    sched/
+        sched_customize.cpp
+    client/
+        cpu_sched.cpp
+
+Rom    1 Mar 2010
+    - client: Improve error checking with CPU detection features.
+    - lib: cleanup some warnings.
+    
+    client/
+        hostinfo_win.cpp
+    lib/
+        str_util.h
+
+David  1 Mar 2010
+	- client: if suspending apps because of CPU benchmarks,
+		leave them in memory
+
+	client/
+		app.h
+		app_control.cpp
+		cs_prefs.cpp
+
+Charlie  2 Mar 2010
+    - MGR: Fix more Event Log bugs: Exit from taskbar closes Event Log just 
+        like exit from regular menu; enable and disable Copy Selected and Filter 
+        buttons depending on selected messages; fix misplaced curly bracket in 
+        CMainDocument::RunPeriodicRPCs() which caused excessive CPU usage and 
+        other problems.
+    
+    clientgui/
+        AdvancedFrame.cpp
+        BOINCBaseFrame.cpp
+        BOINCTaskBar.cpp
+        DlgEventLog.cpp, .h
+        MainDocument.cpp
+
+Charlie  2 Mar 2010
+    - MGR: Keep getting messages even if the Event Log is not open; otherwise 
+        some may be lost due to the limited size of the client's buffer,
+        causing gaps when the Event Log is later opened.
+        
+    clientgui/
+        MainDocument.cpp
+
+Rom    2 Mar 2010
+    - client: Add missing European SKUs to the host detection code.
+        (from: Robert Kreß)
+        
+    client/
+        hostinfo_win.cpp
+
+David  2 Mar 2010
+    - API: Win: resume other threads before exiting from timer thread.
+        Attempt to fix E@h bug.
+    - client: fix messages: asking for X instances doesn't mean
+        that X instances are idle
+
+    api/
+        boinc_api.cpp
+    client/
+        scheduler_op.cpp
+
+David  2 Mar 2010
+    - add remote job submission system (from Toni Giorgino)
+
+    rboinc/*
+
+David  2 Mar 2010
+	- client: generalize the GUI RPC mechanism to access via HTTP.
+		The handler checks for POST headers,
+		and if present adds a reply header.
+		Also: remove the restriction that request messages
+		must be read in their entirety on the first recv().
+
+		I'm testing this using javascript's XMLHttpRequest.
+		It's not completely working;
+		the browser sends an OPTIONS request, then sends a POST.
+		The BOINC client parses and replies to these,
+		but for some reason the browser doesn't seem to be
+		parsing the POST reply.
+
+	client/
+		gui_rpc_server.cpp,h
+		gui_rpc_server_ops.cpp
+
+Charlie  2 Mar 2010
+    - MGR: Save & restore size information of properties dialogs separately 
+        for project and task property dialogs, also save and restore dialog 
+        positions on Mac.
+        
+    clientgui/
+        DlgItemProperties.cpp, .h
+
+Rom    3 Mar 2010
+    - MGR: Use theme colors when setting up the color scheme for list items.
+        The previous use of gray just happened to be the same color as the
+        deselected but highlighted list item which caused the 'gray'
+        backgrounded items to display a white background after Windows
+        inverted the color for highlighting. By using theme colors we avoid
+        having to worry about such things.
+        
+    clientgui/
+        BOINCBaseView.cpp
+        DlgEventLog.cpp
+
+David  3 Mar 2010
+    - scheduler: code cleanup: goto considered harmful
+    - scheduler: when calculate scheduler runtime,
+        don't include the part reading request msg from client.
+        That can be misleadingly long
+
+    sched/
+        sched_array.cpp
+        handle_request.cpp
+        sched_resend.cpp
+
+Rom    3 Mar 2010
+    - client: more Windows SKU detection changes
+        (from: [P3D] Crashtest)
+
+    client/
+        hostinfo_win.cpp
+
+David  3 Mar 2010
+    - scheduler: cuda_fermi class needs CUDA version 3.0+
+    - boinccmd: "result" -> "task"
+
+    sched/
+        sched_customize.cpp
+    lib/
+        gui_rpc_client_print.cpp
+    client/
+        boinc_cmd.cpp
+
+David  3 Mar 2010
+    - update_versions: if file is already in download dir,
+        and is the same, don't copy (it might not be writeable)
+    - client: change "result" to "task" in user-visible messages
+
+    py/Boinc/tools.py
+    client/
+        client_state.cpp
+        cs_scheduler.cpp
+
+David  3 Mar 2010
+    - web: fix bug that caused "send email" and "show hosts"
+        in project prefs to always select "no"
+
+    html/inc/
+        prefs.inc
+
+Charlie  4 Mar 2010
+    - MGR: Instead of alternating gray and white backgrounds in lists, 
+        create CBOINCListCtrl and CDlgEventLogListCtrl with wxLC_HRULES 
+        flag.  This avoids theme color conflicts with our backgrounds.  
+        It also eliminates the need to set item attributes in the views, 
+        since the default attribute setting already uses theme colors. 
+        (We still use item attributes in the Event Log to list 
+        error messages in red text.)
+
+    clientgui/
+        BOINCBaseView.cpp,.h
+        BOINCListCtrl.cpp, .h
+        DlgEventLog.cpp
+
+Charlie  4 Mar 2010
+    - MGR: in Event Log: enable and disable Copy Selected and Filter buttons 
+        immediately when selecting or deselecting items; fix Mac-only bug 
+        drawing selected items when Event Log window is inactive.
+
+    clientgui/
+        DlgEventLog.cpp, .h
+        DlgEventLogListCtrl.cpp, .h
+
+Rom    4 Mar 2010
+    - MGR: Remove some hacks to deal with early wxGTK bugs which have since
+        been fixed.
+
+    clientgui/
+        AdvancedFrame.cpp
+        Events.h
+
+Rom    4 Mar 2010
+    - MGR: Restore wxGTK hacks, bug is still alive and well.
+
+    clientgui/
+        AdvancedFrame.cpp
+        Events.h
+
+David  4 Mar 2010
+    - client: don't start new network activity if CPU benchmarks in progress
+
+    client/
+        client_state.cpp
+
+Charlie  4 Mar 2010
+    - MGR: Allow compile-time choice of either rules or alternating gray and white 
+        background stripes in lists by defining EVENT_LOG_STRIPES (in DlgEventLog.h) 
+        and BASEVIEW_STRIPES (in BOINCBaseView.h) to 0 for rules or 1 for stripes.
+
+    clientgui/
+        BOINCBaseView.cpp,.h
+        BOINCListCtrl.cpp, .h
+        DlgEventLog.cpp, .h
+        DlgEventLogListCtrl.h
+
+Bernd 5 Mar 2010
+    include sys/types.h for gid_t
+
+    lib/
+        filesys.h
+
+Bernd 5 Mar 2010
+    for now maintain (install, uninstall) header files in both BOINC/ and boinc/
+    (BOINC/ kept for compatibility, shall be dropped at some point later)
+
+    lib/
+        Makefile.mingw
+
+Bernd 5 Mar 2010
+    fix to compile boinc_api.cpp on Windows
+    looks like copy/paste error, retval is not defined there
+    David, please review & change if necessary
+
+    api/
+        boinc_api.cpp
+
+David  5 Mar 2010
+    - client: revisit the domino-effect preemption problem.
+        Removed my changes of 19 Jan 2010, which didn't work.
+        Added new mechanism: keep track of whether a job J has ever run in EDF.
+        If so, and if another job of the same project and resource type as J
+        is marked as deadline miss, then mark J as deadline miss,
+        so that it won't get preempted.
+    - web: change "result" to "task" in server status page
+    - admin web: show server stable SVN revision, not trunk
+
+    html/ops/
+        index.php
+        sample_server_status.php
+    client/
+        client_types.h
+        app.cpp,h
+        cpu_sched.cpp
+
+David  5 Mar 2010
+    - server: major improvements to locality scheduling from Einstein@home.
+        Triggering the work generator is now done via the DB
+        instead of flat files.
+
+        Since only E@h uses locality scheduling,
+        I kept the DB changes in a separate file (db/schema_locality.sql).
+        There's a new field in the workunit table,
+        and that's a required update (in db_update.php)
+    - manager: compile fix
+
+    clientgui/
+        DlgEventLog.h
+    db/
+        boinc_db.cpp,h
+        schema.sql
+        schema_locality.sql
+    sched/
+        sched_locality.cpp
+        Makefile.am
+    html/ops
+        db_update.php
+    lib/
+        Makefile.am
+
+David  6 Mar 2010
+    - web RPC: generalize team lookup so that you can look up multiple
+        teams in one RPC.  From Willy de Zutter.
+
+    html/user/
+        team_lookup.php

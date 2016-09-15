@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20704/trunk/boinc/win_build
+END
+ptp_boinctray.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boinctray.vcproj
+END
+wcg_boinccmd.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg_boinccmd.vcproj
+END
+multi_thread.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19923/trunk/boinc/win_build/multi_thread.vcproj
+END
+libboinc.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20192/trunk/boinc/win_build/libboinc.vcproj
+END
+boinc_cli.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/20704/trunk/boinc/win_build/boinc_cli.vcproj
+END
+ptp_boincmgr.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boincmgr.vcproj
+END
+wcg_ss_app.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg_ss_app.vcproj
+END
+upper_case.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18996/trunk/boinc/win_build/upper_case.vcproj
+END
+uc2.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19542/trunk/boinc/win_build/uc2.vcproj
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4962/trunk/boinc/win_build/config.h
+END
+boinctray.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19576/trunk/boinc/win_build/boinctray.vcproj
+END
+boincsvcctrl.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19576/trunk/boinc/win_build/boincsvcctrl.vcproj
+END
+image_libs.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19542/trunk/boinc/win_build/image_libs.vcproj
+END
+Progress.sln
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/18379/trunk/boinc/win_build/Progress.sln
+END
+boinc_ss.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19992/trunk/boinc/win_build/boinc_ss.vcproj
+END
+sleeper.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19923/trunk/boinc/win_build/sleeper.vcproj
+END
+wcg_boincmgr.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg_boincmgr.vcproj
+END
+libgraphics2.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19542/trunk/boinc/win_build/libgraphics2.vcproj
+END
+uc2_graphics.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19923/trunk/boinc/win_build/uc2_graphics.vcproj
+END
+wcg.sln
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg.sln
+END
+glut.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/19542/trunk/boinc/win_build/glut.vcproj
+END
+jpeglib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19542/trunk/boinc/win_build/jpeglib.vcproj
+END
+ptp_boincsvcctrl.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boincsvcctrl.vcproj
+END
+boinccmd.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19542/trunk/boinc/win_build/boinccmd.vcproj
+END
+wrapper.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19542/trunk/boinc/win_build/wrapper.vcproj
+END
+wcg_boinc_cli.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg_boinc_cli.vcproj
+END
+ptp_boinc_ss.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boinc_ss.vcproj
+END
+boinc.sln
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/19686/trunk/boinc/win_build/boinc.sln
+END
+win-config.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/15818/trunk/boinc/win_build/win-config.h
+END
+ss_app.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19923/trunk/boinc/win_build/ss_app.vcproj
+END
+crypt_prog.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/16070/trunk/boinc/win_build/crypt_prog.vcproj
+END
+sim.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/20314/trunk/boinc/win_build/sim.vcproj
+END
+libboincapi_staticcrt.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19542/trunk/boinc/win_build/libboincapi_staticcrt.vcproj
+END
+boinclog.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19686/trunk/boinc/win_build/boinclog.vcproj
+END
+wcg_boinc_ss.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20348/trunk/boinc/win_build/wcg_boinc_ss.vcproj
+END
+boincmgr.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20143/trunk/boinc/win_build/boincmgr.vcproj
+END
+ptp_boinccmd.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boinccmd.vcproj
+END
+libboinc_staticcrt.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19982/trunk/boinc/win_build/libboinc_staticcrt.vcproj
+END
+ptp_boinc_cli.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18379/trunk/boinc/win_build/ptp_boinc_cli.vcproj
+END
+updater.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19542/trunk/boinc/win_build/updater.vcproj
+END
+ptp_boinc_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18730/trunk/boinc/win_build/ptp_boinc_dll.vcproj
+END
+buildenv.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19672/trunk/boinc/win_build/buildenv.cmd
+END
+worker.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19542/trunk/boinc/win_build/worker.vcproj
+END

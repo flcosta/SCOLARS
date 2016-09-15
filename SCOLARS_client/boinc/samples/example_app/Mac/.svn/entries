@@ -1,0 +1,53 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/samples/example_app/Mac
+http://boinc.berkeley.edu/svn
+
+
+
+2008-02-21T11:39:03.954188Z
+14769
+charlief
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+uc2_graphics.icns
+file
+
+
+
+
+2010-02-19T12:33:08.000000Z
+6988eb4671d421a48f34970e92e2f239
+2008-02-21T11:39:03.954188Z
+14769
+charlief
+has-props
+
+app_icon.h
+file
+
+
+
+
+2010-02-19T12:33:08.000000Z
+50f24ad4c0d206674020e3fced56c09b
+2008-02-21T11:39:03.954188Z
+14769
+charlief
+

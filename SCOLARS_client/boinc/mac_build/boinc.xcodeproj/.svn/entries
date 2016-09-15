@@ -1,0 +1,41 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/mac_build/boinc.xcodeproj
+http://boinc.berkeley.edu/svn
+
+
+
+2010-01-13T09:30:21.286276Z
+20147
+charlief
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+project.pbxproj
+file
+
+
+
+
+2010-02-19T12:31:16.000000Z
+bfcc86dbae29a8380709043b13851796
+2010-01-13T09:30:21.286276Z
+20147
+charlief
+has-props
+

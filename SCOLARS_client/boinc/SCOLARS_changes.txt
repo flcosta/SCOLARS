@@ -1,0 +1,8 @@
+V1.1
+- Clients now add the tag <mr_hash/> to result output, and return it to server if they are hosting the corresponding output files while sending the hash
+
+
+V1.2
+- Added alternative_name string variable to FILE_INFO
+	- set when read from <alt_name> tag sent in result_template by server
+

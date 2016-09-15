@@ -1,0 +1,40 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/samples/mac_build/UpperCase2.xcodeproj
+http://boinc.berkeley.edu/svn
+
+
+
+2009-02-11T10:15:13.069066Z
+17200
+charlief
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+project.pbxproj
+file
+
+
+
+
+2010-02-19T12:33:07.000000Z
+882bd8275f40739c3388574539f5d715
+2009-02-11T10:15:13.069066Z
+17200
+charlief
+

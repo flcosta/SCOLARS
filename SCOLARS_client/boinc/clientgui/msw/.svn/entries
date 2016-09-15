@@ -1,0 +1,54 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/clientgui/msw
+http://boinc.berkeley.edu/svn
+
+
+
+2010-02-06T07:51:40.024971Z
+20455
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+taskbarex.cpp
+file
+
+
+
+
+2010-02-19T12:31:46.000000Z
+a579b1ec4681d1c88287bd12d814e9ca
+2010-02-06T07:43:09.387143Z
+20454
+romw
+has-props
+
+taskbarex.h
+file
+
+
+
+
+2010-02-19T12:31:46.000000Z
+7c094d93e933b1afbad98ae9a37c93d0
+2010-02-06T07:51:40.024971Z
+20455
+romw
+has-props
+

@@ -1,0 +1,54 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/samples/sleeper
+http://boinc.berkeley.edu/svn
+
+
+
+2008-10-21T21:13:52.136907Z
+16245
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+sleeper.cpp
+file
+
+
+
+
+2010-02-19T12:33:07.000000Z
+ada187798cd96a17baff5b948f0715e8
+2008-09-26T18:20:24.961159Z
+16069
+davea
+has-props
+
+Makefile
+file
+
+
+
+
+2010-02-19T12:33:07.000000Z
+f4efef69d054b1113d9e8641ef426262
+2008-10-21T21:13:52.136907Z
+16245
+davea
+has-props
+

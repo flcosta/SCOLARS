@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="test" />
+	<File name="api/bmplib.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="1626" topLine="34" />
+	</File>
+	<File name="api/bmplib.h" open="1" top="0" tabpos="11">
+		<Cursor position="502" topLine="3" />
+	</File>
+	<File name="api/boinc_api.cpp" open="1" top="0" tabpos="43">
+		<Cursor position="32571" topLine="1102" />
+	</File>
+	<File name="api/boinc_api.h" open="0" top="0" tabpos="0">
+		<Cursor position="4069" topLine="105" />
+	</File>
+	<File name="api/graphics2_unix.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4039" topLine="117" />
+	</File>
+	<File name="api/graphics2_win.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="816" topLine="15" />
+	</File>
+	<File name="api/graphics_impl.cpp" open="1" top="0" tabpos="44">
+		<Cursor position="1946" topLine="76" />
+	</File>
+	<File name="api/gutil.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="13647" topLine="573" />
+	</File>
+	<File name="api/reduce.h" open="1" top="0" tabpos="39">
+		<Cursor position="2021" topLine="35" />
+	</File>
+	<File name="api/texfont.cpp" open="1" top="0" tabpos="22">
+		<Cursor position="1967" topLine="63" />
+	</File>
+	<File name="apps/concat.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1002" topLine="17" />
+	</File>
+	<File name="client/acct_mgr.cpp" open="1" top="0" tabpos="38">
+		<Cursor position="10562" topLine="317" />
+	</File>
+	<File name="client/acct_mgr.h" open="0" top="0" tabpos="0">
+		<Cursor position="813" topLine="11" />
+	</File>
+	<File name="client/acct_setup.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="1113" topLine="22" />
+	</File>
+	<File name="client/acct_setup.h" open="0" top="0" tabpos="17">
+		<Cursor position="2955" topLine="97" />
+	</File>
+	<File name="client/app.cpp" open="1" top="0" tabpos="34">
+		<Cursor position="12453" topLine="412" />
+	</File>
+	<File name="client/app.h" open="1" top="0" tabpos="13">
+		<Cursor position="7994" topLine="233" />
+	</File>
+	<File name="client/app_control.cpp" open="1" top="0" tabpos="31">
+		<Cursor position="3111" topLine="124" />
+	</File>
+	<File name="client/app_graphics.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="991" topLine="9" />
+	</File>
+	<File name="client/app_start.cpp" open="1" top="0" tabpos="16">
+		<Cursor position="19763" topLine="636" />
+	</File>
+	<File name="client/auto_update.cpp" open="1" top="0" tabpos="41">
+		<Cursor position="1224" topLine="23" />
+	</File>
+	<File name="client/boinc_log.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1369" topLine="32" />
+	</File>
+	<File name="client/check_security.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="17137" topLine="484" />
+	</File>
+	<File name="client/check_state.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="2432" topLine="72" />
+	</File>
+	<File name="client/client_state.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="53428" topLine="1730" />
+	</File>
+	<File name="client/client_state.h" open="1" top="0" tabpos="6">
+		<Cursor position="16185" topLine="484" />
+	</File>
+	<File name="client/client_types.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="27384" topLine="781" />
+	</File>
+	<File name="client/client_types.h" open="1" top="0" tabpos="9">
+		<Cursor position="19853" topLine="584" />
+	</File>
+	<File name="client/coproc_detect.cpp" open="1" top="0" tabpos="30">
+		<Cursor position="1676" topLine="52" />
+	</File>
+	<File name="client/cpu_benchmark.h" open="0" top="0" tabpos="0">
+		<Cursor position="106" topLine="0" />
+	</File>
+	<File name="client/cpu_sched.cpp" open="1" top="0" tabpos="37">
+		<Cursor position="51342" topLine="1581" />
+	</File>
+	<File name="client/cs_account.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7623" topLine="239" />
+	</File>
+	<File name="client/cs_apps.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="7976" topLine="237" />
+	</File>
+	<File name="client/cs_benchmark.cpp" open="1" top="0" tabpos="32">
+		<Cursor position="3048" topLine="96" />
+	</File>
+	<File name="client/cs_cmdline.cpp" open="1" top="0" tabpos="36">
+		<Cursor position="2242" topLine="44" />
+	</File>
+	<File name="client/cs_files.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="8053" topLine="245" />
+	</File>
+	<File name="client/cs_notice.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="15533" topLine="537" />
+	</File>
+	<File name="client/cs_notice.h" open="0" top="0" tabpos="0">
+		<Cursor position="3889" topLine="110" />
+	</File>
+	<File name="client/cs_platforms.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="9525" topLine="301" />
+	</File>
+	<File name="client/cs_prefs.cpp" open="1" top="0" tabpos="19">
+		<Cursor position="16267" topLine="498" />
+	</File>
+	<File name="client/cs_proxy.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2326" topLine="61" />
+	</File>
+	<File name="client/cs_scheduler.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="25120" topLine="767" />
+	</File>
+	<File name="client/cs_statefile.cpp" open="1" top="0" tabpos="28">
+		<Cursor position="27023" topLine="774" />
+	</File>
+	<File name="client/file_names.h" open="0" top="0" tabpos="9">
+		<Cursor position="2774" topLine="59" />
+	</File>
+	<File name="client/file_xfer.cpp" open="1" top="0" tabpos="26">
+		<Cursor position="4396" topLine="132" />
+	</File>
+	<File name="client/file_xfer.h" open="1" top="0" tabpos="17">
+		<Cursor position="1849" topLine="43" />
+	</File>
+	<File name="client/gui_rpc_server.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="6589" topLine="230" />
+	</File>
+	<File name="client/http_curl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="28376" topLine="829" />
+	</File>
+	<File name="client/main.cpp" open="1" top="0" tabpos="20">
+		<Cursor position="4500" topLine="182" />
+	</File>
+	<File name="client/mr_tasktracker.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="18444" topLine="526" />
+	</File>
+	<File name="client/mr_tasktracker.h" open="1" top="0" tabpos="2">
+		<Cursor position="4846" topLine="139" />
+	</File>
+	<File name="client/net_stats.h" open="0" top="0" tabpos="0">
+		<Cursor position="991" topLine="16" />
+	</File>
+	<File name="client/pers_file_xfer.cpp" open="1" top="0" tabpos="15">
+		<Cursor position="14069" topLine="465" />
+	</File>
+	<File name="client/pers_file_xfer.h" open="1" top="0" tabpos="14">
+		<Cursor position="4431" topLine="102" />
+	</File>
+	<File name="client/scheduler_op.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="16071" topLine="506" />
+	</File>
+	<File name="client/sim_util.cpp" open="1" top="0" tabpos="40">
+		<Cursor position="8389" topLine="295" />
+	</File>
+	<File name="client/sysmon_win.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="13296" topLine="384" />
+	</File>
+	<File name="client/sysmon_win.h" open="0" top="0" tabpos="0">
+		<Cursor position="3896" topLine="99" />
+	</File>
+	<File name="client/time_stats.cpp" open="1" top="0" tabpos="42">
+		<Cursor position="3726" topLine="133" />
+	</File>
+	<File name="clientgui/BOINCClientManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5248" topLine="167" />
+	</File>
+	<File name="clientgui/BOINCClientManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="1529" topLine="30" />
+	</File>
+	<File name="clientgui/LogBOINC.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1159" topLine="24" />
+	</File>
+	<File name="clientgui/MainDocument.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="25356" topLine="846" />
+	</File>
+	<File name="clientgui/common/wxPieCtrl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="896" topLine="11" />
+	</File>
+	<File name="clientgui/stdwx.h" open="0" top="0" tabpos="0">
+		<Cursor position="4329" topLine="144" />
+	</File>
+	<File name="lib/app_ipc.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="10509" topLine="302" />
+	</File>
+	<File name="lib/app_ipc.h" open="0" top="0" tabpos="0">
+		<Cursor position="6438" topLine="207" />
+	</File>
+	<File name="lib/common_defs.h" open="1" top="0" tabpos="33">
+		<Cursor position="25" topLine="0" />
+	</File>
+	<File name="lib/crypt.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="10055" topLine="373" />
+	</File>
+	<File name="lib/diagnostics.cpp" open="1" top="0" tabpos="29">
+		<Cursor position="4234" topLine="152" />
+	</File>
+	<File name="lib/diagnostics.h" open="1" top="0" tabpos="21">
+		<Cursor position="4138" topLine="105" />
+	</File>
+	<File name="lib/diagnostics_win.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="71033" topLine="1872" />
+	</File>
+	<File name="lib/filesys.h" open="0" top="0" tabpos="0">
+		<Cursor position="1134" topLine="34" />
+	</File>
+	<File name="lib/gui_rpc_client_ops.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="16963" topLine="496" />
+	</File>
+	<File name="lib/hostinfo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="976" topLine="27" />
+	</File>
+	<File name="lib/miofile.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="2967" topLine="122" />
+	</File>
+	<File name="lib/miofile.h" open="0" top="0" tabpos="0">
+		<Cursor position="2039" topLine="57" />
+	</File>
+	<File name="lib/network.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3987" topLine="152" />
+	</File>
+	<File name="lib/network.h" open="1" top="0" tabpos="5">
+		<Cursor position="756" topLine="0" />
+	</File>
+	<File name="lib/parse.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3859" topLine="131" />
+	</File>
+	<File name="lib/prefs.cpp" open="1" top="0" tabpos="23">
+		<Cursor position="17119" topLine="532" />
+	</File>
+	<File name="lib/prefs.h" open="0" top="0" tabpos="10">
+		<Cursor position="3788" topLine="130" />
+	</File>
+	<File name="lib/unix_util.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1051" topLine="18" />
+	</File>
+	<File name="lib/util.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3151" topLine="106" />
+	</File>
+	<File name="lib/util.h" open="0" top="0" tabpos="0">
+		<Cursor position="980" topLine="17" />
+	</File>
+	<File name="samples/example_app/uc2.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1622" topLine="37" />
+	</File>
+	<File name="samples/glut/glut.h" open="0" top="0" tabpos="0">
+		<Cursor position="20532" topLine="574" />
+	</File>
+	<File name="samples/multi_thread/multi_thread.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1426" topLine="22" />
+	</File>
+	<File name="sched/credit_test.cpp" open="1" top="0" tabpos="35">
+		<Cursor position="8209" topLine="258" />
+	</File>
+	<File name="sched/delete_file.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1751" topLine="27" />
+	</File>
+	<File name="sched/file_upload_handler.cpp" open="1" top="0" tabpos="24">
+		<Cursor position="8317" topLine="293" />
+	</File>
+	<File name="sched/sched_config.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6456" topLine="123" />
+	</File>
+	<File name="sched/sched_types.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2622" topLine="84" />
+	</File>
+	<File name="sched/sched_types.h" open="0" top="0" tabpos="0">
+		<Cursor position="6762" topLine="224" />
+	</File>
+	<File name="sched/transitioner.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1987" topLine="53" />
+	</File>
+	<File name="sched/validate_util.h" open="0" top="0" tabpos="0">
+		<Cursor position="983" topLine="15" />
+	</File>
+	<File name="tools/process_result_template.cpp" open="1" top="0" tabpos="27">
+		<Cursor position="1904" topLine="50" />
+	</File>
+</CodeBlocks_layout_file>

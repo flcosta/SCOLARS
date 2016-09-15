@@ -1,0 +1,1089 @@
+<client_state>
+<host_info>
+    <timezone>0</timezone>
+    <domain_name>flcosta-laptop</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>d5ba8a45c31050588393ede30740849a</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm</p_features>
+    <p_fpops>129553612.085732</p_fpops>
+    <p_iops>101596634.444991</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1291394055.726732</p_calculated>
+    <m_nbytes>2125201408.000000</m_nbytes>
+    <m_cache>4194304.000000</m_cache>
+    <m_swap>4005670912.000000</m_swap>
+    <d_total>17724047360.000000</d_total>
+    <d_free>638263296.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>2.6.24-28-generic</os_version>
+</host_info>
+<time_stats>
+    <on_frac>0.999966</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <active_frac>0.999964</active_frac>
+    <last_update>1291396066.969739</last_update>
+</time_stats>
+<net_stats>
+    <bwup>93764.780652</bwup>
+    <avg_up>6961238362.354424</avg_up>
+    <avg_time_up>1291396004.550176</avg_time_up>
+    <bwdown>1095947.535828</bwdown>
+    <avg_down>1766155029.250567</avg_down>
+    <avg_time_down>1291395305.252198</avg_time_down>
+</net_stats>
+<project>
+    <master_url>http://debian.localdomain/test/</master_url>
+    <project_name>test</project_name>
+    <symstore></symstore>
+    <user_name>testing</user_name>
+    <team_name></team_name>
+    <host_venue></host_venue>
+    <email_hash>9ed94b19d58705577d8b6bf83653a97b</email_hash>
+    <cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+    <cpid_time>1267186549.000000</cpid_time>
+    <user_total_credit>22.680004</user_total_credit>
+    <user_expavg_credit>0.007353</user_expavg_credit>
+    <user_create_time>1267186549.000000</user_create_time>
+    <rpc_seqno>14</rpc_seqno>
+    <hostid>3</hostid>
+    <host_total_credit>22.680004</host_total_credit>
+    <host_expavg_credit>0.007353</host_expavg_credit>
+    <host_create_time>1267659801.000000</host_create_time>
+    <nrpc_failures>0</nrpc_failures>
+    <master_fetch_failures>0</master_fetch_failures>
+    <min_rpc_time>1291396014.565733</min_rpc_time>
+    <next_rpc_time>0.000000</next_rpc_time>
+    <short_term_debt>0.000000</short_term_debt>
+    <long_term_debt>0.000000</long_term_debt>
+    <cpu_backoff_interval>1920.000000</cpu_backoff_interval>
+    <cpu_backoff_time>1291397331.942130</cpu_backoff_time>
+    <cuda_short_term_debt>0.000000</cuda_short_term_debt>
+    <cuda_debt>0.000000</cuda_debt>
+    <cuda_backoff_interval>0.000000</cuda_backoff_interval>
+    <cuda_backoff_time>0.000000</cuda_backoff_time>
+    <ati_short_term_debt>0.000000</ati_short_term_debt>
+    <ati_debt>0.000000</ati_debt>
+    <ati_backoff_interval>0.000000</ati_backoff_interval>
+    <ati_backoff_time>0.000000</ati_backoff_time>
+    <resource_share>100.000000</resource_share>
+    <duration_correction_factor>0.886406</duration_correction_factor>
+    <sched_rpc_pending>0</sched_rpc_pending>
+    <send_time_stats_log>0</send_time_stats_log>
+    <send_job_log>0</send_job_log>
+    <scheduler_url>http://debian.localdomain/test_cgi/cgi</scheduler_url>
+    <code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+</project>
+<app>
+    <name>mapred_map_word_count</name>
+    <user_friendly_name>Word Count Map Application</user_friendly_name>
+</app>
+<app>
+    <name>mapred_reduce_word_count</name>
+    <user_friendly_name>Word Count Reduce Application</user_friendly_name>
+</app>
+<file_info>
+    <name>mapred_map_word_count_6.09_i686-pc-linux-gnu</name>
+    <nbytes>1011179.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+37737a443e40d381312e12fda7c174f97681251a59cf130b8200dc2266cdf42d
+9170905a51d9e697febcbf4215531749dc7bd2d293ec496b247d71265a0f18d7
+e42a61ae9f50a52fdda319d1d8108c190eb4fb23bfda25672adcf1e1ef71fbd0
+11bd083b7c9de2b5c3b52f11171c560f67d88a386a3b0e95463afbaede90d4d7
+.
+</file_signature>
+    <url>http://debian.localdomain/test/download/mapred_map_word_count_6.09_i686-pc-linux-gnu</url>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_1_0_0</name>
+    <nbytes>62.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>98bc4fe0e7d68840215c7e1f24fcdac7</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1661.270989</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_1_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+364757305fa8bdd07ba841b3af62aff6f62ed1a2398a04f1b5268990e04a1e61
+97ac9bf0a6616b90f60fdac227706abc5dde807a3d96cb402ff07b5834d06825
+ef8f3901ac2267f710106247df61be5aa26bf43bfef6188fb569bc4b458e8d25
+e72e5402c04330ecf38c8c81dc1b36f51259239427fbe2f944789c5d0fed6388
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_1_0_1</name>
+    <nbytes>84.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>6b40ef3cfb4f423aa38114502c8e11b1</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1661.270989</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_1_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+e46e40ae334a94c40336c3467805b02461fb1d9f647f652925887bcc60d29b37
+2f810c2d9cb91cf51f99e05a9f8f1a6378b46799790a92b8c90a18db2dc78a6f
+328dec3d7bcb3c1fe540c1e688d6a13ff8e5b477bce66e5efef5afbd7bf3f5d0
+95d0de589dbc3f3f26a31b546471f087b5339aa29f121bea94b7d27af0f856e5
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_1_1_0</name>
+    <nbytes>62.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>98bc4fe0e7d68840215c7e1f24fcdac7</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1647.510949</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_1_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+1a230e889b5b78192935ebab5d033d2fd9f3b875aa788128b1d30a0c357518ab
+f4d327a848bf3c58a7a4f62e77bdf673474585b5b2a6c9972f5b4bc5609ee2b7
+f449d053a191e30d86070fe6fca4bbfc600fd406ba0f2843782eeb142986d2b3
+273055a22c4f4f027950930b1aef326cf052421c3253564f44e8aafb87134773
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_1_1_1</name>
+    <nbytes>84.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>6b40ef3cfb4f423aa38114502c8e11b1</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1647.510949</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_1</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_1_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+9dfc5c7d1dacd842c26d4e4a9bd731a493fc7bdca9aad6d0895fc6d03fc5a16c
+6403167e33a2ff4303b67879f90b284e388ddd1a407d15e30e9b3269230ff9e4
+3fde83bf3521bb9bf303aafa1d6bee7494675b4a195fdce016b23d55513ed1ba
+d8192ca738aa9e4a39e685cde731adb334ac70453a4ba49ad1812093d97ba84f
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_2_0_0</name>
+    <nbytes>62.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>98bc4fe0e7d68840215c7e1f24fcdac7</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1639.703981</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_2_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+6d8c816c2b4e86db6bc5fe7944892f2f2adafedd23c64f5bd2bb101572a3d3f3
+2b3db44f7e2c89d010ba4fd7751dfa7d6065d3cfbf60507cf44382e6f04bbb4e
+8558d22d84a71e07c6e209ee0cce905f21db4b56d471c5a09010896c22f2c457
+a4dceb474be84d9b8d8cbf37c3b55714b64f0de116082df75f6a715fd890f259
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_2_0_1</name>
+    <nbytes>84.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>6b40ef3cfb4f423aa38114502c8e11b1</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1639.703981</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_2_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+b326ef7ea68bb86584bd6ac3cd80ed888b1f7a6b637f293a3805517eff61b431
+d1f474b0a221538ff644a0c36876bfdb7bcdfc01269a84181ffb8e49574051cf
+cc5ec423b4ae7f9718a98a782c62a95a4e97e566a488b2df33c55051da19da2b
+fcf196640d08356e28b59d3e4941e754382f8d29cdf1a5ec6add06dc9f0ee8cd
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_2_1_0</name>
+    <nbytes>62.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>98bc4fe0e7d68840215c7e1f24fcdac7</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1640.803486</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_2_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+4a2dac4b0c450e79ab795afd8da9d1db48d1803d55088e7f5d4a625744e7a662
+ba5fb2502ff38b4eb4b756f446674b5120849f2981a96ea5fd7ccda7ca9deee5
+09bcdaee58587ed704a6e8fde02aa8280d9c313065f979091513e16d67ad05d5
+d62076aa43bc2824340b36ee8000553e469a988f22ead2d7a44fe3e1f52bd6fd
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_2_1_1</name>
+    <nbytes>84.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>6b40ef3cfb4f423aa38114502c8e11b1</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1640.803486</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_2</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_2_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+dbf00345337c38953df0d003d004fb2af774a51697f8533050da8cd6caa64762
+81bc6766e99d6030324e500e41ab5fac1f69c7eec87150c44282c4b9d02260d9
+1b69b5e247ee0c7c606fc939b583a2b7d17c42ff9f646d4728610320c5ed39b9
+172970bad3f3f400a5fa2d8cec577d7247d570f4d952906c9902b99ed698ae2e
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_3_0_0</name>
+    <nbytes>46.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>76962effc1522a3bd7883ec0ee2d2390</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1641.914897</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_3_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+56fa99c8db332cf6b59bf17c735befb3c9fafd7ea103e9208ca74a1c355218e0
+4b69225dc90b8da195e3485672b479e1877d4f50c44b14c22ffd794db2e2c94c
+c7831b75a6c5d75c3e5f5609e484bce5da1811f3209bcd670a09b1ddb6dc47ca
+34671069da8442724d919d09814842d230bebdc961681dc55446b007e255e7c1
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_3_0_1</name>
+    <nbytes>102.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>867e053ea287b67777d42b53c81db583</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1641.914897</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_3_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+e8b5d0b1eaa297e8e37728747f725483f2370eec544a7b669e6c4afd2135a7da
+419b1d98414a6e4c0d2e5c6854e6564afb111b04eb0ac7d78b4709834cc12a4a
+a9fbc62a8f3e2806438dcb35dff77198a46de77d9280cbfc5a16182dc061812e
+302a405ce1644c05b131bcc8a3da02f51c5fd84f5d6f658f20e99a00bcbd3d9c
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_3_1_0</name>
+    <nbytes>46.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>76962effc1522a3bd7883ec0ee2d2390</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1643.059054</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_3_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+0ceb4a98b7847668e4e96d3894a98033bfe48b5cc8e252803bf24cf2b536bd2f
+a80d802773963d869a30946225b33f3718e78650286052ab58fc7a5a7d650b0c
+5db3937b4125f3955281b80c44dd21c95a314ece32820a1aa6f3dd5eeca0a94f
+a05892ba40f44370df0af0e0f00289664712417960dad422c9c1e5799f9587b4
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_3_1_1</name>
+    <nbytes>102.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>867e053ea287b67777d42b53c81db583</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1643.059054</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_3</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_3_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+69ccd185529948409f4bdeeb12a28ea92826fbc4f269ea1a195ac0cf3793a0f6
+e5f8bc19c32911fee28820d877bbd23e1bebd4f92dd0054fcd39fe9f416db48c
+06b06c93944f4dfad3e16333622ef9dde09bd770e3072524602fd9526b6b641b
+83b7af3965b79373df1cf075d595e401e51ce46e51c9168233d379d779dd8560
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_4_0_0</name>
+    <nbytes>79.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2148426da569af3258eca79cd27461c3</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1644.235991</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_4_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+6abb6438d14da0b313f1a8b781e646830d03d0f86ee67b621a9a3b7242905f08
+9ca6a2dc7e7da7ecca32529131a519b041ce886f3e82021b7581b7ea1209fd71
+70a7b64eacc994f802af119d03f55b6c463d137bbd9b77a063ff3eb175526e1c
+1d66b72ab2bc441a297a833230d35f7063417da6b14ab9099458f93f22ef23d6
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_4_0_1</name>
+    <nbytes>66.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>155aabf52fd4cb205a724800d7b4beab</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1644.235991</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_4_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+7b0bf56a7504b465269296b1d3dfa26b374f153ae2742fd23938980ace377bbc
+a0ec39392663e1f0fe34953b5e5efabc7e65493aa267539b9bb09dbf8a43e624
+7c2403ca446762112651449ffdf463835b6aa43102af93844c580f419e44184a
+0c35da1e439f0f88a7455c517540a5499d8a9a18694499540c115721bfcec52f
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_4_1_0</name>
+    <nbytes>79.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2148426da569af3258eca79cd27461c3</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1645.373014</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_4_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+3ae13c960dbd5544c24600f2362ce83a314c8eb8b8218f99b443854a3bb06ad1
+b192cd0e21c78fbc07ae59fa17dbb1fb10186c41455659074da82b02b37ce145
+ac3f2b62ab9bca4c397228b56f3f5a04d22c81091cc9b83e71ace7e97a4a9f52
+47414d531efdb6e55afb0072d6cecec535fa46840705792042485ebcc8b4c982
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_4_1_1</name>
+    <nbytes>66.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>155aabf52fd4cb205a724800d7b4beab</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1645.373014</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_4</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_4_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+b5d72dc0de182889fea99bb98bebd7b66774346a653f3077806aaf751883500c
+ea81dafd1b1d65627ac6b9e883b937302189b59141d1f3d62d9901de24ee1224
+5c6d3b4b4740b5673e8d97ae22a0c010a284ac90160e20fba73d4bcbd673dadf
+9d56234a031efcacd6d913699fa606fe9c8ed27084232b60e09573a4b09d0d5d
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_5_0_0</name>
+    <nbytes>79.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>5ee054af44c82ec6972641588e10f36c</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1626.615982</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_5_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+4c768f45c3c7656eb184b77fb0cc9d5126e6a02aa5485fdc7cb58e489b7a884e
+f3af60aa4a61295ba815d71b2b73d60083734a9aa612283e7a69db189be53386
+de894b3e254fc6928428f22a1783e110e979f06ef2083b6e62240e5fcc3be023
+8db74d9d41a247ff9ac837a521ab897fc764cf882ab677122c13d010b5cec3f4
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_5_0_1</name>
+    <nbytes>60.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2d631f41fe581fbf178894fbac3ee471</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1626.615982</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_5_0_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+8838dc1050b544570101d6ca79590b1c44a94f9785a30fcb0eb1a7cc61c64a3a
+1bafc6a2bf9f2bae1ec0080c2136b8cd7028b985dbe7a070d1ce5920b5a93eb0
+1ea08465673b9f7bf9819910db8a472931e8e533abe5ab9bce25e15fb835cc38
+909f93e444e8f0231b2c18c9b460d46cd7a1f13bb13d060185f4ca8861aa1f11
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_5_1_0</name>
+    <nbytes>79.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>5ee054af44c82ec6972641588e10f36c</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1627.739028</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_5_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+2a2600f97a37264b0a6996f22dc6be1713892c31924a18d4c4f796b72e6be7c6
+7b9e30fcf40bca407c349c99ae8c6054874b14fcfe9cf950c3cbc0fa27773dc0
+0ced8b173042a8b3950064e120ff2aec22c13d6d535431e80d38db662ea17633
+039e03644dc20c63bd634b53e704ad82ebc167a5c4b87efdb5942ea1f15d4694
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_word_count_wu_5_1_1</name>
+    <nbytes>60.000000</nbytes>
+    <max_nbytes>2000000000.000000</max_nbytes>
+    <md5_cksum>2d631f41fe581fbf178894fbac3ee471</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+        <serving_time>1627.739028</serving_time>
+        <mr_wu_name>mapred_map_word_count_wu_5</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_word_count_wu_5_1_1</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000000</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+76bc35ac0db1657393dff21953064f571f978599d5351a7309e7529b3112d12b
+a9c90331c70c64d615174dad007c3cb8852c8cbd344c41a26ed8ce925a0c89ae
+cc2a44b85268a6f24cb8141e5e0405d3d0b249e211a6ce1fe02bc6aa458ff639
+0e9501aac340c53d84293f78e41791dd1d0b40d23f03fa589c036b3dc2376719
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_reduce_word_count_6.09_i686-pc-linux-gnu</name>
+    <nbytes>1014227.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+bc95f5e103e430bf8eb442818fa86cd899b4919dcf57c5f750d3874046c1c9c9
+1def3af15e1c30e07b7c2d8264d7a978b1da3362aa7ef2ae983a1d5b074bd21d
+362d426d3dd8aeb8af1b96538c809f4b61e23d7f9f9ebb7243d445686dee078a
+225cc8c9a81f7e2026c6bdc3244779f3cbb8d55424c98ebb77683db576b97773
+.
+</file_signature>
+    <url>http://debian.localdomain/test/download/mapred_reduce_word_count_6.09_i686-pc-linux-gnu</url>
+</file_info>
+<file_info>
+    <name>mapred_reduce_word_count_0_0_0_0</name>
+    <nbytes>100.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>771c95f34b6086eacb6a0a60734fbadb</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mapred_reduce_word_count_0_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_reduce_word_count_0_0_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+9ee5620b385308d3d9d1401335c4a5fc686276af2791784eb14504c9a570761c
+49f00aed1d40a60d479e254a7191e12061c33cf890e61b2a7e022ac37777f508
+acfbf6fdbc30365344bf7f1a21848ef0f8fb36906fd2ab52be98b53b58ec1fad
+3d8619eb42451b7a0de6b75aea81d587bcc9eec6cdae898c6cf6cc40b4e5a81f
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_reduce_word_count_0_0_1_0</name>
+    <nbytes>100.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>771c95f34b6086eacb6a0a60734fbadb</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <serving_time>0.000000</serving_time>
+        <mr_wu_name>mapred_reduce_word_count_0_0</mr_wu_name>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_reduce_word_count_0_0_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+048af79e50abf166b5156e05572c61bb16000069064820f867835fc014655db8
+e0ad7bcf686ac53664c4e8829c7e6e04a93fcef3904aa37d753d595c885f68f1
+a9f0305a8758da5940f4cbf87d4effbd9292047cfa85e872adc81b1d94d8beef
+5e6e897ea0a5f73abb076108b468ebafaf024d01cdd030cfd4578d802dd8ca2f
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_reduce_word_count_0_1_0_0</name>
+    <nbytes>0.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <generated_locally/>
+    <status>0</status>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <serving_time>0.000000</serving_time>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_reduce_word_count_0_1_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+4494ac2f04c25d7b36ae02054129af9d8315708c74a0f7b48fd66ba6f9ca86ca
+458c97b8f423ca3908857056512a0d4cb68e12f5d4e8bf32b71678532b4def8c
+ea4a0a25a1d2ba39338b657f82d571c94e8deb5313f951c15ae08adf347ab4ed
+8a1153a8dea112f6d7f7bad8829f1b99da2cb138fa9103cbdbdedde34a1d7cd3
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_reduce_word_count_0_1_1_0</name>
+    <nbytes>0.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <generated_locally/>
+    <status>0</status>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>2</job_id>
+        <serving_time>0.000000</serving_time>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_reduce_word_count_0_1_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2000000048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 2 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+d9a016de628259de567abba65ad9e9871be1e7a3de6c46a916af7fc7e59abb99
+32ee6bf596b2914364ff17bebc8de0f66cd1b9aaf368d4ba39fe58107e135cb1
+62e83472c7de1a1197ba82466048d224b0f895eda14d203e3b7494170d2df330
+4944981da8c727b4f7ab02a70fdb31c38887c51e24f449c2efaf40d85800ce1a
+.
+    </xml_signature>
+</file_info>
+<app_version>
+    <app_name>mapred_map_word_count</app_name>
+    <version_num>609</version_num>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>129553612.085732</flops>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+        <file_name>mapred_map_word_count_6.09_i686-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<app_version>
+    <app_name>mapred_reduce_word_count</app_name>
+    <version_num>609</version_num>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>129553612.085732</flops>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+        <file_name>mapred_reduce_word_count_6.09_i686-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<active_task_set>
+</active_task_set>
+<platform_name>i686-pc-linux-gnu</platform_name>
+<core_client_major_version>6</core_client_major_version>
+<core_client_minor_version>11</core_client_minor_version>
+<core_client_release>1</core_client_release>
+<user_run_request>2</user_run_request>
+<user_gpu_request>2</user_gpu_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>1291394069.185774</new_version_check_time>
+<all_projects_list_check_time>1291394028.575025</all_projects_list_check_time>
+</client_state>

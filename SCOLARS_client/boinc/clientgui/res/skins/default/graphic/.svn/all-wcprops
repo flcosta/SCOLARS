@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic
+END
+workunit_gauge_progress_indicator_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_gauge_progress_indicator_image.xpm
+END
+state_indicator_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/state_indicator_background_image.xpm
+END
+left_arrow_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/left_arrow_clicked_button.xpm
+END
+resume_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/resume_link_image.xpm
+END
+workunit_active_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_active_image.xpm
+END
+preferences_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/preferences_link_image.xpm
+END
+cancel_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/cancel_button.xpm
+END
+background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/background_image.xpm
+END
+workunit_animation_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_animation_background_image.xpm
+END
+advanced_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/advanced_link_image.xpm
+END
+attach_project_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/attach_project_button.xpm
+END
+connecting_indicator_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/connecting_indicator_image.xpm
+END
+save_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/save_button.xpm
+END
+copy_all_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/copy_all_button.xpm
+END
+cancel_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/cancel_clicked_button.xpm
+END
+dialog_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/dialog_background_image.xpm
+END
+close_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/close_button.xpm
+END
+workunit_tab_area_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_tab_area_background_image.xpm
+END
+attach_project_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/attach_project_clicked_button.xpm
+END
+copy_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/copy_button.xpm
+END
+synchronize_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/synchronize_button.xpm
+END
+save_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/save_clicked_button.xpm
+END
+project_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/project_image.xpm
+END
+copy_all_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/copy_all_clicked_button.xpm
+END
+messages_alert_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/messages_alert_link_image.xpm
+END
+close_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/close_clicked_button.xpm
+END
+spacer_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/spacer_image.xpm
+END
+right_arrow_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/right_arrow_button.xpm
+END
+workunit_animation_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_animation_image.xpm
+END
+help_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/help_button.xpm
+END
+copy_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/copy_clicked_button.xpm
+END
+synchronize_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/synchronize_clicked_button.xpm
+END
+messages_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/messages_link_image.xpm
+END
+error_indicator_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/error_indicator_image.xpm
+END
+workunit_gauge_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_gauge_background_image.xpm
+END
+workunit_suspended_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_suspended_image.xpm
+END
+project_area_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/project_area_background_image.xpm
+END
+left_arrow_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/left_arrow_button.xpm
+END
+suspend_link_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/suspend_link_image.xpm
+END
+right_arrow_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/right_arrow_clicked_button.xpm
+END
+help_clicked_button.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/help_clicked_button.xpm
+END
+workunit_area_background_image.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/13804/trunk/boinc/clientgui/res/skins/default/graphic/workunit_area_background_image.xpm
+END

@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 98
+BOINC
+BOINCRM
+BOINCService
+CPDNBBC
+GridRepublic
+GridRepublicx64
+Progress
+Seed
+boinc.pvk
+boinc.spc
+
+END

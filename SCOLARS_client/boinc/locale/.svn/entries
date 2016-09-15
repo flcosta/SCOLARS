@@ -1,0 +1,176 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/locale
+http://boinc.berkeley.edu/svn
+
+
+
+2010-02-28T13:00:08.839346Z
+20754
+boinctrans
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+sv_SE
+dir
+
+uk
+dir
+
+da
+dir
+
+be
+dir
+
+fa
+dir
+
+bg
+dir
+
+de
+dir
+
+ja
+dir
+
+fi
+dir
+
+nb
+dir
+
+pt_BR
+dir
+
+fr
+dir
+
+nl
+dir
+
+hr
+dir
+
+nn
+dir
+
+pl
+dir
+
+hu
+dir
+
+lt
+dir
+
+ro
+dir
+
+lv
+dir
+
+copy_files.php
+file
+
+
+
+
+2010-02-19T12:32:18.000000Z
+cd4c03ebcf055bbab9668c351f9f7917
+2009-05-19T20:55:43.178167Z
+18165
+davea
+
+ca
+dir
+
+pt
+dir
+
+tr
+dir
+
+ru
+dir
+
+zh_TW
+dir
+
+templates
+dir
+
+el
+dir
+
+zh_CN
+dir
+
+gl
+dir
+
+ar
+dir
+
+updatetrans.sh
+file
+
+
+
+
+2010-02-19T12:32:18.000000Z
+db27c97db640320fabf01f406339286d
+2010-02-18T21:50:16.642388Z
+20639
+romw
+has-props
+
+cs
+dir
+
+es
+dir
+
+ko
+dir
+
+Makefile.am
+file
+
+
+
+
+2010-02-19T12:32:18.000000Z
+2a26b460ea40cfa4bdc777654015775f
+2009-10-30T20:12:17.892768Z
+19426
+romw
+
+cy
+dir
+
+it
+dir
+
+sk
+dir
+
+sl
+dir
+
