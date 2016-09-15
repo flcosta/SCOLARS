@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/19458/branches/server_stable/html/ops
+END
+make_puser.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/make_puser.php
+END
+cancel_wu_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/html/ops/cancel_wu_action.php
+END
+bolt_map.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_map.php
+END
+failure_result_summary_by_platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19458/branches/server_stable/html/ops/failure_result_summary_by_platform.php
+END
+credit_study.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/credit_study.php
+END
+grant_credit.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/grant_credit.php
+END
+login_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/login_action.php
+END
+sample_table_stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/html/ops/sample_table_stats.php
+END
+db_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/html/ops/db_form.php
+END
+notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/notify.php
+END
+manage_special_users.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/html/ops/manage_special_users.php
+END
+repair_forums.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/html/ops/repair_forums.php
+END
+bbcode_convert.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bbcode_convert.php
+END
+update_profile_pages.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/html/ops/update_profile_pages.php
+END
+show_log.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/ops/show_log.php
+END
+db_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/html/ops/db_action.php
+END
+bolt_datagen.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_datagen.php
+END
+assign.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/assign.php
+END
+manage_user.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/manage_user.php
+END
+eah_server_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19458/branches/server_stable/html/ops/eah_server_status.php
+END
+failure_result_summary_by_host.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19458/branches/server_stable/html/ops/failure_result_summary_by_host.php
+END
+single_job_setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/html/ops/single_job_setup.php
+END
+problem_host.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/problem_host.php
+END
+mass_email_script.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19458/branches/server_stable/html/ops/mass_email_script.php
+END
+clean_user_names.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/html/ops/clean_user_names.php
+END
+clean_cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/clean_cache.php
+END
+manage_special_users_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19458/branches/server_stable/html/ops/manage_special_users_action.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/html/ops/index.php
+END
+wd_nresults_changing.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/html/ops/wd_nresults_changing.php
+END
+analyze_coproc_log.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/html/ops/analyze_coproc_log.php
+END
+manage_apps.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/manage_apps.php
+END
+make_emails_lowercase.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19458/branches/server_stable/html/ops/make_emails_lowercase.php
+END
+job_times.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/html/ops/job_times.php
+END
+update_uotd.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/update_uotd.php
+END
+bossa_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bossa_admin.php
+END
+team_import.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/team_import.php
+END
+manage_app_versions.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/html/ops/manage_app_versions.php
+END
+white.css
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/html/ops/white.css
+END
+profile_screen_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/html/ops/profile_screen_form.php
+END
+update_translations.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/html/ops/update_translations.php
+END
+clear_host.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/clear_host.php
+END
+cancel_wu_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/ops/cancel_wu_form.php
+END
+team_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/ops/team_export.php
+END
+db_update.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/html/ops/db_update.php
+END
+forum_repair.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/forum_repair.php
+END
+result_summary.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/ops/result_summary.php
+END
+login_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/login_form.php
+END
+upgrade_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/upgrade_db.php
+END
+bossa_example_make_jobs.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bossa_example_make_jobs.php
+END
+profile_screen_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19458/branches/server_stable/html/ops/profile_screen_action.php
+END
+create_forums.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/html/ops/create_forums.php
+END
+user_graph.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/user_graph.php
+END
+bbcode_convert_signature.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bbcode_convert_signature.php
+END
+bossa_example_make_files.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bossa_example_make_files.php
+END
+dbinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/dbinfo.php
+END
+pass_percentage_by_platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19458/branches/server_stable/html/ops/pass_percentage_by_platform.php
+END
+purge_profile.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/html/ops/purge_profile.php
+END
+list_new_users.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/ops/list_new_users.php
+END
+build_po_boinc.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/ops/build_po_boinc.php
+END
+bossa_transitioner.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bossa_transitioner.php
+END
+bolt_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_admin.php
+END
+host_update_credit.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/html/ops/host_update_credit.php
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/logout.php
+END
+sample_server_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/html/ops/sample_server_status.php
+END
+hrclass_summary.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/html/ops/hrclass_summary.php
+END
+bolt_refresh.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_refresh.php
+END
+remind.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/remind.php
+END
+db_cleanse.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/db_cleanse.php
+END
+bossa_example4_make_jobs.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bossa_example4_make_jobs.php
+END
+repair_profile_pictures.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19458/branches/server_stable/html/ops/repair_profile_pictures.php
+END
+bolt_setup_sample.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_setup_sample.php
+END
+autolock.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/ops/autolock.php
+END
+watchdogs.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/html/ops/watchdogs.php
+END
+build_po.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/ops/build_po.php
+END
+reset_hrclass.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/html/ops/reset_hrclass.php
+END
+bolt_compare.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bolt_compare.php
+END
+repair_validator_problem.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/repair_validator_problem.php
+END
+nvidia.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/ops/nvidia.php
+END
+mass_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/mass_email.php
+END
+bbcode_convert_response1.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bbcode_convert_response1.php
+END
+bbcode_convert_response2.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/ops/bbcode_convert_response2.php
+END
+update_forum_activities.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19458/branches/server_stable/html/ops/update_forum_activities.php
+END
+block_host.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/ops/block_host.php
+END
+opsw.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/html/ops/opsw.php
+END
+errorwus.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/ops/errorwus.php
+END

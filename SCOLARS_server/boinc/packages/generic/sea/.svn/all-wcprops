@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea
+END
+secure.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/secure.sh
+END
+make-tar_debug.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/make-tar_debug.sh
+END
+boincmgr.48x48.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/boincmgr.48x48.png
+END
+boincmgr.32x32.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/boincmgr.32x32.png
+END
+insecure.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/insecure.sh
+END
+boincmgr.16x16.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/boincmgr.16x16.png
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/Makefile.am
+END
+make-tar.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/make-tar.sh
+END
+make-sea.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/packages/generic/sea/make-sea.sh
+END

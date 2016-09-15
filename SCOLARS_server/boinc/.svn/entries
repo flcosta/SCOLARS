@@ -1,0 +1,468 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable
+http://boinc.berkeley.edu/svn
+
+
+
+2009-12-21T00:58:58.746556Z
+19996
+davea
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+checkin_notes_2002
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+d46fa24c5a3b87d7a32070be9a320b6b
+2005-04-28T23:40:40.000000Z
+5965
+boincadm
+has-props
+
+mac_build
+dir
+
+checkin_notes_2003
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+5574d51b0f9dc287f6c0b8dae8da93f1
+2005-04-28T23:40:40.000000Z
+5965
+boincadm
+has-props
+
+m4
+dir
+
+checkin_notes_2004
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+9f813fc206eef060b2db35b1a7fcdd2b
+2005-04-28T23:40:40.000000Z
+5965
+boincadm
+has-props
+
+checkin_notes_2005
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+b3f3deceaff56cbeb27d8b70636011b1
+2007-08-10T16:02:09.154684Z
+13293
+davea
+has-props
+
+clientgui
+dir
+
+checkin_notes_2006
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+2082e25be825a57601386d0dee00a409
+2007-10-10T09:25:40.716993Z
+13819
+fthomas
+has-props
+
+checkin_notes_2007
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+7d3a8eb2a0b5dd009f098b2bfcb2636e
+2008-01-01T18:07:13.308438Z
+14451
+davea
+
+db
+dir
+
+checkin_notes_2008
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+2ef3ded7a241399666cda2568a3d9234
+2009-10-16T00:13:01.474407Z
+19310
+davea
+has-props
+
+clientscr
+dir
+
+sched
+dir
+
+find-working-cvs
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+712176958c21083a691cbe151131199d
+2003-11-25T01:49:39.000000Z
+2677
+quarl
+has-props
+
+generate_svn_version.sh
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+bae7e6ee2a8ca54a6364e5f50e788902
+2009-09-18T19:26:34.300827Z
+19096
+davea
+
+locale
+dir
+
+tools
+dir
+
+clientctrl
+dir
+
+apps
+dir
+
+configure.ac
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+5aa93b5d8281eb4ae9d630c4b22c122f
+2009-09-23T16:51:40.201229Z
+19143
+davea
+has-props
+
+TODO_OLD
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+b07fb48a60537a6cf898b32cc6215590
+2002-09-26T23:09:07.000000Z
+437
+eheien
+has-props
+
+html
+dir
+
+doc
+dir
+
+curl
+dir
+
+lib
+dir
+
+INSTALL
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+91de32e0813da705c7f0e2ff043b653b
+2008-01-14T19:08:52.290398Z
+14550
+davea
+has-props
+
+COPYING
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+d32239bcb673463ab874e80d47fae504
+2008-08-05T22:43:14.354540Z
+15758
+davea
+has-props
+
+COPYRIGHT
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+f1a6a24b85016dd20f88e940fc3b9762
+2009-04-15T21:48:59.685367Z
+17824
+romw
+has-props
+
+testbase
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+c2432eb3dfbac48491b451c8bee3e25d
+2003-12-20T09:14:38.000000Z
+2817
+quarl
+has-props
+
+win_build
+dir
+
+packages
+dir
+
+clienttray
+dir
+
+set-version
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+995359d72e20da5f30aa5eb0082180f8
+2004-12-06T22:13:42.000000Z
+4769
+davea
+has-props
+
+test
+dir
+
+version.h.in
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+ef759540dd3c6e183e173d00d14b879c
+2008-04-17T16:18:16.213080Z
+15067
+romw
+has-props
+
+stripchart
+dir
+
+py
+dir
+
+_autosetup
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+e6d89efbe90bb2ec5758ac88b900bdbf
+2009-09-23T17:16:24.650130Z
+19144
+davea
+has-props
+
+notes
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+fc4e22b16ce2d7e63dd5d0e332ffffe2
+2002-06-21T06:52:47.000000Z
+127
+sorabji
+has-props
+
+.vimrc
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+ee9b2cfa248f4723873ed728b441b4c4
+2004-12-08T20:55:53.000000Z
+4795
+boincadm
+has-props
+
+checkin_notes_samples
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+600b033c4e9d4bf0cd173eae81f4fd82
+2009-02-11T10:15:13.069066Z
+17200
+charlief
+
+Makefile.incl
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+4825b53facc28e7fed62ce219227a26f
+2009-07-15T22:10:54.399319Z
+18600
+korpela
+has-props
+
+samples
+dir
+
+COPYING.LESSER
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+6a6a8e020838b23406c81b19c1d46df6
+2008-08-05T22:43:14.354540Z
+15758
+davea
+
+clientlib
+dir
+
+todo
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+86eedccbc9259255c00f0f54f5cde52f
+2007-10-10T09:25:40.716993Z
+13819
+fthomas
+has-props
+
+languages
+dir
+
+coprocs
+dir
+
+api
+dir
+
+Makefile.am
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+4863f249f58d69433d3c1b1f53fea6af
+2009-09-17T17:56:59.423262Z
+19079
+davea
+has-props
+
+bolt_checkin_notes.txt
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+1737f35dd44ad9daaf1862ddf37d975d
+2008-11-03T03:06:29.774943Z
+16390
+davea
+
+version.h
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+c6b3e5a5eef3ee90dc475972778cf85c
+2009-08-18T15:58:58.538794Z
+18856
+romw
+has-props
+
+checkin_notes
+file
+
+
+
+
+2010-05-25T02:51:58.000000Z
+793acbf9e619b5ca8fb0e7263e863d7a
+2009-12-21T00:58:58.746556Z
+19996
+davea
+has-props
+
+mac_installer
+dir
+
+client
+dir
+

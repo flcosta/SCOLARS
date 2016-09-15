@@ -1,0 +1,7 @@
+PKG=CSWboincclient
+NAME=boincclient - BOINC volunteer distributed computing client 
+VERSION=6.11.0,REV=2009.12.21_r21623
+CATEGORY=application
+VENDOR=http://boinc.berkeley.edu/ packaged for CSW by Fernando Costa,,,
+HOTLINE=http://www.opencsw.org/
+EMAIL=flcosta@opencsw.org

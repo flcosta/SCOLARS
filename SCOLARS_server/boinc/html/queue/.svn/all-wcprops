@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/19458/branches/server_stable/html/queue
+END
+create_queue.sql
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/queue/create_queue.sql
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/html/queue/README
+END

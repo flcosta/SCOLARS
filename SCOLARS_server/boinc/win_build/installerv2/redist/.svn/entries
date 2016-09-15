@@ -1,0 +1,93 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/win_build/installerv2/redist
+http://boinc.berkeley.edu/svn
+
+
+
+2009-10-21T18:37:53.011249Z
+19361
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+WCG
+dir
+
+placeholder.txt
+file
+
+
+
+
+2010-05-25T02:51:54.000000Z
+b844378a6536dcaf3954fcbf67545321
+2007-11-28T20:16:54.293281Z
+14317
+romw
+
+Progress
+dir
+
+setup.ico
+file
+
+
+
+
+2010-05-25T02:51:54.000000Z
+0814e6ccc656d7c7bda6e202c46d0e5f
+2007-08-09T03:50:47.287695Z
+13279
+romw
+has-props
+
+Windows
+dir
+
+GridRepublic
+dir
+
+all_projects_list.xml
+file
+
+
+
+
+2010-05-25T02:51:54.000000Z
+85b3947f77deea5bff79294136f838ca
+2009-03-30T16:02:10.979069Z
+17695
+romw
+
+0409
+dir
+
+setup.bmp
+file
+
+
+
+
+2010-05-25T02:51:54.000000Z
+2503b5043f7436c67600cf79f0841121
+2007-08-09T03:49:32.206401Z
+13278
+romw
+has-props
+

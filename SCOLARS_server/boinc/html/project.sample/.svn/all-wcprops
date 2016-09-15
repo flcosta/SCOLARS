@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample
+END
+project_specific_prefs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample/project_specific_prefs.inc
+END
+donations.inc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample/donations.inc
+END
+project_news.inc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample/project_news.inc
+END
+cache_parameters.inc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample/cache_parameters.inc
+END
+project.inc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/html/project.sample/project.inc
+END

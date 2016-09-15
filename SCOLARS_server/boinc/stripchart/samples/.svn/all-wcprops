@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples
+END
+parse_config
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/parse_config
+END
+looper
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/looper
+END
+db_looper
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/db_looper
+END
+crontab
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/crontab
+END
+dir_size
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/dir_size
+END
+db_query
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/db_query
+END
+datafiles
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/datafiles
+END
+db_count
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/db_count
+END
+get_load
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/stripchart/samples/get_load
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/samples/wrapper
+END
+wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/samples/wrapper/wrapper.cpp
+END
+job.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/samples/wrapper/job.xml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/wrapper/Makefile
+END

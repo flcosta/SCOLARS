@@ -1,0 +1,360 @@
+<client_state>
+<host_info>
+    <timezone>-18000</timezone>
+    <domain_name>flcosta-laptop</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>4cd44400b6f0762aa5c8d707f9dc1694</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm</p_features>
+    <p_fpops>2095429814.372011</p_fpops>
+    <p_iops>4705459506.597532</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1276814224.529242</p_calculated>
+    <m_nbytes>2125201408.000000</m_nbytes>
+    <m_cache>4194304.000000</m_cache>
+    <m_swap>4005670912.000000</m_swap>
+    <d_total>17724047360.000000</d_total>
+    <d_free>2643779584.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>2.6.24-28-generic</os_version>
+</host_info>
+<time_stats>
+    <on_frac>1.000000</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <active_frac>0.999965</active_frac>
+    <last_update>1276814414.372241</last_update>
+</time_stats>
+<net_stats>
+    <bwup>34859.265447</bwup>
+    <avg_up>2883763873.439560</avg_up>
+    <avg_time_up>1276814390.414280</avg_time_up>
+    <bwdown>878302.848114</bwdown>
+    <avg_down>18084523408.342472</avg_down>
+    <avg_time_down>1276814260.930897</avg_time_down>
+</net_stats>
+<project>
+    <master_url>http://debian.localdomain/test/</master_url>
+    <project_name>test</project_name>
+    <symstore></symstore>
+    <user_name>testing</user_name>
+    <team_name></team_name>
+    <host_venue></host_venue>
+    <email_hash>9ed94b19d58705577d8b6bf83653a97b</email_hash>
+    <cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+    <cpid_time>1267186549.000000</cpid_time>
+    <user_total_credit>0.175244</user_total_credit>
+    <user_expavg_credit>0.012410</user_expavg_credit>
+    <user_create_time>1267186549.000000</user_create_time>
+    <rpc_seqno>6</rpc_seqno>
+    <hostid>3</hostid>
+    <host_total_credit>0.175244</host_total_credit>
+    <host_expavg_credit>0.012435</host_expavg_credit>
+    <host_create_time>1267659801.000000</host_create_time>
+    <nrpc_failures>0</nrpc_failures>
+    <master_fetch_failures>0</master_fetch_failures>
+    <min_rpc_time>1276814401.349248</min_rpc_time>
+    <next_rpc_time>0.000000</next_rpc_time>
+    <short_term_debt>0.000000</short_term_debt>
+    <long_term_debt>0.000000</long_term_debt>
+    <cpu_backoff_interval>120.000000</cpu_backoff_interval>
+    <cpu_backoff_time>1276814464.636716</cpu_backoff_time>
+    <cuda_short_term_debt>0.000000</cuda_short_term_debt>
+    <cuda_debt>0.000000</cuda_debt>
+    <cuda_backoff_interval>0.000000</cuda_backoff_interval>
+    <cuda_backoff_time>0.000000</cuda_backoff_time>
+    <ati_short_term_debt>0.000000</ati_short_term_debt>
+    <ati_debt>0.000000</ati_debt>
+    <ati_backoff_interval>0.000000</ati_backoff_interval>
+    <ati_backoff_time>0.000000</ati_backoff_time>
+    <resource_share>100.000000</resource_share>
+    <duration_correction_factor>0.943144</duration_correction_factor>
+    <sched_rpc_pending>0</sched_rpc_pending>
+    <send_time_stats_log>0</send_time_stats_log>
+    <send_job_log>0</send_job_log>
+    <scheduler_url>http://debian.localdomain/test_cgi/cgi</scheduler_url>
+    <code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+</project>
+<app>
+    <name>mapred_map_3-min</name>
+    <user_friendly_name>Map Application that runs for 3 minutes</user_friendly_name>
+    <mapreduce>
+       <reduce/>
+       <job_id>544763254</job_id>
+    </mapreduce>
+</app>
+<file_info>
+    <name>mapred_map_3-min_6.09_i686-pc-linux-gnu</name>
+    <nbytes>1011592.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+06c68e75a2e556083fc7273adb3a20aaa9625b342a3be3a2ac800d4cf894ab9b
+90f8180e40687918744e3542159b342005557ebacd807b46efb3430dc33e4a66
+b5367a900e6d752d88d6fc8913f5acf64ace0034662e99ed8bfc2bf64d067f21
+225d31dbf03599a160db82c5e7e551181b56c2f3e49110f91f25137dc5446365
+.
+</file_signature>
+    <url>http://debian.localdomain/test/download/mapred_map_3-min_6.09_i686-pc-linux-gnu</url>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_1_0_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>cd627d7eb6035f3ec4179ccf2890a937</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_1_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+05a52792d1629f5197059febdd38d1a95cb50d12a19434341d14f49aaff9fb78
+e39297cc4093409b3bfeb311383ed32fd052b08d7b929c3c7df19efe932f8c56
+c9d855409c87af4be1ec2f193a1ea7780dc199ccc6723674d45f62173cc424a2
+b98c7611af91f9cbd055d9c5974327ef451530fb5f24e5f25942442035f05c3a
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_1_1_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>cd627d7eb6035f3ec4179ccf2890a937</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_1_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+5da069422712b7c444cf3cda7ff1409f9872232563b155ea56214024f5b79406
+217393f230c980e53e0f3262cd6750d1669e54b19ac35e1fb301e391418d6bdb
+d8e790d0d60c0ff911130d90fc9f7c21d2b8df11acefd07894d87d13d50b1ea4
+195f7951a035cb68f53ed780df92637a2a2262ad4d00a134d4845c80b2a49512
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_2_0_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>1cc09cc7432ca0cf04f38a29c966b6a0</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_2_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+063d5c19695ae7abac3d79efacbc3705d05c5ca1bb4fb03f83dbc9560e786b64
+4cee32d8e97fce52583daf2396742eac8ab808b59802d957aabf14b59a0ff4e9
+285ab22370fe404998fcbddafeef9a73a0ac10325c2e46ac02ec8884d3a0d2bd
+764541f2b6f303b36f33d02c77438b85740b8bb5c96ff3c766f9552c7b53d18c
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_2_1_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>1cc09cc7432ca0cf04f38a29c966b6a0</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_2_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+2e6b7e3d45ef030fdf16c351168daa876d6d3da6c57a1144b74c4e61c5af28b7
+8393bf5c9ce850372dc8ca142e62ce01674e0c52303ff48f40cb2c5056def760
+bec9f163809e945a75daf56d96a48d04f1347a2de2035d96fb0afb22f5c2576b
+57f3e476cd0f2dce6e7afc055a656350fa802c2597f974e42b6d5861423e6667
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_3_0_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>d8c76e5ef43734e5a7850fa598022096</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_3_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+445d07cc9323e02b17e29da6588c8f16ba8b14fd357ea6bdfbe4b0818c78114a
+7210d8d754bacd67c79440449321bd819231bd456bfa1bb375bb256b7878bcee
+4d12cf0fd43d2b329a2c7a99e594f5bee4f89b882933f4c21fa36fc74330394e
+90b7b6900a016df45a8cd1ec16e6bd5102d4fdfc3a63fce05d4a7eb966d6fe55
+.
+    </xml_signature>
+</file_info>
+<file_info>
+    <name>mapred_map_3-min_wu_3_1_0</name>
+    <nbytes>15.000000</nbytes>
+    <max_nbytes>2048.000000</max_nbytes>
+    <md5_cksum>d8c76e5ef43734e5a7850fa598022096</md5_cksum>
+    <generated_locally/>
+    <status>1</status>
+    <uploaded/>
+    <upload_when_present/>
+    <sticky/>
+    <mapreduce>
+        <job_id>1</job_id>
+        <map_output/>
+        <mr_file_uploading/>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <signed_xml>
+    <name>mapred_map_3-min_wu_3_1_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <map_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+    </signed_xml>
+    <xml_signature>
+172302dbc868a649acafb4986e9e39a4f15005b4dd06037aab682e92a59ef15d
+654c4e05dfceb643c2f4cabc092d3621ac9b98b2cdb939c6899eaa0d6000806a
+10072d231216c1e1d392c86ac8af83250551102b488602b55138f7e6528b2e0e
+a045a27f543917493f8187851e5a0a705c2d8de4335ea0dc179a254c2ed9ef0a
+.
+    </xml_signature>
+</file_info>
+<app_version>
+    <app_name>mapred_map_3-min</app_name>
+    <version_num>609</version_num>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>2095429814.372011</flops>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+        <file_name>mapred_map_3-min_6.09_i686-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<active_task_set>
+</active_task_set>
+<platform_name>i686-pc-linux-gnu</platform_name>
+<core_client_major_version>6</core_client_major_version>
+<core_client_minor_version>11</core_client_minor_version>
+<core_client_release>1</core_client_release>
+<user_run_request>2</user_run_request>
+<user_gpu_request>2</user_gpu_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>1276814237.567290</new_version_check_time>
+<all_projects_list_check_time>1276814195.516239</all_projects_list_check_time>
+</client_state>

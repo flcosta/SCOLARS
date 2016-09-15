@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc
+END
+belement.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/belement.php
+END
+illegalargumentexception.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/illegalargumentexception.php
+END
+blist.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/blist.php
+END
+torrent.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/torrent.php
+END
+binteger.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/binteger.php
+END
+checks.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/checks.php
+END
+bdictionary.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/bdictionary.php
+END
+bstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/html/bt/inc/bstring.php
+END

@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib
+END
+jdatadst.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdatadst.c
+END
+jchuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jchuff.c
+END
+jdtrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdtrans.c
+END
+jchuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jchuff.h
+END
+jcparam.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcparam.c
+END
+jquant1.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jquant1.c
+END
+jcphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcphuff.c
+END
+rdswitch.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdswitch.c
+END
+jccolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jccolor.c
+END
+jcsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcsample.c
+END
+jcmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcmarker.c
+END
+jmemmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jmemmgr.c
+END
+jdmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdmarker.c
+END
+jdsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdsample.c
+END
+jfdctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jfdctflt.c
+END
+rdcolmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdcolmap.c
+END
+jmorecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jmorecfg.h
+END
+jinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jinclude.h
+END
+jidctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jidctflt.c
+END
+jctrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jctrans.c
+END
+jpegint.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jpegint.h
+END
+rdrle.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdrle.c
+END
+jutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jutils.c
+END
+jcprepct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcprepct.c
+END
+jdinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdinput.c
+END
+jpeglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jpeglib.h
+END
+rdppm.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdppm.c
+END
+rdtarga.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdtarga.c
+END
+jcmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcmainct.c
+END
+jdmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdmainct.c
+END
+jdpostct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdpostct.c
+END
+jcapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcapimin.c
+END
+jdapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdapimin.c
+END
+rdgif.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdgif.c
+END
+jmemsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jmemsys.h
+END
+jcdctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcdctmgr.c
+END
+jddctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jddctmgr.c
+END
+cdjpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/cdjpeg.h
+END
+jerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jerror.c
+END
+rdbmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/rdbmp.c
+END
+jdhuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdhuff.c
+END
+jfdctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jfdctfst.c
+END
+jcmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcmaster.c
+END
+jerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jerror.h
+END
+jdmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdmaster.c
+END
+jidctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jidctfst.c
+END
+jmemnobs.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jmemnobs.c
+END
+jdhuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdhuff.h
+END
+jcinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcinit.c
+END
+jquant2.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jquant2.c
+END
+jdct.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdct.h
+END
+jdatasrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdatasrc.c
+END
+jcapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcapistd.c
+END
+jdapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdapistd.c
+END
+jversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jversion.h
+END
+cderror.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/cderror.h
+END
+jfdctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jfdctint.c
+END
+jidctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jidctint.c
+END
+jdmerge.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdmerge.c
+END
+jccoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jccoefct.c
+END
+jdcoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdcoefct.c
+END
+jcomapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jcomapi.c
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jconfig.h
+END
+jdphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdphuff.c
+END
+jidctred.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jidctred.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/Makefile.am
+END
+jdcolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/samples/jpeglib/jdcolor.c
+END

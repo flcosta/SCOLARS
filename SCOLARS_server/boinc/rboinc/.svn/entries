@@ -1,0 +1,46 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/rboinc
+http://boinc.berkeley.edu/svn
+
+
+
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+server
+dir
+
+notes.txt
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+25ead89265427821b4e5039921bd0850
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+client
+dir
+

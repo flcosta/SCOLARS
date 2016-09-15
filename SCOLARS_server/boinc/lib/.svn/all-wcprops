@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/19458/branches/server_stable/lib
+END
+hostinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/hostinfo.h
+END
+gui_rpc_client_print.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/lib/gui_rpc_client_print.cpp
+END
+proc_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/lib/proc_control.cpp
+END
+x_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/x_util.cpp
+END
+mac_address.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/lib/mac_address.cpp
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/crypt.h
+END
+mem_usage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/mem_usage.h
+END
+str_replace.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/str_replace.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/19458/branches/server_stable/lib/util.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19458/branches/server_stable/lib/md5.c
+END
+gui_rpc_client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/lib/gui_rpc_client.cpp
+END
+stackwalker_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/lib/stackwalker_win.cpp
+END
+hostinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/hostinfo.cpp
+END
+diagnostics_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/lib/diagnostics_win.h
+END
+md5_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/md5_file.h
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19458/branches/server_stable/lib/md5.h
+END
+coproc.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19458/branches/server_stable/lib/coproc.h
+END
+proxy_info.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/proxy_info.cpp
+END
+stackwalker_imports.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/lib/stackwalker_imports.h
+END
+network.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/network.h
+END
+win_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/win_util.h
+END
+mfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/mfile.h
+END
+crypt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/crypt.cpp
+END
+gui_rpc_client_ops.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/lib/gui_rpc_client_ops.cpp
+END
+str_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/str_util.h
+END
+boinc_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/boinc_win.h
+END
+diagnostics.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/diagnostics.h
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19458/branches/server_stable/lib/util.cpp
+END
+makefile.gui_test
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/lib/makefile.gui_test
+END
+synch_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/synch_test.cpp
+END
+md5_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/md5_test.cpp
+END
+miofile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/miofile.cpp
+END
+procinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/procinfo.h
+END
+prefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/prefs.h
+END
+coproc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/coproc.cpp
+END
+error_numbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/lib/error_numbers.h
+END
+network.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/network.cpp
+END
+msg_queue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/msg_queue.cpp
+END
+gui_rpc_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/lib/gui_rpc_client.h
+END
+std_fixes.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/std_fixes.h
+END
+stackwalker_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/lib/stackwalker_win.h
+END
+proxy_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/proxy_info.h
+END
+cert_sig.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/cert_sig.h
+END
+str_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/str_util.cpp
+END
+diagnostics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/lib/diagnostics.cpp
+END
+boinc_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/boinc_win.cpp
+END
+parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/parse.cpp
+END
+shmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/shmem.h
+END
+filesys.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/filesys.cpp
+END
+prefs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/prefs.cpp
+END
+unix_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/unix_util.cpp
+END
+app_ipc.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/app_ipc.h
+END
+boinc_fcgi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/boinc_fcgi.cpp
+END
+synch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/synch.cpp
+END
+base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/lib/base64.cpp
+END
+crypt_prog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/crypt_prog.cpp
+END
+miofile.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/miofile.h
+END
+msg_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/msg_log.h
+END
+common_defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/common_defs.h
+END
+cert_sig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/cert_sig.cpp
+END
+msg_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/msg_queue.h
+END
+procinfo_mac.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/lib/procinfo_mac.cpp
+END
+mem_usage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/mem_usage.cpp
+END
+cal.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19458/branches/server_stable/lib/cal.h
+END
+proc_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/proc_control.h
+END
+shmem_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/lib/shmem_test.cpp
+END
+shmem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/shmem.cpp
+END
+mac_address.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/lib/mac_address.h
+END
+app_ipc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/app_ipc.cpp
+END
+parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/parse.h
+END
+procinfo_unix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/lib/procinfo_unix.cpp
+END
+filesys.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/filesys.h
+END
+md5_file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/md5_file.cpp
+END
+diagnostics_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/lib/diagnostics_win.cpp
+END
+msg_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/msg_test.cpp
+END
+unix_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/unix_util.h
+END
+msg_log.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/msg_log.cpp
+END
+boinc_fcgi.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/boinc_fcgi.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/lib/Makefile.am
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19458/branches/server_stable/lib/base64.h
+END
+synch.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/lib/synch.h
+END
+susp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19458/branches/server_stable/lib/susp.cpp
+END
+win_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/lib/win_util.cpp
+END
+procinfo_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/lib/procinfo_win.cpp
+END
+mfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/lib/mfile.cpp
+END

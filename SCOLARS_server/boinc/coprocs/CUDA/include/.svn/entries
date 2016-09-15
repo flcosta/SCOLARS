@@ -1,0 +1,40 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/coprocs/CUDA/include
+http://boinc.berkeley.edu/svn
+
+
+
+2009-02-16T21:35:19.492418Z
+17274
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+nvapi.h
+file
+
+
+
+
+2010-05-25T02:51:56.000000Z
+10fc270c41d74750bf8a0a52c34bbf74
+2009-02-16T21:35:19.492418Z
+17274
+romw
+

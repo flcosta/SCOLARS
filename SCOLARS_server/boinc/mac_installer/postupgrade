@@ -1,0 +1,19 @@
+#!/bin/sh
+
+##
+# post-Upgrade Script for Macintosh BOINC Manager for OS X revised 7/11/07
+##
+
+echo "initial directory = $PWD"
+echo "argument 1 = $1"
+
+cd "$1"
+
+echo "new directory = $PWD"
+
+# Run the Postinstall Application
+Contents/Resources/PostInstall.app/Contents/MacOS/PostInstall -part1
+
+Contents/Resources/PostInstall.app/Contents/MacOS/PostInstall -part2 &
+
+exit 0

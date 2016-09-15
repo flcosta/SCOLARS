@@ -1,0 +1,49 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/html
+http://boinc.berkeley.edu/svn
+
+
+
+2009-10-29T21:50:25.347102Z
+19413
+davea
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+ops
+dir
+
+queue
+dir
+
+bt
+dir
+
+languages
+dir
+
+project.sample
+dir
+
+inc
+dir
+
+user
+dir
+

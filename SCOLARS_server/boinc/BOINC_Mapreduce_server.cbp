@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BOINC_Mapreduce_server" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="$make -f $makefile" />
+			<CompileFile command="$make -f $makefile $file" />
+			<Clean command="$make -f $makefile clean" />
+			<DistClean command="$make -f $makefile distclean$target" />
+			<AskRebuildNeeded command="$make -q -f $makefile" />
+			<SilentBuild command="$make -s -f $makefile" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="BOINC_Mapreduce_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-D 3" />
+				<Option host_application="transitioner" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BOINC_Mapreduce_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean$target" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+		</Compiler>
+		<Unit filename="api/bmplib.cpp" />
+		<Unit filename="api/bmplib.h" />
+		<Unit filename="api/boinc_api.cpp" />
+		<Unit filename="api/boinc_api.h" />
+		<Unit filename="api/boinc_api_fortran.cpp" />
+		<Unit filename="api/boinc_gl.h" />
+		<Unit filename="api/boinc_glut.h" />
+		<Unit filename="api/graphics2.cpp" />
+		<Unit filename="api/graphics2.h" />
+		<Unit filename="api/graphics2_unix.cpp" />
+		<Unit filename="api/graphics2_util.cpp" />
+		<Unit filename="api/graphics2_win.cpp" />
+		<Unit filename="api/graphics_api.cpp" />
+		<Unit filename="api/graphics_api.h" />
+		<Unit filename="api/graphics_data.cpp" />
+		<Unit filename="api/graphics_data.h" />
+		<Unit filename="api/graphics_impl.cpp" />
+		<Unit filename="api/graphics_impl.h" />
+		<Unit filename="api/graphics_impl_lib.cpp" />
+		<Unit filename="api/graphics_lib.cpp" />
+		<Unit filename="api/graphics_lib.h" />
+		<Unit filename="api/gutil.cpp" />
+		<Unit filename="api/gutil.h" />
+		<Unit filename="api/gutil_text.cpp" />
+		<Unit filename="api/mac_icon.cpp" />
+		<Unit filename="api/make_app_icon_h.cpp" />
+		<Unit filename="api/reduce.h" />
+		<Unit filename="api/reduce_lib.cpp" />
+		<Unit filename="api/reduce_main.cpp" />
+		<Unit filename="api/static_graphics.cpp" />
+		<Unit filename="api/texfont.cpp" />
+		<Unit filename="api/texfont.h" />
+		<Unit filename="api/texture.cpp" />
+		<Unit filename="api/texture.h" />
+		<Unit filename="api/tgalib.cpp" />
+		<Unit filename="api/tgalib.h" />
+		<Unit filename="api/txf_util.cpp" />
+		<Unit filename="api/txf_util.h" />
+		<Unit filename="api/windows_opengl.cpp" />
+		<Unit filename="api/x_opengl.cpp" />
+		<Unit filename="api/x_opengl.h" />
+		<Unit filename="apps/1sec.cpp" />
+		<Unit filename="apps/Makefile" />
+		<Unit filename="apps/Makefile.am" />
+		<Unit filename="apps/Makefile.in" />
+		<Unit filename="apps/concat.cpp" />
+		<Unit filename="apps/error.cpp" />
+		<Unit filename="apps/upper_case.cpp" />
+		<Unit filename="client/win/boinc_cli.rc" />
+		<Unit filename="client/win/boinc_cmd.rc" />
+		<Unit filename="clientctrl/boincsvcctrl.rc" />
+		<Unit filename="clientgui/BOINCGUIApp.rc" />
+		<Unit filename="clientlib/win/boinc_dll.rc" />
+		<Unit filename="clientscr/boinc_ss.rc" />
+		<Unit filename="clientscr/boinc_ss_opengl.rc" />
+		<Unit filename="clienttray/boinc_tray.rc" />
+		<Unit filename="config.h" />
+		<Unit filename="coprocs/CUDA/include/nvapi.h" />
+		<Unit filename="db/boinc_db.cpp" />
+		<Unit filename="db/boinc_db.h" />
+		<Unit filename="db/db_base.cpp" />
+		<Unit filename="db/db_base.h" />
+		<Unit filename="html/ops/db_update.php" />
+		<Unit filename="lib/app_ipc.cpp" />
+		<Unit filename="lib/app_ipc.h" />
+		<Unit filename="lib/base64.cpp" />
+		<Unit filename="lib/base64.h" />
+		<Unit filename="lib/boinc_fcgi.cpp" />
+		<Unit filename="lib/boinc_fcgi.h" />
+		<Unit filename="lib/boinc_win.cpp" />
+		<Unit filename="lib/boinc_win.h" />
+		<Unit filename="lib/cal.h" />
+		<Unit filename="lib/cert_sig.cpp" />
+		<Unit filename="lib/cert_sig.h" />
+		<Unit filename="lib/common_defs.h" />
+		<Unit filename="lib/coproc.cpp" />
+		<Unit filename="lib/coproc.h" />
+		<Unit filename="lib/crypt.cpp" />
+		<Unit filename="lib/crypt.h" />
+		<Unit filename="lib/crypt_prog.cpp" />
+		<Unit filename="lib/diagnostics.cpp" />
+		<Unit filename="lib/diagnostics.h" />
+		<Unit filename="lib/diagnostics_win.cpp" />
+		<Unit filename="lib/diagnostics_win.h" />
+		<Unit filename="lib/error_numbers.h" />
+		<Unit filename="lib/filesys.cpp" />
+		<Unit filename="lib/filesys.h" />
+		<Unit filename="lib/gui_rpc_client.cpp" />
+		<Unit filename="lib/gui_rpc_client.h" />
+		<Unit filename="lib/gui_rpc_client_ops.cpp" />
+		<Unit filename="lib/gui_rpc_client_print.cpp" />
+		<Unit filename="lib/hostinfo.cpp" />
+		<Unit filename="lib/hostinfo.h" />
+		<Unit filename="lib/mac/QBacktrace.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QBacktrace.h" />
+		<Unit filename="lib/mac/QCrashReport.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QCrashReport.h" />
+		<Unit filename="lib/mac/QMachOImage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImage.h" />
+		<Unit filename="lib/mac/QMachOImageList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QMachOImageList.h" />
+		<Unit filename="lib/mac/QSymbols.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QSymbols.h" />
+		<Unit filename="lib/mac/QTaskMemory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/mac/QTaskMemory.h" />
+		<Unit filename="lib/mac/dyld_gdb.h" />
+		<Unit filename="lib/mac/mac_backtrace.cpp" />
+		<Unit filename="lib/mac/mac_backtrace.h" />
+		<Unit filename="lib/mac_address.cpp" />
+		<Unit filename="lib/mac_address.h" />
+		<Unit filename="lib/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/md5.h" />
+		<Unit filename="lib/md5_file.cpp" />
+		<Unit filename="lib/md5_file.h" />
+		<Unit filename="lib/md5_test.cpp" />
+		<Unit filename="lib/mem_usage.cpp" />
+		<Unit filename="lib/mem_usage.h" />
+		<Unit filename="lib/mfile.cpp" />
+		<Unit filename="lib/mfile.h" />
+		<Unit filename="lib/miofile.cpp" />
+		<Unit filename="lib/miofile.h" />
+		<Unit filename="lib/msg_log.cpp" />
+		<Unit filename="lib/msg_log.h" />
+		<Unit filename="lib/msg_queue.cpp" />
+		<Unit filename="lib/msg_queue.h" />
+		<Unit filename="lib/msg_test.cpp" />
+		<Unit filename="lib/network.cpp" />
+		<Unit filename="lib/network.h" />
+		<Unit filename="lib/parse.cpp" />
+		<Unit filename="lib/parse.h" />
+		<Unit filename="lib/prefs.cpp" />
+		<Unit filename="lib/prefs.h" />
+		<Unit filename="lib/proc_control.cpp" />
+		<Unit filename="lib/proc_control.h" />
+		<Unit filename="lib/procinfo.h" />
+		<Unit filename="lib/procinfo_mac.cpp" />
+		<Unit filename="lib/procinfo_unix.cpp" />
+		<Unit filename="lib/procinfo_win.cpp" />
+		<Unit filename="lib/proxy_info.cpp" />
+		<Unit filename="lib/proxy_info.h" />
+		<Unit filename="lib/shmem.cpp" />
+		<Unit filename="lib/shmem.h" />
+		<Unit filename="lib/shmem_test.cpp" />
+		<Unit filename="lib/stackwalker_imports.h" />
+		<Unit filename="lib/stackwalker_win.cpp" />
+		<Unit filename="lib/stackwalker_win.h" />
+		<Unit filename="lib/std_fixes.h" />
+		<Unit filename="lib/str_replace.h" />
+		<Unit filename="lib/str_util.cpp" />
+		<Unit filename="lib/str_util.h" />
+		<Unit filename="lib/susp.cpp" />
+		<Unit filename="lib/synch.cpp" />
+		<Unit filename="lib/synch.h" />
+		<Unit filename="lib/synch_test.cpp" />
+		<Unit filename="lib/unix_util.cpp" />
+		<Unit filename="lib/unix_util.h" />
+		<Unit filename="lib/util.cpp" />
+		<Unit filename="lib/util.h" />
+		<Unit filename="lib/win_util.cpp" />
+		<Unit filename="lib/win_util.h" />
+		<Unit filename="lib/x_util.cpp" />
+		<Unit filename="mac_installer/AddRemoveUser.cpp" />
+		<Unit filename="mac_installer/CustomInstall.cpp" />
+		<Unit filename="mac_installer/Installer.cpp" />
+		<Unit filename="mac_installer/LoginItemAPI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mac_installer/LoginItemAPI.h" />
+		<Unit filename="mac_installer/PostInstall.cpp" />
+		<Unit filename="mac_installer/uninstall.cpp" />
+		<Unit filename="samples/example_app/Mac/app_icon.h" />
+		<Unit filename="samples/example_app/uc2.cpp" />
+		<Unit filename="samples/example_app/uc2.h" />
+		<Unit filename="samples/example_app/uc2_graphics.cpp" />
+		<Unit filename="samples/glut/glut.h" />
+		<Unit filename="samples/glut/glut_roman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/glut_stroke.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/glut_swidth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/glutbitmap.h" />
+		<Unit filename="samples/glut/glutint.h" />
+		<Unit filename="samples/glut/glutstroke.h" />
+		<Unit filename="samples/glut/glutwin32.h" />
+		<Unit filename="samples/glut/stroke.h" />
+		<Unit filename="samples/glut/win32_glx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/win32_glx.h" />
+		<Unit filename="samples/glut/win32_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/win32_x11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/glut/win32_x11.h" />
+		<Unit filename="samples/image_libs/bmplib.cpp" />
+		<Unit filename="samples/image_libs/bmplib.h" />
+		<Unit filename="samples/image_libs/tgalib.cpp" />
+		<Unit filename="samples/image_libs/tgalib.h" />
+		<Unit filename="samples/jpeglib/cderror.h" />
+		<Unit filename="samples/jpeglib/cdjpeg.h" />
+		<Unit filename="samples/jpeglib/jcapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jccoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jccolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcdctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jchuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jchuff.h" />
+		<Unit filename="samples/jpeglib/jcinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcomapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jconfig.h" />
+		<Unit filename="samples/jpeglib/jcparam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcphuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcprepct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jcsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jctrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdatadst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdatasrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdcoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdcolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdct.h" />
+		<Unit filename="samples/jpeglib/jddctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdhuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdhuff.h" />
+		<Unit filename="samples/jpeglib/jdinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdmerge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdphuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdpostct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jdtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jerror.h" />
+		<Unit filename="samples/jpeglib/jfdctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jfdctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jfdctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jidctred.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jinclude.h" />
+		<Unit filename="samples/jpeglib/jmemmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmemnobs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jmemsys.h" />
+		<Unit filename="samples/jpeglib/jmorecfg.h" />
+		<Unit filename="samples/jpeglib/jpegint.h" />
+		<Unit filename="samples/jpeglib/jpeglib.h" />
+		<Unit filename="samples/jpeglib/jquant1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jquant2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/jversion.h" />
+		<Unit filename="samples/jpeglib/rdbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdcolmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdgif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdppm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdrle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdswitch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/jpeglib/rdtarga.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="samples/multi_thread/multi_thread.cpp" />
+		<Unit filename="samples/sleeper/sleeper.cpp" />
+		<Unit filename="samples/worker/worker.cpp" />
+		<Unit filename="samples/wrapper/wrapper.cpp" />
+		<Unit filename="sched/assimilate_handler.h" />
+		<Unit filename="sched/assimilator.cpp" />
+		<Unit filename="sched/census.cpp" />
+		<Unit filename="sched/credit.cpp" />
+		<Unit filename="sched/credit.h" />
+		<Unit filename="sched/db_dump.cpp" />
+		<Unit filename="sched/db_purge.cpp" />
+		<Unit filename="sched/delete_file.cpp" />
+		<Unit filename="sched/distributed_validation.cpp" />
+		<Unit filename="sched/distributed_validation.h" />
+		<Unit filename="sched/edf_sim.cpp" />
+		<Unit filename="sched/edf_sim.h" />
+		<Unit filename="sched/feeder.cpp" />
+		<Unit filename="sched/file_deleter.cpp" />
+		<Unit filename="sched/file_upload_handler.cpp" />
+		<Unit filename="sched/get_file.cpp" />
+		<Unit filename="sched/handle_request.cpp" />
+		<Unit filename="sched/handle_request.h" />
+		<Unit filename="sched/hr.cpp" />
+		<Unit filename="sched/hr.h" />
+		<Unit filename="sched/hr_info.cpp" />
+		<Unit filename="sched/hr_info.h" />
+		<Unit filename="sched/make_work.cpp" />
+		<Unit filename="sched/message_handler.cpp" />
+		<Unit filename="sched/mr_jobtracker" />
+		<Unit filename="sched/mr_jobtracker.cpp" />
+		<Unit filename="sched/mr_jobtracker.h" />
+		<Unit filename="sched/request_file_list.cpp" />
+		<Unit filename="sched/sample_assimilator.cpp" />
+		<Unit filename="sched/sample_bitwise_validator.cpp" />
+		<Unit filename="sched/sample_d_val_validator.cpp" />
+		<Unit filename="sched/sample_dummy_assimilator.cpp" />
+		<Unit filename="sched/sample_trivial_validator.cpp" />
+		<Unit filename="sched/sample_work_generator.cpp" />
+		<Unit filename="sched/sched_array.cpp" />
+		<Unit filename="sched/sched_array.h" />
+		<Unit filename="sched/sched_assign.cpp" />
+		<Unit filename="sched/sched_assign.h" />
+		<Unit filename="sched/sched_config.cpp" />
+		<Unit filename="sched/sched_config.h" />
+		<Unit filename="sched/sched_customize.cpp" />
+		<Unit filename="sched/sched_customize.h" />
+		<Unit filename="sched/sched_driver.cpp" />
+		<Unit filename="sched/sched_hr.cpp" />
+		<Unit filename="sched/sched_hr.h" />
+		<Unit filename="sched/sched_locality.cpp" />
+		<Unit filename="sched/sched_locality.h" />
+		<Unit filename="sched/sched_main.cpp" />
+		<Unit filename="sched/sched_main.h" />
+		<Unit filename="sched/sched_msgs.cpp" />
+		<Unit filename="sched/sched_msgs.h" />
+		<Unit filename="sched/sched_resend.cpp" />
+		<Unit filename="sched/sched_resend.h" />
+		<Unit filename="sched/sched_result.cpp" />
+		<Unit filename="sched/sched_result.h" />
+		<Unit filename="sched/sched_score.cpp" />
+		<Unit filename="sched/sched_score.h" />
+		<Unit filename="sched/sched_send.cpp" />
+		<Unit filename="sched/sched_send.h" />
+		<Unit filename="sched/sched_shmem.cpp" />
+		<Unit filename="sched/sched_shmem.h" />
+		<Unit filename="sched/sched_timezone.cpp" />
+		<Unit filename="sched/sched_timezone.h" />
+		<Unit filename="sched/sched_types.cpp" />
+		<Unit filename="sched/sched_types.h" />
+		<Unit filename="sched/sched_util.cpp" />
+		<Unit filename="sched/sched_util.h" />
+		<Unit filename="sched/sched_version.cpp" />
+		<Unit filename="sched/sched_version.h" />
+		<Unit filename="sched/send_file.cpp" />
+		<Unit filename="sched/show_shmem.cpp" />
+		<Unit filename="sched/single_job_assimilator.cpp" />
+		<Unit filename="sched/time_stats_log.cpp" />
+		<Unit filename="sched/time_stats_log.h" />
+		<Unit filename="sched/transitioner.cpp" />
+		<Unit filename="sched/trickle_handler.cpp" />
+		<Unit filename="sched/update_stats.cpp" />
+		<Unit filename="sched/validate_util.cpp" />
+		<Unit filename="sched/validate_util.h" />
+		<Unit filename="sched/validate_util2.cpp" />
+		<Unit filename="sched/validate_util2.h" />
+		<Unit filename="sched/validator.cpp" />
+		<Unit filename="sched/validator.h" />
+		<Unit filename="sched/wu_check.cpp" />
+		<Unit filename="svn_version.h" />
+		<Unit filename="tools/backend_lib.cpp" />
+		<Unit filename="tools/backend_lib.h" />
+		<Unit filename="tools/create_work.cpp" />
+		<Unit filename="tools/dir_hier_move.cpp" />
+		<Unit filename="tools/dir_hier_path.cpp" />
+		<Unit filename="tools/hr_db_convert.cpp" />
+		<Unit filename="tools/kill_wu.cpp" />
+		<Unit filename="tools/poll_wu.cpp" />
+		<Unit filename="tools/process_result_template.cpp" />
+		<Unit filename="tools/sign_executable.cpp" />
+		<Unit filename="tools/updater.cpp" />
+		<Unit filename="version.h" />
+		<Unit filename="win_build/config.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACCConfigMd5sum.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACCConfigMd5sum.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACleanupOldBinaries.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACleanupOldBinaries.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCAccounts.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCAccounts.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCGroups.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateBOINCGroups.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateClientAuthFile.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CACreateClientAuthFile.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetAdministratorsGroupName.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetAdministratorsGroupName.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetUsersGroupName.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGetUsersGroupName.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCAdminsRights.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCAdminsRights.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCMasterRights.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCMasterRights.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectRights.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectRights.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectsRights.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCProjectsRights.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCUsersRights.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAGrantBOINCUsersRights.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCMasterProfile.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCMasterProfile.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCProjectProfile.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAHideBOINCProjectProfile.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCData.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCData.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataCleanup.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataCleanup.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataVersion.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigrateBOINCDataVersion.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigratex86x64.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAMigratex86x64.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreExecutionState.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreExecutionState.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreSetupState.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CARestoreSetupState.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveExecutionState.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveExecutionState.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveSetupState.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASaveSetupState.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINC.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINC.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCData.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCData.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataProjects.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataProjects.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataSlots.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CASetPermissionBOINCDataSlots.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINC.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINC.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCManager.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCManager.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCScreensaver.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownBOINCScreensaver.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownUD.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAShutdownUD.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateInstall.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateInstall.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateRebootRequest.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateRebootRequest.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateSetupType.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAValidateSetupType.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAVerifyInstallDirectories.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/CAVerifyInstallDirectories.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/boinccas.rc" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/dirops.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/dirops.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lkuprid.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lkuprid.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lsaprivs.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/lsaprivs.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/main.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/main.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/password.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/password.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/resource.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/stdafx.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/stdafx.h" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/terminate.cpp" />
+		<Unit filename="win_build/installerv2/redist/Windows/src/boinccas/terminate.h" />
+		<Unit filename="win_build/win-config.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

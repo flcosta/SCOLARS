@@ -1,0 +1,54 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/html/bt/filters
+http://boinc.berkeley.edu/svn
+
+
+
+2007-07-03T23:14:16.973992Z
+13092
+jbk
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+allfilesfilefilter.php
+file
+
+
+
+
+2010-05-25T02:51:43.000000Z
+b4da605f763a7876ba33054ea925492d
+2007-07-03T23:14:16.973992Z
+13092
+jbk
+has-props
+
+filefilter.php
+file
+
+
+
+
+2010-05-25T02:51:43.000000Z
+9d48ea13362abae745c3db4d896eb61f
+2007-07-03T23:14:16.973992Z
+13092
+jbk
+has-props
+

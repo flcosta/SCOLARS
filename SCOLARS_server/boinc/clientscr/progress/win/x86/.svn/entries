@@ -1,0 +1,41 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/clientscr/progress/win/x86
+http://boinc.berkeley.edu/svn
+
+
+
+2009-08-03T23:13:34.766089Z
+18808
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+boincscr.exe
+file
+
+
+
+
+2010-05-25T02:51:40.000000Z
+452abc6b733d8d2e223f06d8714d8b66
+2009-08-03T23:13:34.766089Z
+18808
+romw
+has-props
+

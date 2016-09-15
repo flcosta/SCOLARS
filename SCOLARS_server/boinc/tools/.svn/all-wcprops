@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/19458/branches/server_stable/tools
+END
+create_work_example
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/tools/create_work_example
+END
+dbcheck_files_exist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/tools/dbcheck_files_exist
+END
+sign_executable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/tools/sign_executable.cpp
+END
+appmgr
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19458/branches/server_stable/tools/appmgr
+END
+dir_hier_move.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/tools/dir_hier_move.cpp
+END
+backend_lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/tools/backend_lib.cpp
+END
+parse_config
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/tools/parse_config
+END
+hr_db_convert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/tools/hr_db_convert.cpp
+END
+uc_result
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/tools/uc_result
+END
+db_query
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/tools/db_query
+END
+cleanlogs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/tools/cleanlogs.sh
+END
+xadd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/19458/branches/server_stable/tools/xadd
+END
+grep_logs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/tools/grep_logs
+END
+uc_wu
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19458/branches/server_stable/tools/uc_wu
+END
+dir_hier_path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19458/branches/server_stable/tools/dir_hier_path.cpp
+END
+vote_monitor
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/tools/vote_monitor
+END
+update_versions_v6
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/tools/update_versions_v6
+END
+updater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/updater.cpp
+END
+create_work.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/tools/create_work.cpp
+END
+kill_wu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/kill_wu.cpp
+END
+upgrade
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/tools/upgrade
+END
+makelog.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/tools/makelog.sh
+END
+process_result_template.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/tools/process_result_template.cpp
+END
+calculate_credit_multiplier
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/tools/calculate_credit_multiplier
+END
+poll_wu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/poll_wu.cpp
+END
+backend_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/19458/branches/server_stable/tools/backend_lib.h
+END
+make_project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/tools/make_project
+END
+project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/project.xml
+END
+build_po.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/build_po.pl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19458/branches/server_stable/tools/Makefile.am
+END
+update_versions
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19458/branches/server_stable/tools/update_versions
+END
+run_in_ops
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/tools/run_in_ops
+END
+watch_tcp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19458/branches/server_stable/tools/watch_tcp
+END
+boinc_submit
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19458/branches/server_stable/tools/boinc_submit
+END

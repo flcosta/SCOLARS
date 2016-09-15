@@ -1,0 +1,41 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/coprocs/CUDA/mswin/x64/Release/lib
+http://boinc.berkeley.edu/svn
+
+
+
+2009-02-16T21:35:19.492418Z
+17274
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+nvapi.lib
+file
+
+
+
+
+2010-05-25T02:51:56.000000Z
+a890b509bb2166626d8f99d4964400a6
+2009-02-16T21:35:19.492418Z
+17274
+romw
+has-props
+

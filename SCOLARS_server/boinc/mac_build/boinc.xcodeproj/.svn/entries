@@ -1,0 +1,41 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/mac_build/boinc.xcodeproj
+http://boinc.berkeley.edu/svn
+
+
+
+2009-10-30T11:32:57.712791Z
+19420
+charlief
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+project.pbxproj
+file
+
+
+
+
+2010-05-25T02:51:21.000000Z
+b14641aecfafbe204908b41814fe326a
+2009-10-30T11:32:57.712791Z
+19420
+charlief
+has-props
+

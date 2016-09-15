@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win
+END
+IdleTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/IdleTracker.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/stdafx.h
+END
+Service.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/Service.cpp
+END
+boinc_dll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/boinc_dll.cpp
+END
+boinc_dll.rc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/boinc_dll.rc
+END
+IdleTracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/IdleTracker.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/stdafx.cpp
+END
+boinc_dll.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/boinc_dll.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/clientlib/win/resource.h
+END

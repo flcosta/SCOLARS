@@ -1,0 +1,163 @@
+<scheduler_reply>
+<scheduler_version>611</scheduler_version>
+<master_url>http://debian.localdomain/test/</master_url>
+<request_delay>7.000000</request_delay>
+<project_name>test</project_name>
+<user_name>ftodobom</user_name>
+<user_total_credit>0.000000</user_total_credit>
+<user_expavg_credit>0.000000</user_expavg_credit>
+<user_create_time>1250201297</user_create_time>
+<email_hash>60330258ef32927a185e063bc9ba1e50</email_hash>
+<cross_project_id>08ae7244e0e8163deb46d5eb236b38a2</cross_project_id>
+
+<hostid>7</hostid>
+<host_total_credit>0.000000</host_total_credit>
+<host_expavg_credit>0.000000</host_expavg_credit>
+<host_venue></host_venue>
+<host_create_time>1279136961</host_create_time>
+<team_name></team_name>
+<app>
+    <name>mapred_reduce_3-min</name>
+    <user_friendly_name>Reduce Application that runs for 3 minutes</user_friendly_name>
+</app>
+<file_info>
+    <name>mapred_reduce_3-min_6.09_i686-pc-linux-gnu</name>
+    <url>http://debian.localdomain/test/download/mapred_reduce_3-min_6.09_i686-pc-linux-gnu</url>
+    <executable/>
+    <file_signature>
+bdac8b62efca20f892cbaa71d2e0143f4cf5b0bc1d6b67f16032ca4c3627597b
+6764b3c02e24bf671bc57e935d02e7b44158bbc59632485499d5ef3eb5f8cb86
+5390c68c1cc1d0a22c9e8a3d80fec7ddcc55d4433d8ec0eb48e69164750fd3f4
+ccf979245e1c85ae3db38c520b780689f34e990d6a34a53b38bb8fccdd2621a0
+.
+    </file_signature>
+    <nbytes>1013352.000000</nbytes>
+</file_info>
+<app_version>
+    <app_name>mapred_reduce_3-min</app_name>
+    <version_num>609</version_num>
+    <api_version>6.11.1</api_version>
+    <file_ref>
+       <file_name>mapred_reduce_3-min_6.09_i686-pc-linux-gnu</file_name>
+       <main_program/>
+    </file_ref>
+    <platform>i686-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>1537928235.256486</flops>
+</app_version>
+<!-- workunit template for the BOINC 3-min program -->
+<file_info>
+<mr_mappers_addresses>
+  <mr_mapper>172.16.162.1</mr_mapper>
+</mr_mappers_addresses>
+  </nodelete>
+  <mapreduce>
+    <reduce_input/>
+    <job_id> 1 </job_id>
+  </mapreduce>
+    <name>mapred_map_3-min_wu_1_0</name>
+    <url>http://debian.localdomain/test/download/296/mapred_map_3-min_wu_1_0</url>
+    <md5_cksum>44011c54595a0fb9c6255b5505bf0a2c</md5_cksum>
+    <nbytes>570</nbytes>
+</file_info>
+<file_info>
+<mr_mappers_addresses>
+  <mr_mapper>172.16.162.1</mr_mapper>
+</mr_mappers_addresses>
+  </nodelete>
+  <mapreduce>
+    <reduce_input/>
+    <job_id> 1 </job_id>
+  </mapreduce>
+    <name>mapred_map_3-min_wu_2_0</name>
+    <url>http://debian.localdomain/test/download/3a9/mapred_map_3-min_wu_2_0</url>
+    <md5_cksum>2d5d6aeea84d805c6326ec5a70c09ee4</md5_cksum>
+    <nbytes>570</nbytes>
+</file_info>
+<file_info>
+<mr_mappers_addresses>
+  <mr_mapper>172.16.162.1</mr_mapper>
+</mr_mappers_addresses>
+  </nodelete>
+  <mapreduce>
+    <reduce_input/>
+    <job_id> 1 </job_id>
+  </mapreduce>
+    <name>mapred_map_3-min_wu_3_0</name>
+    <url>http://debian.localdomain/test/download/12b/mapred_map_3-min_wu_3_0</url>
+    <md5_cksum>eba2b0d28db95b4444e9b73d9d3055fd</md5_cksum>
+    <nbytes>555</nbytes>
+</file_info>
+<workunit>
+    <rsc_fpops_est>1200000000000.000000</rsc_fpops_est>
+    <rsc_fpops_bound>3600000000000.000000</rsc_fpops_bound>
+    <rsc_memory_bound>2000000.000000</rsc_memory_bound>
+    <rsc_disk_bound>2000000.000000</rsc_disk_bound>
+    <name>asgn_mapred_reduce_3-min_wu_1</name>
+    <app_name>mapred_reduce_3-min</app_name>
+<file_ref>
+    <file_name>mapred_map_3-min_wu_1_0</file_name>
+    <open_name>in</open_name>
+</file_ref>
+<file_ref>
+    <file_name>mapred_map_3-min_wu_2_0</file_name>
+    <open_name>in1</open_name>
+</file_ref>
+<file_ref>
+    <file_name>mapred_map_3-min_wu_3_0</file_name>
+    <open_name>in2</open_name>
+</file_ref>
+<mapreduce>
+<reduce/>
+    <mr_job_id>1</mr_job_id>
+</mapreduce>
+</workunit>
+<!-- result template for the BOINC Map (MapReduce) 3-min program -->
+
+<file_info>
+    <name>asgn_mapred_reduce_3-min_wu_1_26563_1280361559_0_0</name>
+    <generated_locally/>
+    <upload_when_present/>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+    <max_nbytes>2048</max_nbytes>
+    <no_delete/>
+    <sticky/>
+    <mapreduce>
+        <reduce_output/>
+        <job_id> 1 </job_id>
+  </mapreduce>
+<xml_signature>
+cd4252177cc1cdbcbfa390b447754250bea2f9c2efdae940479f5f612d9390fc
+78b3187bab3a18f5231a0d851a7004769da5a6989347f63cf2b9c077af05cc9a
+ee2c44e796e4821897e57e20b4bea0ad1642eae5dea1e4851dbe0082a3c72772
+923e4b40b3cfdd5ba8faa899fa4d8795f98ace321c91144b4b446dae6a4e0f99
+.
+</xml_signature>
+</file_info>
+
+<result>
+<report_deadline>1280881559</report_deadline>
+<wu_name>asgn_mapred_reduce_3-min_wu_1</wu_name>
+<name>asgn_mapred_reduce_3-min_wu_1_26563_1280361559_0</name>
+    <file_ref>
+        <file_name>asgn_mapred_reduce_3-min_wu_1_26563_1280361559_0_0</file_name>
+        <open_name>out</open_name>
+    </file_ref>
+    <platform>i686-pc-linux-gnu</platform>
+    <version_num>609</version_num>
+    <plan_class></plan_class>
+</result>
+<code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+</scheduler_reply>

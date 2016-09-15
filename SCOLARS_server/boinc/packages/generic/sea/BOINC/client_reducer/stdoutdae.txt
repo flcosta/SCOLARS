@@ -1,0 +1,1484 @@
+28-Jul-2010 18:58:37 [---] Starting BOINC client version 6.11.1 for i686-pc-linux-gnu
+28-Jul-2010 18:58:37 [---] This a development version of BOINC and may not function properly
+28-Jul-2010 18:58:37 [---] log flags: file_xfer, sched_ops, task
+28-Jul-2010 18:58:37 [---] Libraries: libcurl/7.18.0 OpenSSL/0.9.8g zlib/1.2.3.3 libidn/1.1
+28-Jul-2010 18:58:37 [---] Data directory: /home/flcosta/dei/doutoramento/boinc_mapreduce/boinc_svn/boinc/packages/generic/sea/BOINC/client_reducer
+28-Jul-2010 18:58:37 [---] Processor: 2 GenuineIntel Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]
+28-Jul-2010 18:58:37 [---] Processor: 4.00 MB cache
+28-Jul-2010 18:58:37 [---] Processor features: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm
+28-Jul-2010 18:58:37 [---] OS: Linux: 2.6.24-28-generic
+28-Jul-2010 18:58:37 [---] Memory: 1.98 GB physical, 3.73 GB virtual
+28-Jul-2010 18:58:37 [---] Disk: 16.51 GB total, 1.80 GB free
+28-Jul-2010 18:58:37 [---] Local time is UTC -5 hours
+28-Jul-2010 18:58:37 [---] No usable GPUs found
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:58:37 [http://debian.localdomain/test/] URL http://debian.localdomain/test/; Computer ID not assigned yet; resource share 100
+28-Jul-2010 18:58:37 [---] No general preferences found - using BOINC defaults
+28-Jul-2010 18:58:37 [---] Preferences:
+28-Jul-2010 18:58:37 [---]    max memory usage when active: 1013.38MB
+28-Jul-2010 18:58:37 [---]    max memory usage when idle: 1824.08MB
+28-Jul-2010 18:58:37 [---]    max disk usage: 1.70GB
+28-Jul-2010 18:58:37 [---]    don't use GPU while active
+28-Jul-2010 18:58:37 [---]    (to change, visit the web site of an attached project,
+28-Jul-2010 18:58:37 [---]    or click on Preferences)
+28-Jul-2010 18:58:37 [---] Not using a proxy
+Initialization completed
+28-Jul-2010 18:58:37 [---] Running CPU benchmarks
+28-Jul-2010 18:58:37 [---] Suspending computation - running CPU benchmarks
+28-Jul-2010 18:58:37 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:58:37 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:38 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:38 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:39 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:39 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:40 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:41 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:42 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:43 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:44 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:45 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:46 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:47 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:48 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:49 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:50 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:51 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:52 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:53 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:54 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:55 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:56 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:57 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:58 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:59 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:00 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:01 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:02 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:03 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:04 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:58:37 [---] Running CPU benchmarks
+28-Jul-2010 18:58:37 [---] Running CPU benchmarks
+28-Jul-2010 18:59:05 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:06 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:07 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:08 [---] Benchmark results:
+28-Jul-2010 18:59:08 [---]    Number of CPUs: 2
+28-Jul-2010 18:59:08 [---]    1538 floating point MIPS (Whetstone) per CPU
+28-Jul-2010 18:59:08 [---]    3528 integer MIPS (Dhrystone) per CPU
+Entered SCHEDULER_OP::init_op_project
+28-Jul-2010 18:59:08 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:08 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:10 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:12 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::poll
+28-Jul-2010 18:59:13 [http://debian.localdomain/test/] Master file download succeeded
+28-Jul-2010 18:59:13 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:59:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:14 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:16 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+Entered SCHEDULER_OP::init_op_project
+BOINC-MR Debug: Entered CLIENT_STATE::make_scheduler_request
+Entered SCHEDULER_OP::start_rpc
+28-Jul-2010 18:59:18 [http://debian.localdomain/test/] Sending scheduler request: Project initialization.
+28-Jul-2010 18:59:18 [http://debian.localdomain/test/] Requesting new tasks
+Exiting SCHEDULER_OP::start_rpc
+Leaving SCHEDULER_OP::init_op_project
+28-Jul-2010 18:59:18 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:18 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:19 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:20 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:20 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:21 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:22 [---] Entered write_state_file_if_needed()
+Entered SCHEDULER_OP::poll
+[***] Entered CLIENT_STATE::handle_scheduler_reply
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <name>mapred_reduce_3-min_6.09_i686-pc-linux-gnu</name>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <url>http://debian.localdomain/test/download/mapred_reduce_3-min_6.09_i686-pc-linux-gnu</url>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <executable/>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <file_signature>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <nbytes>1013352.000000</nbytes>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </file_info>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: <mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mr_mapper>172.16.162.1</mr_mapper>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] File_info::parse() Got Mapper Address: 172.16.162.1
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   </nodelete>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mapreduce>
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <reduce_input/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <name>mapred_map_3-min_wu_1_0</name>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <url>http://debian.localdomain/test/download/296/mapred_map_3-min_wu_1_0</url>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <md5_cksum>44011c54595a0fb9c6255b5505bf0a2c</md5_cksum>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <nbytes>570</nbytes>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </file_info>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: <mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mr_mapper>172.16.162.1</mr_mapper>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] File_info::parse() Got Mapper Address: 172.16.162.1
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   </nodelete>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mapreduce>
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <reduce_input/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <name>mapred_map_3-min_wu_2_0</name>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <url>http://debian.localdomain/test/download/3a9/mapred_map_3-min_wu_2_0</url>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <md5_cksum>2d5d6aeea84d805c6326ec5a70c09ee4</md5_cksum>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <nbytes>570</nbytes>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </file_info>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: <mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mr_mapper>172.16.162.1</mr_mapper>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] File_info::parse() Got Mapper Address: 172.16.162.1
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </mr_mappers_addresses>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   </nodelete>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:   <mapreduce>
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <reduce_input/> tag
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <name>mapred_map_3-min_wu_3_0</name>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <url>http://debian.localdomain/test/download/12b/mapred_map_3-min_wu_3_0</url>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <md5_cksum>eba2b0d28db95b4444e9b73d9d3055fd</md5_cksum>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <nbytes>555</nbytes>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </file_info>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <name>asgn_mapred_reduce_3-min_wu_1_26563_1280361559_0_0</name>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <generated_locally/>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <upload_when_present/>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <max_nbytes>2048</max_nbytes>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <no_delete/>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <sticky/>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing:     <mapreduce>
+BOINC-MR Debug: Entered FILE_INFO::parse_mapreduce
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found <job_id> tag; Job ID: 1
+BOINC-MR DEBUG == Inside FILE_INFO::parse_mapreduce() found </mapreduce> tag
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: <xml_signature>
+28-Jul-2010 18:59:23 [---] [BOINC-MR DEBUG] FILE_INFO::parse() Parsing: </file_info>
+28-Jul-2010 18:59:23 [test] Scheduler request completed: got 1 new tasks
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for apps
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_infos[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for file_deletes[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for app_versions
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for workunits
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for acked results
+[***] Inside CLIENT_STATE::handle_scheduler_reply - checking for abort requests
+Leaving CLIENT_STATE::handle_scheduler_reply.Inside SCHEDULER_OP::poll - left gstate.handle_scheduler_reply. Retval: 0
+Leaving SCHEDULER_OP::poll . Return TRUE
+28-Jul-2010 18:59:23 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:23 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:23 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:23 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:23 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:23 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:24 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:25 [test] Started download of mapred_reduce_3-min_6.09_i686-pc-linux-gnu
+client: connecting to 172.16.162.1
+client: connecting to 172.16.162.1
+client: connecting to 172.16.162.1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:25 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 18:59:25 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:25 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:25 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:25 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:59:25 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:25 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+28-Jul-2010 18:59:25 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+28-Jul-2010 18:59:25 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 18:59:25 [---] Finished download of file mapred_map_3-min_wu_3_0. Thread about to exit...
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 18:59:25 [---] Finished download of file mapred_map_3-min_wu_2_0. Thread about to exit...
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 18:59:25 [---] Finished download of file mapred_map_3-min_wu_1_0. Thread about to exit...
+28-Jul-2010 18:59:26 [test] [client_xfer_debug] client transfer status 0
+28-Jul-2010 18:59:26 [test] Finished download of mapred_map_3-min_wu_2_0
+28-Jul-2010 18:59:26 [test] [mr_client_xfer_debug] Throughput -2147483648 bytes/sec
+28-Jul-2010 18:59:26 [test] [error] File mapred_map_3-min_wu_2_0 has wrong size: expected 570, got 15
+28-Jul-2010 18:59:26 [test] [error] Checksum or signature error for mapred_map_3-min_wu_2_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:26 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 18:59:26 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_1_0] size 15.000000 does not correspond to expected value: 570.000000
+28-Jul-2010 18:59:26 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 18:59:26 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_3_0] size 15.000000 does not correspond to expected value: 555.000000
+28-Jul-2010 18:59:26 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:26 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:26 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:26 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:59:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:27 [test] Finished download of mapred_reduce_3-min_6.09_i686-pc-linux-gnu
+28-Jul-2010 18:59:27 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 18:59:27 [test] Temporarily failed download of mapred_map_3-min_wu_1_0: unexpected file size
+28-Jul-2010 18:59:27 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_1_0
+28-Jul-2010 18:59:27 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 18:59:27 [test] Temporarily failed download of mapred_map_3-min_wu_3_0: unexpected file size
+28-Jul-2010 18:59:27 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_3_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:27 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 18:59:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 18:59:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:28 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:29 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:30 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:32 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:33 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:34 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:35 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:37 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:39 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:40 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:41 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:44 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:46 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:47 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:49 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:51 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:54 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:55 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:56 [---] Entered write_state_file_if_needed()
+28-Jul-2010 18:59:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:58 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 18:59:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:00 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:02 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:04 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:06 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:07 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:10 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:12 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:13 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:14 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:16 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:17 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:21 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:23 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:24 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:25 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:26 [---] Entered write_state_file_if_needed()
+client: connecting to 172.16.162.1
+28-Jul-2010 19:00:27 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+28-Jul-2010 19:00:27 [---] Finished download of file mapred_map_3-min_wu_1_0. Thread about to exit...
+client: connecting to 172.16.162.1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:27 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:00:27 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_1_0] size 0.000000 does not correspond to expected value: 570.000000
+28-Jul-2010 19:00:27 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:00:27 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_3_0] size 15.000000 does not correspond to expected value: 555.000000
+28-Jul-2010 19:00:27 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:27 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+28-Jul-2010 19:00:27 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:00:27 [---] Finished download of file mapred_map_3-min_wu_3_0. Thread about to exit...
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:00:27 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:28 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:00:28 [test] Temporarily failed download of mapred_map_3-min_wu_1_0: unexpected file size
+28-Jul-2010 19:00:28 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_1_0
+28-Jul-2010 19:00:28 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:00:28 [test] Temporarily failed download of mapred_map_3-min_wu_3_0: unexpected file size
+28-Jul-2010 19:00:28 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_3_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:28 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:00:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:00:28 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:29 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:30 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:32 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:33 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:34 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:35 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:36 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:37 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:39 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:40 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:41 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:42 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:44 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:46 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:47 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:49 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:51 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:53 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:54 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:55 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:56 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:57 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:00:58 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:00:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:00 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:01 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:04 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:06 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:07 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:08 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:10 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:11 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:12 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:14 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:16 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:19 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:21 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:22 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:23 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:24 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:27 [---] Entered write_state_file_if_needed()
+client: connecting to 172.16.162.1
+client: connecting to 172.16.162.1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:28 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:01:28 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_1_0] size 0.000000 does not correspond to expected value: 570.000000
+28-Jul-2010 19:01:28 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:01:28 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_3_0] size 15.000000 does not correspond to expected value: 555.000000
+28-Jul-2010 19:01:28 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:28 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+28-Jul-2010 19:01:28 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+28-Jul-2010 19:01:28 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:01:28 [---] Finished download of file mapred_map_3-min_wu_3_0. Thread about to exit...
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:01:28 [---] Finished download of file mapred_map_3-min_wu_1_0. Thread about to exit...
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:01:28 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:29 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:01:29 [test] Temporarily failed download of mapred_map_3-min_wu_1_0: unexpected file size
+28-Jul-2010 19:01:29 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_1_0
+28-Jul-2010 19:01:29 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:01:29 [test] Temporarily failed download of mapred_map_3-min_wu_3_0: unexpected file size
+28-Jul-2010 19:01:29 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_3_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:29 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:01:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:01:29 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:30 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:32 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:33 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:34 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:35 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:37 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:38 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:39 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:40 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:41 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:44 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:46 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:47 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:48 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:49 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:51 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:54 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:55 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:56 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:01:58 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:01:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:00 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:04 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:06 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:07 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:10 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:12 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:14 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:16 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:18 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:20 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:21 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:23 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:24 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:28 [---] Entered write_state_file_if_needed()
+client: connecting to 172.16.162.1
+client: connecting to 172.16.162.1
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:29 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:02:29 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_1_0] size 15.000000 does not correspond to expected value: 570.000000
+28-Jul-2010 19:02:29 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:02:29 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_3_0] size 15.000000 does not correspond to expected value: 555.000000
+28-Jul-2010 19:02:29 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+28-Jul-2010 19:02:29 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:02:29 [---] Finished download of file mapred_map_3-min_wu_1_0. Thread about to exit...
+28-Jul-2010 19:02:29 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:02:29 [---] Finished download of file mapred_map_3-min_wu_3_0. Thread about to exit...
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:02:29 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:30 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:02:30 [test] Temporarily failed download of mapred_map_3-min_wu_1_0: unexpected file size
+28-Jul-2010 19:02:30 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_1_0
+28-Jul-2010 19:02:30 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:02:30 [test] Temporarily failed download of mapred_map_3-min_wu_3_0: unexpected file size
+28-Jul-2010 19:02:30 [test] Backing off 1 min 0 sec on download of mapred_map_3-min_wu_3_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:30 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:02:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:02:30 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:32 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:33 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:34 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:35 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:37 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:39 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:40 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:41 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:43 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:44 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:45 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:46 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:47 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:49 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:50 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:51 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:52 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:53 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:54 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:55 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:56 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:02:58 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:02:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:00 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:01 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:03 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:04 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:06 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:07 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:10 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:12 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:14 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:16 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:18 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:19 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:21 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:23 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:24 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:25 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:26 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:28 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:29 [---] Entered write_state_file_if_needed()
+client: connecting to 172.16.162.1
+client: connecting to 172.16.162.1
+28-Jul-2010 19:03:30 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:03:30 [---] Finished download of file mapred_map_3-min_wu_1_0. Thread about to exit...
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:30 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:03:30 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_1_0] size 15.000000 does not correspond to expected value: 570.000000
+28-Jul-2010 19:03:30 [test] [mr_client_xfer_debug] MR_CLIENT_XFER_SET::poll(): client xfer done; retval 0
+28-Jul-2010 19:03:30 [test] MR_CLIENT_XFER_SET::poll() - Error: File [mapred_map_3-min_wu_3_0] size 15.000000 does not correspond to expected value: 555.000000
+28-Jul-2010 19:03:30 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+28-Jul-2010 19:03:30 [test] mr_download_from_mapper() - DEBUG client: received 'Hello, world!'
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:30 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+client: received from FILE: 'INPUT FOR MAP1
+'
+Wrote 15 bytes
+client: received from FILE: ''
+Wrote 0 bytes
+Received 0 bytes from server.
+28-Jul-2010 19:03:30 [---] Finished download of file mapred_map_3-min_wu_3_0. Thread about to exit...
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:03:30 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:31 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:03:31 [test] Temporarily failed download of mapred_map_3-min_wu_1_0: unexpected file size
+28-Jul-2010 19:03:31 [test] Backing off 1 min 12 sec on download of mapred_map_3-min_wu_1_0
+28-Jul-2010 19:03:31 [test] [client_xfer_debug] client transfer status -906
+28-Jul-2010 19:03:31 [test] Temporarily failed download of mapred_map_3-min_wu_3_0: unexpected file size
+28-Jul-2010 19:03:31 [test] Backing off 1 min 39 sec on download of mapred_map_3-min_wu_3_0
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:31 [---] Entered write_state_file_if_needed()
+CS::write:state_file_if_needed => Entering write_state_file()
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:31 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:31 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:03:31 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()
+28-Jul-2010 19:03:31 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:32 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:33 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:34 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:35 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:36 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:37 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:38 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:39 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:40 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:41 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:42 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:43 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:44 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:45 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:46 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:47 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:48 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:49 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:50 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:51 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:52 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:53 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:54 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:55 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:56 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:57 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:03:58 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:03:59 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:00 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:01 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:02 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:03 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:04 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:05 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:06 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:07 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:08 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:09 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:10 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:11 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:12 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:13 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:14 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:15 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:16 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:17 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:18 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:19 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:20 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:21 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:22 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:23 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:24 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:25 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:26 [---] Entered write_state_file_if_needed()
+28-Jul-2010 19:04:27 [---] Entered write_state_file_if_needed()
+[MR_TASKTRACKER] Entered CLIENT_STATE::mr_handle_file_uploads
+[MR_TASKTRACKER] Leaving CLIENT_STATE::mr_handle_file_uploads
+28-Jul-2010 19:04:28 [---] Entered write_state_file_if_needed()
+main.cpp - Inside signal_handler.
+main.cpp - Inside signal_handler. Signal: 2
+Called MR_FILE_SERVER::mr_suspend() - stop listening to connections.
+28-Jul-2010 19:04:29 [---] Received signal 2
+28-Jul-2010 19:04:29 [---] Exit requested by user
+Inside CLIENT_STATE::quit_activities. Going to call mr_suspend.
+[MR_TASKTRACKER] - Entered MR_CLIENT_CONNECTION_SET::request_connections_exit()
+[MR_TASKTRACKER] - Inside MR_CLIENT_CONNECTION_SET::mr_terminate_connections(). Connections exited.
+Called MR_FILE_SERVER::mr_suspend() - stop listening to connections.
+Entered CLIENT_STATE::write_state_file()
+CLIENT_STATE::write_state_file => Entering write_state(miof)
+CLIENT_STATE::write_state => wrote project [p->write_state(f)]. Retval: (null)
+BOINC-MR Debug: Entered APP::write - writing different string if 'mapreduce==true'
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:04:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:04:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+28-Jul-2010 19:04:29 [---] Inside FILE_INFO::write() File is a Reduce input and is not being sent to server. Number of Mappers IP Addresses: 1
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+BOINC-MR Debug: Entered FILE_INFO::write
+BOINC-MR Debug: Inside FILE_INFO::write() Checking IF mapreduce
+BOINC-MR Debug: Inside FILE_INFO::write - 'mapreduce == true' | Writing MR file info
+BOINC-MR Debug: Leaving FILE_INFO::write - after writing MapReduce tag
+CLIENT_STATE::write_state => writing active_tasks
+Leaving CLIENT_STATE::write_state_file()

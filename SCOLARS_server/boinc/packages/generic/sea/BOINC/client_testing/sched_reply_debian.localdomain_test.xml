@@ -1,0 +1,32 @@
+<scheduler_reply>
+<scheduler_version>611</scheduler_version>
+<master_url>http://debian.localdomain/test/</master_url>
+<request_delay>7.000000</request_delay>
+<message priority="high">No work sent</message>
+<message priority="high">(Project has no jobs available)</message>
+<project_name>test</project_name>
+<user_name>testing</user_name>
+<user_total_credit>22.584004</user_total_credit>
+<user_expavg_credit>0.019361</user_expavg_credit>
+<user_create_time>1267186549</user_create_time>
+<email_hash>9ed94b19d58705577d8b6bf83653a97b</email_hash>
+<cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+
+<host_total_credit>22.584004</host_total_credit>
+<host_expavg_credit>0.019361</host_expavg_credit>
+<host_venue></host_venue>
+<host_create_time>1267659801</host_create_time>
+<team_name></team_name>
+<result_ack>
+    <name>mapred_reduce_word_count_0_1_1</name>
+</result_ack>
+<result_ack>
+    <name>mapred_reduce_word_count_0_1_0</name>
+</result_ack>
+<result_ack>
+    <name>mapred_reduce_word_count_0_0_1</name>
+</result_ack>
+<result_ack>
+    <name>mapred_reduce_word_count_0_0_0</name>
+</result_ack>
+</scheduler_reply>

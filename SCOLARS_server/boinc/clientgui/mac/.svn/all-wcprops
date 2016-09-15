@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac
+END
+browser_safari.mm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/browser_safari.mm
+END
+MacAccessiblity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/MacAccessiblity.cpp
+END
+SetVersion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SetVersion.cpp
+END
+ProgThruProc.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/ProgThruProc.tiff
+END
+Mac_GUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/Mac_GUI.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/config.h
+END
+SystemMenu_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SystemMenu_Prefix.pch
+END
+gridrepublic.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/gridrepublic.tiff
+END
+SystemMenu.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SystemMenu.m
+END
+MacSysMenu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/MacSysMenu.cpp
+END
+SetupSecurity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SetupSecurity.cpp
+END
+MacSysMenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/MacSysMenu.h
+END
+SecurityUtility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SecurityUtility.cpp
+END
+SetupSecurity.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/SetupSecurity.h
+END
+MacGUI.pch
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19458/branches/server_stable/clientgui/mac/MacGUI.pch
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/clientgui/gtk
+http://boinc.berkeley.edu/svn
+
+
+
+2010-02-11T04:41:44.583802Z
+20532
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+taskbarex.cpp
+file
+
+
+
+
+2010-02-19T12:31:34.000000Z
+30c9bc3e961495ced4e420e0f15db7fc
+2010-02-11T04:41:44.583802Z
+20532
+romw
+
+taskbarex.h
+file
+
+
+
+
+2010-02-19T12:31:34.000000Z
+1084a2a12a9c6de33054679540463c19
+2010-02-11T03:18:21.548236Z
+20525
+romw
+

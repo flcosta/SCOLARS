@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19458/branches/server_stable/html/bt/database
+END
+bittorrent_ipbans.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19458/branches/server_stable/html/bt/database/bittorrent_ipbans.sql
+END
+bittorrent_peers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/bt/database/bittorrent_peers.sql
+END
+bittorrent_files.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/bt/database/bittorrent_files.sql
+END

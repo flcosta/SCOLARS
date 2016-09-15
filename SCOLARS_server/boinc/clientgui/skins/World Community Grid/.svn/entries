@@ -1,0 +1,44 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/clientgui/skins/World%20Community%20Grid
+http://boinc.berkeley.edu/svn
+
+
+
+2009-01-29T14:58:31.477389Z
+17067
+romw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+skin.xml
+file
+
+
+
+
+2010-05-25T02:51:36.000000Z
+8a258908961e3d9f1329a1760a34d621
+2009-01-29T14:58:31.477389Z
+17067
+romw
+has-props
+
+graphic
+dir
+

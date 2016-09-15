@@ -1,0 +1,108 @@
+8
+
+dir
+20808
+http://boinc.berkeley.edu/svn/trunk/boinc/rboinc/server
+http://boinc.berkeley.edu/svn
+
+
+
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+test
+dir
+
+boinc_retrieve_server.pl
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+1a15fb8323a2b736f50c088114ea318d
+2010-03-02T19:39:40.357444Z
+20773
+davea
+has-props
+
+boinc_authentication.pl
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+d61d52ca0a631d1336c1acf4f4c0f166
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+.project
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+05438ccc89549da5bb26645eaaf983f5
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+boinc_configuration_template.pl
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+a51c00cb9369ed33b6bcd3edb19d7d03
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+etc
+dir
+
+boinc_configuration.pl
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+66b8b8dc2fc201e3f7dee735daf02114
+2010-03-02T19:39:40.357444Z
+20773
+davea
+
+boinc_submit_server.pl
+file
+
+
+
+
+2010-03-04T12:58:12.000000Z
+2dbcb5ac8a17adbde11b74b978f0bdd2
+2010-03-02T19:39:40.357444Z
+20773
+davea
+has-props
+

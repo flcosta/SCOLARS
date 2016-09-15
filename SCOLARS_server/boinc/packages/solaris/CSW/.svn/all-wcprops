@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/packages/solaris/CSW
+END
+build_packages.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19458/branches/server_stable/packages/solaris/CSW/build_packages.sh
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19458/branches/server_stable/packages/solaris/CSW/Makefile.am
+END

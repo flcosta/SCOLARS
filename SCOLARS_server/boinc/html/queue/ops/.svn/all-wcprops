@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19458/branches/server_stable/html/queue/ops
+END
+ops_queue_show_queue.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19458/branches/server_stable/html/queue/ops/ops_queue_show_queue.php
+END
+ops_queue_remove_job.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19458/branches/server_stable/html/queue/ops/ops_queue_remove_job.php
+END
+ops_queue_show_job.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/html/queue/ops/ops_queue_show_job.php
+END

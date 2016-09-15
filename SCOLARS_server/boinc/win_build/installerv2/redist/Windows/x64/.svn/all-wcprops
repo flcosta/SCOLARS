@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64
+END
+dbghelp.dll
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/dbghelp.dll
+END
+symsrv.yes
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/symsrv.yes
+END
+boinccas95.dll
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/boinccas95.dll
+END
+boinccas.dll
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/boinccas.dll
+END
+srcsrv.dll
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/srcsrv.dll
+END
+dbghelp95.dll
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/dbghelp95.dll
+END
+symsrv.dll
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19458/branches/server_stable/win_build/installerv2/redist/Windows/x64/symsrv.dll
+END

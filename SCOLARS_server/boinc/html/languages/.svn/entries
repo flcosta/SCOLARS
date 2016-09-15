@@ -1,0 +1,34 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/html/languages
+http://boinc.berkeley.edu/svn
+
+
+
+2009-07-31T19:46:47.984987Z
+18786
+davea
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+translations
+dir
+
+project_specific_translations
+dir
+

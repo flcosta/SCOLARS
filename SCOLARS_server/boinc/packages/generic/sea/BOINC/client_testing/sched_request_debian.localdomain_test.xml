@@ -1,0 +1,260 @@
+<scheduler_request>
+    <authenticator>7612cda51b3a7edaa4d9d98102dfb081</authenticator>
+    <hostid>3</hostid>
+    <rpc_seqno>4</rpc_seqno>
+    <core_client_major_version>6</core_client_major_version>
+    <core_client_minor_version>11</core_client_minor_version>
+    <core_client_release>1</core_client_release>
+    <resource_share_fraction>1.000000</resource_share_fraction>
+    <rrs_fraction>1.000000</rrs_fraction>
+    <prrs_fraction>1.000000</prrs_fraction>
+    <duration_correction_factor>0.868904</duration_correction_factor>
+    <sandbox>0</sandbox>
+    <work_req_seconds>60480.000000</work_req_seconds>
+    <cpu_req_secs>60480.000000</cpu_req_secs>
+    <cpu_req_instances>2.000000</cpu_req_instances>
+    <estimated_delay>0.000000</estimated_delay>
+    <client_cap_plan_class>1</client_cap_plan_class>
+    <platform_name>i686-pc-linux-gnu</platform_name>
+    <code_sign_key>
+1024
+be6bcf6cd1b3d2afbd7135845b48c3975d0f8388665966f6e16264a111b9e4e0
+06652997be037ccb8ccf8e01e46af3fdfd11c9b824bd2a6eb5e0fd401b447801
+f22c306063202e8b37578b5cedcfb363e41c6b83489b809b78c395d27863e15f
+f4d3f2961624ec8b2ca431e249dea802790affead0f9d4875d6c8683acf57e19
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+<working_global_preferences>
+<global_preferences>
+   <source_project></source_project>
+   <mod_time>0.000000</mod_time>
+   <run_on_batteries>1</run_on_batteries>
+   <run_if_user_active>1</run_if_user_active>
+   <run_gpu_if_user_active>0</run_gpu_if_user_active>
+   <suspend_if_no_recent_input>0.000000</suspend_if_no_recent_input>
+   <suspend_cpu_usage>0.000000</suspend_cpu_usage>
+   <start_hour>0.000000</start_hour>
+   <end_hour>0.000000</end_hour>
+   <net_start_hour>0.000000</net_start_hour>
+   <net_end_hour>0.000000</net_end_hour>
+   <leave_apps_in_memory>0</leave_apps_in_memory>
+   <confirm_before_connecting>1</confirm_before_connecting>
+   <hangup_if_dialed>0</hangup_if_dialed>
+   <dont_verify_images>0</dont_verify_images>
+   <work_buf_min_days>0.100000</work_buf_min_days>
+   <work_buf_additional_days>0.250000</work_buf_additional_days>
+   <max_ncpus_pct>0.000000</max_ncpus_pct>
+   <cpu_scheduling_period_minutes>60.000000</cpu_scheduling_period_minutes>
+   <disk_interval>60.000000</disk_interval>
+   <disk_max_used_gb>10.000000</disk_max_used_gb>
+   <disk_max_used_pct>50.000000</disk_max_used_pct>
+   <disk_min_free_gb>0.100000</disk_min_free_gb>
+   <vm_max_used_pct>75.000000</vm_max_used_pct>
+   <ram_max_used_busy_pct>50.000000</ram_max_used_busy_pct>
+   <ram_max_used_idle_pct>90.000000</ram_max_used_idle_pct>
+   <idle_time_to_run>3.000000</idle_time_to_run>
+   <max_bytes_sec_up>0.000000</max_bytes_sec_up>
+   <max_bytes_sec_down>0.000000</max_bytes_sec_down>
+   <cpu_usage_limit>100.000000</cpu_usage_limit>
+</global_preferences>
+</working_global_preferences>
+<cross_project_id>75d55c514b8ffd340d130d3d142f9100</cross_project_id>
+<time_stats>
+    <on_frac>1.000000</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <active_frac>0.999974</active_frac>
+</time_stats>
+<net_stats>
+    <bwup>9571.849870</bwup>
+    <avg_up>15620668.244037</avg_up>
+    <avg_time_up>1289509747.746739</avg_time_up>
+    <bwdown>1717904.367644</bwdown>
+    <avg_down>1999698248.310944</avg_down>
+    <avg_time_down>1289509678.771780</avg_time_down>
+</net_stats>
+<host_info>
+    <timezone>0</timezone>
+    <domain_name>flcosta-laptop</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>bc3e125bd68ca5971a9db5f588f943c7</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>GenuineIntel</p_vendor>
+    <p_model>Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz [Family 6 Model 15 Stepping 6]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr lahf_lm</p_features>
+    <p_fpops>1000000000.000000</p_fpops>
+    <p_iops>1000000000.000000</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1289509389.261461</p_calculated>
+    <m_nbytes>2125201408.000000</m_nbytes>
+    <m_cache>4194304.000000</m_cache>
+    <m_swap>4005670912.000000</m_swap>
+    <d_total>17724047360.000000</d_total>
+    <d_free>1334128640.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>2.6.24-28-generic</os_version>
+</host_info>
+    <disk_usage>
+        <d_boinc_used_total>2591232.000000</d_boinc_used_total>
+        <d_boinc_used_project>2027950.000000</d_boinc_used_project>
+    </disk_usage>
+<result>
+    <name>mapred_reduce_word_count_0_1_1</name>
+    <final_cpu_time>0.032001</final_cpu_time>
+    <final_elapsed_time>1.217046</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>5</state>
+    <platform>i686-pc-linux-gnu</platform>
+    <version_num>609</version_num>
+    <app_version_num>609</app_version_num>
+<stderr_out>
+<core_client_version>6.11.1</core_client_version>
+<![CDATA[
+<stderr_txt>
+Bonjour, stderr! Number of inputs: 5
+Hello, Reduce stderr!
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_1_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_5_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_2_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_3_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_4_1
+Before flush!
+goodbye!
+21:09:01 (11001): called boinc_finish
+
+</stderr_txt>
+]]>
+</stderr_out>
+<file_info>
+    <name>mapred_reduce_word_count_0_1_1_0</name>
+    <nbytes>86.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>d2e06a5e2135991f51ade598d0edc350</md5_cksum>
+    <mapreduce>
+        <job_id>2</job_id>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+</file_info>
+</result>
+<result>
+    <name>mapred_reduce_word_count_0_1_0</name>
+    <final_cpu_time>0.032001</final_cpu_time>
+    <final_elapsed_time>3.217017</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>5</state>
+    <platform>i686-pc-linux-gnu</platform>
+    <version_num>609</version_num>
+    <app_version_num>609</app_version_num>
+<stderr_out>
+<core_client_version>6.11.1</core_client_version>
+<![CDATA[
+<stderr_txt>
+Bonjour, stderr! Number of inputs: 5
+Hello, Reduce stderr!
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_1_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_5_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_2_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_3_1
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_4_1
+Before flush!
+goodbye!
+21:09:01 (11002): called boinc_finish
+
+</stderr_txt>
+]]>
+</stderr_out>
+<file_info>
+    <name>mapred_reduce_word_count_0_1_0_0</name>
+    <nbytes>86.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>d2e06a5e2135991f51ade598d0edc350</md5_cksum>
+    <mapreduce>
+        <job_id>2</job_id>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+</file_info>
+</result>
+<result>
+    <name>mapred_reduce_word_count_0_0_1</name>
+    <final_cpu_time>0.036002</final_cpu_time>
+    <final_elapsed_time>1.387798</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>5</state>
+    <platform>i686-pc-linux-gnu</platform>
+    <version_num>609</version_num>
+    <app_version_num>609</app_version_num>
+<stderr_out>
+<core_client_version>6.11.1</core_client_version>
+<![CDATA[
+<stderr_txt>
+Bonjour, stderr! Number of inputs: 5
+Hello, Reduce stderr!
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_1_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_5_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_2_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_3_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_4_0
+Before flush!
+goodbye!
+21:08:00 (10947): called boinc_finish
+
+</stderr_txt>
+]]>
+</stderr_out>
+<file_info>
+    <name>mapred_reduce_word_count_0_0_1_0</name>
+    <nbytes>100.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>771c95f34b6086eacb6a0a60734fbadb</md5_cksum>
+    <mapreduce>
+        <job_id>2</job_id>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+</file_info>
+</result>
+<result>
+    <name>mapred_reduce_word_count_0_0_0</name>
+    <final_cpu_time>0.032001</final_cpu_time>
+    <final_elapsed_time>2.387798</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>5</state>
+    <platform>i686-pc-linux-gnu</platform>
+    <version_num>609</version_num>
+    <app_version_num>609</app_version_num>
+<stderr_out>
+<core_client_version>6.11.1</core_client_version>
+<![CDATA[
+<stderr_txt>
+Bonjour, stderr! Number of inputs: 5
+Hello, Reduce stderr!
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_1_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_5_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_2_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_3_0
+Counting words! Before fgets! Parsing file: ../../projects/debian.localdomain_test/mapred_map_word_count_wu_4_0
+Before flush!
+goodbye!
+21:08:00 (10948): called boinc_finish
+
+</stderr_txt>
+]]>
+</stderr_out>
+<file_info>
+    <name>mapred_reduce_word_count_0_0_0_0</name>
+    <nbytes>100.000000</nbytes>
+    <max_nbytes>2000000048.000000</max_nbytes>
+    <md5_cksum>771c95f34b6086eacb6a0a60734fbadb</md5_cksum>
+    <mapreduce>
+        <job_id>2</job_id>
+    </mapreduce>
+    <url>http://debian.localdomain/test_cgi/file_upload_handler</url>
+</file_info>
+</result>
+<other_results>
+</other_results>
+<in_progress_results>
+</in_progress_results>
+</scheduler_request>

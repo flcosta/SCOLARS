@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19458/branches/server_stable/samples/multi_thread
+END
+multi_thread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19458/branches/server_stable/samples/multi_thread/multi_thread.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19458/branches/server_stable/samples/multi_thread/Makefile
+END

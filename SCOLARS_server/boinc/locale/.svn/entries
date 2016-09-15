@@ -1,0 +1,148 @@
+8
+
+dir
+21623
+http://boinc.berkeley.edu/svn/branches/server_stable/locale
+http://boinc.berkeley.edu/svn
+
+
+
+2009-11-04T14:48:35.677581Z
+19450
+boinctrans
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+677681c0-c3c0-48b4-bd46-92119ef6d97a
+
+uk
+dir
+
+sv_SE
+dir
+
+da
+dir
+
+be
+dir
+
+fa
+dir
+
+bg
+dir
+
+de
+dir
+
+ja
+dir
+
+pt_BR
+dir
+
+fr
+dir
+
+nl
+dir
+
+hr
+dir
+
+pl
+dir
+
+hu
+dir
+
+lt
+dir
+
+ro
+dir
+
+lv
+dir
+
+copy_files.php
+file
+
+
+
+
+2010-05-25T02:51:43.000000Z
+cd4c03ebcf055bbab9668c351f9f7917
+2009-05-19T20:55:43.178167Z
+18165
+davea
+
+ca
+dir
+
+pt
+dir
+
+tr
+dir
+
+ru
+dir
+
+zh_TW
+dir
+
+templates
+dir
+
+el
+dir
+
+zh_CN
+dir
+
+gl
+dir
+
+ar
+dir
+
+cs
+dir
+
+es
+dir
+
+ko
+dir
+
+Makefile.am
+file
+
+
+
+
+2010-05-25T02:51:43.000000Z
+2a26b460ea40cfa4bdc777654015775f
+2009-10-30T20:12:17.892768Z
+19426
+romw
+
+it
+dir
+
+sk
+dir
+
